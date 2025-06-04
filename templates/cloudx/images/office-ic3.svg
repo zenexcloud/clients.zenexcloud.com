@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="32" viewBox="0 0 32 32">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_518" data-name="Rectangle 518" width="32" height="32" transform="translate(193.151 423)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="Mask_Group_44" data-name="Mask Group 44" transform="translate(-193.151 -423)" clip-path="url(#clip-path)">
+    <g id="excel" transform="translate(190.824 420.382)">
+      <path id="Path_2248" data-name="Path 2248" d="M22.109,4.655H11.229a1.343,1.343,0,0,0-1.338,1.28v5.7l12.218,9.542,12.218-2.56V11.636Z" fill="#21a366"/>
+      <path id="Path_2249" data-name="Path 2249" d="M32.989,4.655H22.109v6.982H34.327V5.993A1.353,1.353,0,0,0,32.989,4.655Z" fill="#33c481"/>
+      <path id="Path_2250" data-name="Path 2250" d="M9.891,11.636V31.244a1.343,1.343,0,0,0,1.28,1.338H32.989a1.343,1.343,0,0,0,1.338-1.28V25.6Z" fill="#185c37"/>
+      <path id="Path_2251" data-name="Path 2251" d="M9.891,11.636H22.109v6.982H9.891Z" fill="#107c41"/>
+      <path id="Path_2252" data-name="Path 2252" d="M19.2,11.811V27.345a1.37,1.37,0,0,1-1.338,1.105H9.891V10.473h7.971A1.353,1.353,0,0,1,19.2,11.811Z" opacity="0.2"/>
+      <path id="Path_2253" data-name="Path 2253" d="M19.782,11.811V25.949a1.937,1.937,0,0,1-1.92,1.92H9.891V9.891h7.971A1.937,1.937,0,0,1,19.782,11.811Z" opacity="0.1"/>
+      <path id="Path_2254" data-name="Path 2254" d="M19.2,11.811V25.949a1.343,1.343,0,0,1-1.28,1.338H9.891V10.473h7.971A1.353,1.353,0,0,1,19.2,11.811Z" opacity="0.2"/>
+      <path id="Path_2255" data-name="Path 2255" d="M18.618,11.811V25.949a1.343,1.343,0,0,1-1.28,1.338H9.891V10.473H17.28A1.353,1.353,0,0,1,18.618,11.811Z" opacity="0.1"/>
+      <path id="Path_2256" data-name="Path 2256" d="M3.665,10.473H17.222a1.343,1.343,0,0,1,1.338,1.28V25.367a1.343,1.343,0,0,1-1.28,1.338H3.665A1.239,1.239,0,0,1,2.327,25.6V11.811A1.353,1.353,0,0,1,3.665,10.473Z" fill="#107c41"/>
+      <path id="Path_2257" data-name="Path 2257" d="M6.516,23.04l2.851-4.422L6.749,14.2H8.844L10.3,16.989a2.718,2.718,0,0,0,.291.582c.116-.233.175-.407.291-.64l1.513-2.793h1.92L11.636,18.56l2.735,4.422H12.335L10.705,19.9c-.058-.116-.116-.291-.175-.407-.058.116-.116.291-.175.407L8.669,22.982l-2.153.058Z" fill="#fff"/>
+      <path id="Path_2258" data-name="Path 2258" d="M22.109,18.618H34.327V25.6H22.109Z" fill="#107c41"/>
+    </g>
+  </g>
+</svg>

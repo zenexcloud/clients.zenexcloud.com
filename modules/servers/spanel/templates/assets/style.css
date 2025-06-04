@@ -1,0 +1,586 @@
+/* Color and variables */
+:root{
+	--sp-primary-1: #667ca3;
+	--bs-primary: #667ca3;
+	--bs-primary-rgb: 102, 124, 163;
+	--sp-primary-2: #394e75;
+	--sp-primary-3: #22395E;
+	--sp-secondary-1: #e3f5fc;
+	--bs-primary-bg-subtle: #e3f5fc;
+	--sp-secondary-2: #039be5;
+	--sp-secondary-3: #1375AB;
+	--sp-secondary-2-r: 3;
+	--sp-secondary-2-g: 155;
+	--sp-secondary-2-b: 229;
+	--sp-success-1: #e6ffe9;
+	--sp-success-2: #4db721;
+	--bs-success: #4db721;
+	--bs-success-rgb: 77, 183, 33;
+	--sp-success-3: #0E8D10;
+	--sp-warning-1: #fff3e0;
+	--bs-warning-bg-subtle: #fff3e0;
+	--sp-warning-2: #fb9516;
+	--bs-warning: #fb9516;
+	--bs-warning-rgb: 251, 149, 22;
+	--sp-warning-3: #B36800;
+	--sp-danger-1: #fee5e6;
+	--bs-danger-bg-subtle: #fee5e6;
+	--sp-danger-2: #d32f2f;
+	--bs-danger: #d32f2f;
+	--bs-danger-rgb: 211, 47, 47;
+	--sp-danger-3: #c22b2b;
+	--sp-greys-1: #F3F4F5;	
+	--sp-greys-2: #ccd4e0;
+	--sp-greys-3: #666a87;
+	--sp-color-light: #fff;
+	--sp-loader-background: rgb(255 255 255 / 70%);
+	--bs-border-radius: 7px;
+	--bs-pagination-border-radius: 7px;
+	--sp-box-shadow-color: rgb(50 50 93 / 15%);
+
+	--bs-body-color: var(--sp-greys-3);
+	--bs-emphasis-color: var(--sp-greys-3);
+	--bs-border-color: var(--sp-greys-2);
+	--sp-grey-4: var(--sp-greys-1);
+}
+
+.fs-1 {
+  font-size:calc(1.375rem + 1.5vw)!important
+}
+.fs-2 {
+  font-size:calc(1.325rem + .9vw)!important
+}
+.fs-3 {
+  font-size:calc(1.3rem + .6vw)!important
+}
+.fs-4 {
+  font-size:calc(1.275rem + .3vw)!important
+}
+.fs-5 {
+  font-size:1.25rem!important
+}
+.fs-6 {
+  font-size:1rem!important
+}
+
+/* Text Hover Colors */
+.--sp-color-hover-white:hover, .--sp-color-hover-white:hover a, .--sp-color-hover-white a:hover{
+	color: #fff!important;
+}
+.--sp-color-hover-primary-1:hover, .--sp-color-hover-primary-1:hover a, .--sp-color-hover-primary-1:hover a{
+	color: var(--sp-primary-1)!important;
+}
+.--sp-color-hover-primary-2:hover, .--sp-color-hover-primary-2:hover a, .--sp-color-hover-primary-2:hover a{
+	color: var(--sp-primary-2)!important;
+}
+.--sp-color-hover-primary-3:hover, .--sp-color-hover-primary-3:hover a, .--sp-color-hover-primary-3:hover a{
+	color: var(--sp-primary-3)!important;
+}
+.--sp-color-hover-secondary-1:hover, .--sp-color-hover-secondary-1:hover a, .--sp-color-hover-secondary-1:hover a{
+	color: var(--sp-secondary-1)!important;
+}
+.--sp-color-hover-secondary-2:hover, .--sp-color-hover-secondary-2:hover a, .--sp-color-hover-secondary-2:hover a{
+	color: var(--sp-secondary-2)!important;
+}
+.--sp-color-hover-secondary-3:hover, .--sp-color-hover-secondary-3:hover a, .--sp-color-hover-secondary-3:hover a{
+	color: var(--sp-secondary-3)!important;
+}
+.--sp-color-hover-greys-1:hover:hover, .--sp-color-hover-greys-1:hover:hover a, .--sp-color-hover-greys-1:hover a{
+	color: var(--sp-greys-2)!important;
+}
+.--sp-color-hover-greys-2:hover:hover, .--sp-color-hover-greys-2:hover:hover a, .--sp-color-hover-greys-2:hover a{
+	color: var(--sp-greys-2)!important;
+}
+.--sp-color-hover-greys-3:hover:hover, .--sp-color-hover-greys-3:hover:hover a, .--sp-color-hover-greys-3:hover a{
+	color: var(--sp-greys-3)!important;
+}
+.--sp-hover-weight-600:hover{
+	font-weight: 600!important;
+}
+
+/* Background Colors */
+.--sp-bg-primary-1{
+	background: var(--sp-primary-1)!important;
+}
+.--sp-bg-primary-2{
+	background: var(--sp-primary-2)!important;
+}
+.--sp-bg-primary-3{
+	background: var(--sp-primary-3)!important;
+}
+.--sp-bg-secondary-1{
+	background: var(--sp-secondary-1)!important;
+}
+.--sp-bg-secondary-2{
+	background: var(--sp-secondary-2)!important;
+}
+.--sp-bg-secondary-3{
+	background: var(--sp-secondary-3)!important;
+}
+.--sp-bg-greys-1{
+	background: var(--sp-greys-1)!important;
+}
+.--sp-bg-greys-2{
+	background: var(--sp-greys-2)!important;
+}
+.--sp-bg-greys-3{
+	background: var(--sp-greys-3)!important;
+}
+.--sp-bg-success-1{
+	background: var(--sp-success-1)!important;
+}
+.--sp-bg-success-2{
+	background: var(--sp-success-2)!important;
+}
+.--sp-bg-success-3{
+	background: var(--sp-success-3)!important;
+}
+.--sp-bg-warning-1{
+	background: var(--sp-warning-1)!important;
+}
+.--sp-bg-warning-2{
+	background: var(--sp-warning-2)!important;
+}
+.--sp-bg-warning-3{
+	background: var(--sp-warning-3)!important;
+}
+.--sp-bg-danger-1{
+	background: var(--sp-danger-1)!important;
+}
+.--sp-bg-danger-2{
+	background: var(--sp-danger-2)!important;
+}
+.--sp-bg-danger-3{
+	background: var(--sp-danger-3)!important;
+}
+.--sp-bg-white{
+	background: var(--sp-color-light)!important;
+}
+.--sp-bg-files{
+	background: #2D3FAA!important;
+}
+.--sp-bg-tools{
+	background: #9B1E6C!important;
+}
+
+/* Border Colors */
+.--sp-border-primary-1{
+	border-color: var(--sp-primary-1)!important;
+}
+.--sp-border-primary-2{
+	border-color: var(--sp-primary-2)!important;
+}
+.--sp-border-primary-3{
+	border-color: var(--sp-primary-3)!important;
+}
+.--sp-border-secondary-1{
+	border-color: var(--sp-secondary-1)!important;
+}
+.--sp-border-secondary-2{
+	border-color: var(--sp-secondary-2)!important;
+}
+.--sp-border-secondary-3{
+	border-color: var(--sp-secondary-3)!important;
+}
+.--sp-border-greys-1{
+	border-color: var(--sp-greys-1)!important;
+}
+.--sp-border-greys-2{
+	border-color: var(--sp-greys-2)!important;
+}
+.--sp-border-greys-3{
+	border-color: var(--sp-greys-3)!important;
+}
+.--sp-border-success-1{
+	border-color: var(--sp-success-1)!important;
+}
+.--sp-border-success-2{
+	border-color: var(--sp-success-2)!important;
+}
+.--sp-border-success-3{
+	border-color: var(--sp-success-3)!important;
+}
+.--sp-border-warning-1{
+	border-color: var(--sp-warning-1)!important;
+}
+.--sp-border-warning-2{
+	border-color: var(--sp-warning-2)!important;
+}
+.--sp-border-warning-3{
+	border-color: var(--sp-warning-3)!important;
+}
+.--sp-border-danger-1{
+	border-color: var(--sp-danger-1)!important;
+}
+.--sp-border-danger-2{
+	border-color: var(--sp-danger-2)!important;
+}
+.--sp-border-danger-3{
+	border-color: var(--sp-danger-3)!important;
+}
+
+/* Background Hover Colors */
+.--sp-bg-hover-primary-1:hover{
+	background: var(--sp-primary-1)!important;
+}
+.--sp-bg-hover-primary-2:hover{
+	background: var(--sp-primary-2)!important;
+}
+.--sp-bg-hover-primary-3:hover{
+	background: var(--sp-primary-3)!important;
+}
+.--sp-bg-hover-secondary-1:hover{
+	background: var(--sp-secondary-1)!important;
+}
+.--sp-bg-hover-secondary-2:hover{
+	background: var(--sp-secondary-2)!important;
+}
+.--sp-bg-hover-secondary-3:hover{
+	background: var(--sp-secondary-3)!important;
+}
+.--sp-bg-hover-greys-1:hover{
+	background: var(--sp-greys-1)!important;
+}
+.--sp-bg-hover-greys-2:hover{
+	background: var(--sp-greys-2)!important;
+}
+.--sp-bg-hover-greys-3:hover{
+	background: var(--sp-greys-3)!important;
+}
+
+/* Text Colors */
+.--sp-color-white, .--sp-color-white a{
+	color: #fff!important;
+}
+.--sp-color-primary-1, .--sp-color-primary-1 a{
+	color: var(--sp-primary-1)!important;
+}
+.--sp-color-primary-2, .--sp-color-primary-2 a{
+	color: var(--sp-primary-2)!important;
+}
+.--sp-color-primary-3, .--sp-color-primary-3 a{
+	color: var(--sp-primary-3)!important;
+}
+.--sp-color-success-1, .--sp-color-success-1 a{
+	color: var(--sp-success-1)!important;
+}
+.--sp-color-success-2, .--sp-color-success-2 a{
+	color: var(--sp-success-2)!important;
+}
+.--sp-color-success-3, .--sp-color-success-3 a{
+	color: var(--sp-success-3)!important;
+}
+.--sp-color-danger-1, .--sp-color-danger-1 a{
+	color: var(--sp-danger-1)!important;
+}
+.--sp-color-danger-2, .--sp-color-danger-2 a{
+	color: var(--sp-danger-2)!important;
+}
+.--sp-color-danger-3, .--sp-color-danger-3 a{
+	color: var(--sp-danger-3)!important;
+}
+.--sp-color-secondary-1, .--sp-color-secondary-1 a{
+	color: var(--sp-secondary-1)!important;
+}
+.--sp-color-secondary-2, .--sp-color-secondary-2 a{
+	color: var(--sp-secondary-2)!important;
+}
+.--sp-color-secondary-3, .--sp-color-secondary-3 a{
+	color: var(--sp-secondary-3)!important;
+}
+.--sp-color-greys-1, .--sp-color-greys-1 a{
+	color: var(--sp-greys-1)!important;
+}
+.--sp-color-greys-2, .--sp-color-greys-2 a{
+	color: var(--sp-greys-2)!important;
+}
+.--sp-color-greys-3, .--sp-color-greys-3 a, .--sp-color-greys-3:before {
+	color: var(--sp-greys-3)!important;
+}
+.--sp-color-greys-4, .--sp-color-greys-4 a, .--sp-color-greys-4:before {
+	color: var(--sp-grey-4)!important;
+}
+.--sp-color-transparent, .--sp-color-transparent a {
+	color: transparent!important;
+}
+
+/* Text Hover Colors */
+.--sp-color-hover-white:hover, .--sp-color-hover-white:hover a, .--sp-color-hover-white a:hover{
+	color: #fff!important;
+}
+.--sp-color-hover-primary-1:hover, .--sp-color-hover-primary-1:hover a, .--sp-color-hover-primary-1:hover a{
+	color: var(--sp-primary-1)!important;
+}
+.--sp-color-hover-primary-2:hover, .--sp-color-hover-primary-2:hover a, .--sp-color-hover-primary-2:hover a{
+	color: var(--sp-primary-2)!important;
+}
+.--sp-color-hover-primary-3:hover, .--sp-color-hover-primary-3:hover a, .--sp-color-hover-primary-3:hover a{
+	color: var(--sp-primary-3)!important;
+}
+.--sp-color-hover-secondary-1:hover, .--sp-color-hover-secondary-1:hover a, .--sp-color-hover-secondary-1:hover a{
+	color: var(--sp-secondary-1)!important;
+}
+.--sp-color-hover-secondary-2:hover, .--sp-color-hover-secondary-2:hover a, .--sp-color-hover-secondary-2:hover a{
+	color: var(--sp-secondary-2)!important;
+}
+.--sp-color-hover-secondary-3:hover, .--sp-color-hover-secondary-3:hover a, .--sp-color-hover-secondary-3:hover a{
+	color: var(--sp-secondary-3)!important;
+}
+.--sp-color-hover-greys-1:hover:hover, .--sp-color-hover-greys-1:hover:hover a, .--sp-color-hover-greys-1:hover a{
+	color: var(--sp-greys-2)!important;
+}
+.--sp-color-hover-greys-2:hover:hover, .--sp-color-hover-greys-2:hover:hover a, .--sp-color-hover-greys-2:hover a{
+	color: var(--sp-greys-2)!important;
+}
+.--sp-color-hover-greys-3:hover:hover, .--sp-color-hover-greys-3:hover:hover a, .--sp-color-hover-greys-3:hover a{
+	color: var(--sp-greys-3)!important;
+}
+.--sp-hover-weight-600:hover{
+	font-weight: 600!important;
+}
+
+/* User icons menu */
+#spanelhome .icon.squircle.emails {
+	border-color: var(--sp-warning-3)!important;
+}
+
+.menu-link:not(.disabled):hover .icon.squircle.emails, .menu-link:not(.disabled):hover .icon.squircle.emails span:before, .menu-link:focus .icon.squircle.emails,  .menu-link.focused .icon.squircle.emails, .menu-link.focused .icon.squircle.emails span:before , .menu-link:focus .icon.squircle.emails span:before {
+	background: var(--sp-warning-3)!important;
+	color: #fff!important;
+}
+#spanelhome .icon.squircle.mysql {
+	border-color: var(--sp-danger-3)!important;
+}
+.menu-link:not(.disabled):hover .icon.squircle.mysql, .menu-link:not(.disabled):hover .icon.squircle.mysql span:before, .menu-link:focus .icon.squircle.mysql,  .menu-link.focused .icon.squircle.mysql,  .menu-link.focused .icon.squircle.mysql span:before , .menu-link:focus .icon.squircle.mysql span:before {
+	background: var(--sp-danger-3)!important;
+	color: #fff!important;
+}
+#spanelhome .icon.squircle.settings {
+	border-color: var(--sp-success-3)!important;
+}
+
+.menu-link:not(.disabled):hover .icon.squircle.settings, .menu-link:not(.disabled):hover .icon.squircle.settings span:before, .menu-link:focus .icon.squircle.settings, .menu-link.focused .icon.squircle.settings, .menu-link.focused .icon.squircle.settings span:before, .menu-link:focus .icon.squircle.settings span:before{
+	background: var(--sp-success-3)!important;
+	color: #fff!important;
+}
+#spanelhome .icon.squircle.domains {
+	border-color: var(--sp-secondary-3)!important;
+}
+.menu-link:not(.disabled):hover .icon.squircle.domains, .menu-link:not(.disabled):hover .icon.squircle.domains span:before, .menu-link:focus .icon.squircle.domains, .menu-link.focused .icon.squircle.domains, .menu-link.focused .icon.squircle.domains span:before , .menu-link:focus .icon.squircle.domains span:before {
+	background: var(--sp-secondary-3)!important;
+	color: #fff!important;
+}
+#spanelhome .icon.squircle.files {
+	border-color: #2D3FAA!important;
+}
+.menu-link:not(.disabled):hover .icon.squircle.files, .menu-link:not(.disabled):hover .icon.squircle.files span:before, .menu-link:focus .icon.squircle.files, .menu-link.focused .icon.squircle.files, .menu-link.focused .icon.squircle.files span:before, .menu-link:focus .icon.squircle.files span:before {
+	background: #2D3FAA!important;
+	color: #fff!important;
+}
+
+#spanelhome .icon.squircle.tools {
+	border-color: #9B1E6C!important;
+}
+.menu-link:not(.disabled):hover .icon.squircle.tools, .menu-link:not(.disabled):hover .icon.squircle.tools span:before, .menu-link:focus .icon.squircle.tools, .menu-link.focused .icon.squircle.tools, .menu-link.focused .icon.squircle.tools span:before , .menu-link:focus .icon.squircle.tools span:before {
+	background: #9B1E6C!important;
+	color: #fff!important;
+}
+
+#spanelhome .icon.squircle.software {
+	border-color: var(--sp-primary-2)!important;
+}
+.menu-link:not(.disabled):hover .icon.squircle.software, .menu-link:not(.disabled):hover .icon.squircle.software span:before, .menu-link:focus .icon.squircle.software,  .menu-link.focused .icon.squircle.software, .menu-link.focused .icon.squircle.software span:before, .menu-link:focus .icon.squircle.software span:before {
+	background: var(--sp-primary-2)!important;
+	color: #fff!important;
+}
+.menu-link:not(.disabled):hover > .icon span:before {
+	color: #fff!important;
+}
+
+/* Squircle */
+#spanelhome .squircle {
+  position: relative;
+  display: table-cell;
+  width: 52px;
+  height: 52px;
+  border-radius: 17px;
+  border: 2px solid;
+  vertical-align: top;
+}
+
+#spanelhome .squircle :before{
+	width: 38px;
+	height: 38px;
+	font-size: 28px;
+	margin: 5px;
+	line-height: 39px;
+}
+
+#spanelhome .squircle-md {
+	width: 40px;
+	height: 40px;
+	border-radius: 13px;
+}
+#spanelhome .squircle-sm {
+	width: 30px;
+	height: 30px;
+	border-radius: 11px;
+}
+
+#spanelhome .menu-link{
+	display: block;
+	font-size: 0;
+	padding: 15px 0;
+	box-sizing: border-box;
+	vertical-align: middle;
+}
+
+#spanelhome .menu-link:hover{
+	text-decoration: none;
+}
+
+#spanelhome .menu-link-text{
+	font-size: 16px;
+	line-height: 25px;
+	padding: 0 0 0 15px;
+	box-sizing: border-box;
+	vertical-align: middle;
+	word-break: break-word;
+	position: relative;
+	display: table-cell;
+}
+
+/* Custom CSS */
+
+#spanelhome div.panel > div.panel-heading{
+	background-color: transparent;
+	border-bottom: 1px solid #f3f4f5;
+}
+
+#spanelhome div.panel > div.panel-heading h3{
+	font-weight: 600;
+}
+
+#spanelhome div.panel{
+	box-shadow: 0 2px 6px rgba(50,50,93,0.15);
+	border: none;
+	color: #666a87;
+}
+
+#spanelhome div.panel *{
+	color: #666a87;
+}
+
+#spanelhome .panel .panel-title{ 
+	font-size: 20px;
+}
+
+#spanelhome .panel .serviceinfo > div{
+	border-top: 1px solid #ccd4e0;
+	margin: 0;
+	padding: 10px;
+	box-sizing: border-box;
+}
+
+#spanelhome .panel .serviceinfo div:first-child{
+	border: none;
+}
+
+#spanelhome .panel .serviceinfo div p{
+	line-height: 23px;
+	margin: 0;
+	padding: 0;
+	font-size: 15px;
+}
+
+/* Progress bar */
+@keyframes progress-bar-stripes {
+  0% {
+    background-position-x:1rem
+  }
+}
+.progress,
+.progress-stacked {
+  --bs-progress-height:1rem;
+  --bs-progress-font-size:0.75rem;
+  --bs-progress-bg:var(--bs-secondary-bg);
+  --bs-progress-border-radius:var(--bs-border-radius);
+  --bs-progress-box-shadow:var(--bs-box-shadow-inset);
+  --bs-progress-bar-color:#fff;
+  --bs-progress-bar-bg:#0d6efd;
+  --bs-progress-bar-transition:width 0.6s ease;
+  display:flex;
+  height:var(--bs-progress-height);
+  overflow:hidden;
+  font-size:var(--bs-progress-font-size);
+  background-color:var(--bs-progress-bg);
+  border-radius:var(--bs-progress-border-radius)
+}
+.progress-bar {
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  overflow:hidden;
+  color:var(--bs-progress-bar-color);
+  text-align:center;
+  white-space:nowrap;
+  background-color:var(--bs-progress-bar-bg);
+  transition:var(--bs-progress-bar-transition)
+}
+@media (prefers-reduced-motion:reduce) {
+  .progress-bar {
+    transition:none
+  }
+}
+.progress-bar-striped {
+  background-image:linear-gradient(45deg,rgba(255,255,255,.15) 25%,transparent 25%,transparent 50%,rgba(255,255,255,.15) 50%,rgba(255,255,255,.15) 75%,transparent 75%,transparent);
+  background-size:var(--bs-progress-height) var(--bs-progress-height)
+}
+.progress-stacked>.progress {
+  overflow:visible
+}
+.progress-stacked>.progress>.progress-bar {
+  width:100%
+}
+.progress-bar-animated {
+  animation:1s linear infinite progress-bar-stripes
+}
+@media (prefers-reduced-motion:reduce) {
+  .progress-bar-animated {
+    animation:none
+  }
+}
+
+.progress-lg {
+	height: 10px;
+}
+.progress-xl {
+	height: 30px;
+}
+.progress {
+	--bs-progress-bg: var(--sp-greys-1);
+	border-color: var(--sp-greys-2);
+	--bs-progress-height: 0.5rem;
+	margin: 5px 0;
+}
+.progress-bar {
+	width: 0%;
+	color: transparent;
+    transition: width 1s ease-in-out, color 1s ease-in-out;;
+}
+.progress-bar.animate {
+	color: #fff;
+}
+
+.logintopanel{ 
+	font-size: 15px;
+	font-weight: 500;
+	line-height: 20px;
+}
+
+.logintopanel img{ 
+	height: 18px;
+	width: auto;
+	margin: 0 5px 0 0;
+	padding: 0;
+}

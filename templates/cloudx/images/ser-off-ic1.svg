@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="32" height="32" viewBox="0 0 32 32">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_513" data-name="Rectangle 513" width="32" height="32" transform="translate(40.151 423)" fill="#fff" stroke="#707070" stroke-width="1"/>
+    </clipPath>
+  </defs>
+  <g id="Mask_Group_48" data-name="Mask Group 48" transform="translate(-40.151 -423)" clip-path="url(#clip-path)">
+    <g id="onedrive" transform="translate(37.196 420.262)">
+      <path id="Path_2282" data-name="Path 2282" d="M21.818,19.807s6.859-3.843,6.977-3.784A9.994,9.994,0,0,0,16.674,8.81a9.837,9.837,0,0,0-5.854,4.2C10.879,13.008,21.818,19.807,21.818,19.807Z" fill="#0364b8"/>
+      <path id="Path_2283" data-name="Path 2283" d="M15.136,14.19h0a8.037,8.037,0,0,0-4.2-1.183H10.82a7.988,7.988,0,0,0-7.864,8.1A8.244,8.244,0,0,0,4.375,25.6l11-1.123,6.445-6.208Z" fill="#0f78d4"/>
+      <path id="Path_2284" data-name="Path 2284" d="M28.854,16.023H28.44a6.123,6.123,0,0,0-2.542.532h0l-4.021,1.656,4.375,4.848,7.923,2.483a6.484,6.484,0,0,0-2.661-8.81,7.127,7.127,0,0,0-2.661-.71Z" fill="#1490df"/>
+      <path id="Path_2285" data-name="Path 2285" d="M28.44,22.172l-1.656-1.005L23,18.92l-1.183-.71-3.015,1.3L12.949,22l-2.661,1.064L4.375,25.543a8.046,8.046,0,0,0,6.563,3.429H28.381a6.572,6.572,0,0,0,5.735-3.429Z" fill="#28a8ea"/>
+    </g>
+  </g>
+</svg>

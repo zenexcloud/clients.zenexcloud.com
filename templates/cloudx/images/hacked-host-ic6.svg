@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="60" height="60" viewBox="0 0 60 60">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_69" data-name="Rectangle 69" width="28" height="28" transform="translate(13 13)" fill="#07ca8d"/>
+    </clipPath>
+  </defs>
+  <g id="hacked-host-ic6" transform="translate(3 3)">
+    <rect id="Rectangle_27" data-name="Rectangle 27" width="60" height="60" rx="30" transform="translate(-3 -3)" fill="#f5f5f5"/>
+    <g id="Mask_Group_85" data-name="Mask Group 85" clip-path="url(#clip-path)">
+      <g id="credit-card" transform="translate(13 13)">
+        <path id="Path_2772" data-name="Path 2772" d="M27.953,15.866,25.828,3.812a3.02,3.02,0,0,0-3.494-2.446L4.1,4.58A3.019,3.019,0,0,0,1.658,8.074l.156.886A3.02,3.02,0,0,0,0,11.725V23.664A3.019,3.019,0,0,0,3.016,26.68h18.1a3.019,3.019,0,0,0,3.016-3.016V19.6l1.379-.243a3.016,3.016,0,0,0,2.447-3.494Zm-1.847,1.31a1.362,1.362,0,0,1-.885.564l-1.093.193V11.725a3.019,3.019,0,0,0-3.016-3.016H3.441l-.162-.921A1.371,1.371,0,0,1,4.39,6.2L22.62,2.986A1.37,1.37,0,0,1,24.208,4.1l2.125,12.054A1.362,1.362,0,0,1,26.106,17.176Zm-4.994,7.859H3.016a1.372,1.372,0,0,1-1.371-1.371V17.818H22.483v5.847a1.372,1.372,0,0,1-1.371,1.371ZM3.016,10.355h18.1a1.372,1.372,0,0,1,1.371,1.371v.716H1.645v-.716A1.372,1.372,0,0,1,3.016,10.355Zm19.467,3.732v2.087H1.645V14.086Z" fill="#07ca8d"/>
+        <path id="Path_2773" data-name="Path 2773" d="M7.916,21.732H4.184a.823.823,0,1,0,0,1.645H7.916a.823.823,0,0,0,0-1.645Z" fill="#07ca8d"/>
+      </g>
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="60" height="60" viewBox="0 0 60 60">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_69" data-name="Rectangle 69" width="28" height="28" transform="translate(13 13)" fill="#07ca8d"/>
+    </clipPath>
+  </defs>
+  <g id="hacked-host-ic5" transform="translate(3 3)">
+    <rect id="Rectangle_27" data-name="Rectangle 27" width="60" height="60" rx="30" transform="translate(-3 -3)" fill="#f5f5f5"/>
+    <g id="Mask_Group_84" data-name="Mask Group 84" clip-path="url(#clip-path)">
+      <g id="update-arrows" transform="translate(13 13)">
+        <g id="Group_4839" data-name="Group 4839">
+          <path id="Path_2770" data-name="Path 2770" d="M27.2,3.046a1.016,1.016,0,0,0-1.207.781l-.739,3.447A13.213,13.213,0,0,0,.64,13.957a1.016,1.016,0,1,0,2.033,0A11.181,11.181,0,0,1,23.522,8.342l-3.388-.726A1.016,1.016,0,0,0,19.708,9.6l5.816,1.246a1.017,1.017,0,0,0,1.207-.781l1.247-5.816A1.017,1.017,0,0,0,27.2,3.046Z" fill="#07ca8d"/>
+          <path id="Path_2771" data-name="Path 2771" d="M26.174,12.625a1.016,1.016,0,0,0-.982,1.049,11.18,11.18,0,0,1-10.8,11.543c-.124,0-.248.006-.372.006a11.178,11.178,0,0,1-9.508-5.3l3.533.947a1.016,1.016,0,0,0,.526-1.964L2.82,17.367a1.016,1.016,0,0,0-1.245.718L.035,23.831A1.016,1.016,0,1,0,2,24.357l.866-3.229a13.207,13.207,0,0,0,11.15,6.128c.146,0,.293,0,.44-.007A13.212,13.212,0,0,0,27.223,13.607,1.016,1.016,0,0,0,26.174,12.625Z" fill="#07ca8d"/>
+        </g>
+      </g>
+    </g>
+  </g>
+</svg>

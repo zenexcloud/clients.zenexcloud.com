@@ -1,0 +1,118 @@
+:root {
+    --primary-color: #00ADEF;
+    --secondary-color: #005C88;
+    --white: #fff;
+}
+
+
+.btn-default, .btn-warning{
+    background-color: var(--primary-color) !important;
+    border-color: var(--primary-color) !important;
+    color: var(--white) !important;
+}
+
+.btn-default:hover, .btn-warning:hover{
+    background-color: transparent !important;
+    color: var(--primary-color) !important;
+    border: 1px solid var(--primary-color) !important;
+}
+
+.generate-box .btn-default:hover{
+    border: 1px solid  var(--primary-color) !important;
+}
+
+.float-right .btn-default{
+     background-color: transparent !important;
+     color: var(--primary-color) !important;
+}
+
+.btn-primary, .btn-danger{
+    background-color: var(--secondary-color) !important;
+    border-color: var(--secondary-color) !important;
+}
+
+.btn-primary:hover, .btn-danger:hover{
+    background-color: transparent !important;
+    color: var(--secondary-color) !important;
+}
+
+
+.btn-success{
+    background-color: var(--primary-color) !important;
+    border-color: var(--primary-color) !important;
+    color: var(--white) !important;
+}
+
+.btn-success:hover{
+    background-color: transparent !important;
+    color: var(--primary-color) !important;
+}
+
+
+.btn-main{
+    background-color: var(--secondary-color) !important;
+    border-color: var(--secondary-color) !important;
+    color: var(--white) !important;
+}
+
+.btn-main:hover{
+    background-color: transparent !important;
+    color: var(--secondary-color) !important;
+}
+
+.cnt-frm .btn-main:hover, .register-form .btn-main:hover{
+    border: 1px solid  var(--secondary-color) !important;
+}
+
+.already-registered .btn-info, .already-registered .btn-warning{
+    background-color: var(--primary-color) !important;
+    border-color: var(--primary-color) !important;
+}
+
+.already-registered .btn-info:hover, .already-registered .btn-warning:hover{
+    background-color: transparent !important;
+    color: var(--secondary-color) !important;
+}
+
+.slick-prev:before, .slick-next:before, #myBtn:hover{
+    background-color: var(--primary-color) !important;
+}
+
+.remcheck .styled-checkbox + label:before{
+    border-color: var(--primary-color) !important;
+}
+
+.remcheck .styled-checkbox:checked + label:before{
+    background-color: var(--primary-color) !important;
+}
+
+.remcheck .styled-checkbox:hover + label:before{
+    background-color: var(--primary-color) !important;
+}
+
+a.fgtlinks, .login-frm p a{
+    color: var(--primary-color) !important;
+}
+
+.generate-password{
+    color: var(--white) !important;
+}
+
+.generate-password:hover{
+    background-color: transparent !important;
+    color: var(--primary-color) !important;
+    border: 1px solid var(--primary-color) !important;
+}
+
+.alert-link{
+     background-color: var(--primary-color) !important;
+}
+
+.alert-warning{
+    color: var(--secondary-color) !important;
+}
+
+
+
+
+

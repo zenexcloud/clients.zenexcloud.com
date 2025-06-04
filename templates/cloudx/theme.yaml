@@ -1,0 +1,4 @@
+name: "Cloudx"
+author: "WHMCS GLOBAL SERVICES"
+config:
+  parent: twenty-one

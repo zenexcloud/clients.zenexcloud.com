@@ -1,0 +1,38 @@
+.intl-tel-input.separate-dial-code.allow-dropdown.iti-sdc-2 input, .intl-tel-input.separate-dial-code.allow-dropdown.iti-sdc-2 input[type=tel], .intl-tel-input.separate-dial-code.allow-dropdown.iti-sdc-2 input[type=text] {
+    padding-left: 20px;
+    padding-right: 75px;
+}
+div#paymentGatewaysContainer {
+    float: left;
+    width: 100%;
+}
+#order-standard_cart .products .product div.product-desc ul li, form#frmConfigureProduct .product-info ul li{
+    text-align: right;
+}
+.body-rtl #order-standard_cart .mc-promos.viewcart .btn-add span, #order-standard_cart .mc-promos.checkout .btn-add span {
+    padding: 0px 0px 0 5px !important;
+}
+body #order-standard_cart .products .product header .qty {
+    float: left;
+}
+.user-management-20i .card p.text-muted {
+    direction: ltr;
+}
+.body-rtl .order-summary span.pull-right.float-right {
+    width: 100%;
+    max-width: 29%;
+    text-align: left;
+}
+.body-rtl #scrollingPanelContainer .total-due-today {
+    padding: 15px 0px;
+}
+.body-rtl #order-standard_cart form .view-cart-items-header .col-sm-4 {
+    text-align: left !important;
+}
+.body-rtl div#calcTaxes label{
+    text-align: right !important;
+}
+span.irs.js-irs-0.irs-with-grid {
+    display: inline-block;
+    width: 100%;
+}

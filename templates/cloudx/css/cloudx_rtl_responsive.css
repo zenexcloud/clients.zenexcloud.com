@@ -1,0 +1,224 @@
+/* responsive */
+@media (min-width: 768px){
+    .content-block.what-is-ssl h2+ .float-md-right {
+        float: left!important;
+    }
+}
+@media(max-width: 1440px) {
+    .body-rtl .primary-content .landing-page.weebly .content-block.faq .col-md-4, .primary-content .landing-page.ox .faqs .col-lg-6, .primary-content .landing-page.codeguard .content-block.faqs .col-lg-4, .primary-content .landing-page.mail-services .content-block.faq .col-lg-4 {
+        padding-left: 30px;
+    }
+}
+@media(max-width: 1199px) {
+    .body-rtl .navbar-collapse .right-part-20i {
+        float: right;
+    }
+    #domainForm .btn-group.btn-group-sm .dropdown-menu {
+        margin-right: -100px;
+    }
+    .body-rtl .top-nav-20i li.nav-item:nth-of-type(2) {
+            margin-left: 0;
+    }
+    .body-rtl .mobile-bar a.btn.nav-link.cart-btn {
+            padding-left: 0.9rem !important;
+    }
+    .body-rtl .not-login-20i-header .top-nav-20i .btn.nav-link {
+            padding-left: 0;
+    }
+    .body-rtl .input-group.search .input-group-prepend {
+        margin-right: 0;
+    }
+    .body-rtl .main-navbar-wrapper .navbar-nav ul.dropdown-menu {
+        text-align: right;
+    }
+    .body-rtl .nav-primary-top-nav-section{
+        width: 0;
+        right: -100%;
+        left:unset;
+    }
+    .body-rtl .menu_open_top .nav-primary-top-nav-section {
+        right: 0;
+        width: 100%;
+    }
+    .body-rtl .top-nav-main-sec-header a.btn.nav-link.cart-btn{
+        padding-right: 25px;
+    }
+    .body-rtl .nav-top-right-section .cart-btn .badge-info {
+        right: 29px;
+        top: -6px;
+    }
+    .body-rtl .pricing-section-layout-3 .plan-plat h3, .pricing-section-layout-1 .plan-plat h3 {
+        padding: 0px 0px 0px 95px;
+    }
+}
+@media (min-width: 768px) and (max-width: 1199px) {
+    .body-rtl .store-order-container #frmAddToCart .store-domain-tabs li a {
+        margin-left: 5px;
+    }
+}
+@media(min-width: 992px) {
+    .body-rtl .home-domain-search .input-group-wrapper a.btn.btn-link {
+        left: 0;
+        right: auto;
+    }
+    .body-rtl #order-standard_cart .secondary-cart-body {
+        padding-left: 8px;
+        padding-right: 0;
+    }
+    .body-rtl footer.footer .copyright {
+        text-align: right;
+        margin-left: auto;
+    }
+    .body-rtl footer.footer .btn .align-middle {
+        margin-left: 4px;
+        margin-right: initial;
+    }
+    .body-rtl .footer ul.nav.justify-content-center.justify-content-lg-start {
+        float: left;
+        margin-left: 14px;
+        margin-right: initial;
+    }
+    .body-rtl .footer ul.list-inline.float-lg-right {
+        float: left!important;
+    }
+}
+@media(min-width: 576px) and (max-width: 1199px) {
+    .body-rtl .primary-content .landing-page button.navbar-toggler {
+        margin-right: 15px;
+    }
+}
+@media(max-width: 991px) {
+.body-rtl .email-verification .btn.close {
+        left: 13px;
+        right: auto;
+    }
+.body-rtl .primary-content .landing-page .navbar .navbar-nav li, .primary-content .landing-page.codeguard .navbar .navbar-nav li, .primary-content .landing-page.weebly .navbar .navbar-nav li, .primary-content .landing-page.mail-services .navbar .navbar-nav li {
+        width: 100%;
+        border-left: 0;
+    }
+.body-rtl .primary-content .landing-page .navbar .navbar-nav>li>a {
+        text-align: right;
+    }
+}
+@media(max-width:767px) {
+.body-rtl .primary-content .landing-page.mail-services .content-block.get-started#pricing .col-md-4.text-right {
+    text-align: right !important;
+}
+.body-rtl .domain-checker-container button#btnCheckAvailability,
+.body-rtl .knowledgebase-20i form button#btnKnowledgebaseSearch, 
+.body-rtl .knowledgebase-base-cat-20i button#btnKnowledgebaseSearch, 
+.body-rtl .download-20i #btnDownloadsSearch,
+.body-rtl .download-cat-20i #btnDownloadsSearch {
+    margin-right: 0;
+    margin-left: 0;
+}
+.body-rtl .alert.alert-warning .alert-link, .email-verification .btn {
+    width: 100%;
+}
+
+    #order-standard_cart form#frmProductDomain .domain-selection-options .option:nth-of-type(2) .col-sm-2 .btn {
+        margin-right: 37px;
+    }
+    #order-standard_cart form#frmProductDomain .domain-selection-options .option:nth-of-type(3) .col-sm-2 {
+        padding-right: 35px;
+    }
+    #order-standard_cart .domain-pricing .two-row-center {
+        padding-right: 12px !important;
+    }
+.body-rtl .account-manage-20i form .btn-default {
+    margin-right: 0;
+}
+    form#frmConfigureProduct .alert.alert-warning a.alert-link {
+        margin: 5px 0 0px auto;
+    }
+    #order-standard_cart .secondary-cart-body .domain-renewals form.form-horizontal .col-md-5 {
+        margin: 0 0 5px 0px;
+    }
+    #order-standard_cart form#frmProductDomain .domain-selection-options .row .col-sm-8.col-sm-offset-1.offset-sm-1 {
+        padding: 0 20px 0px 25px;
+    }
+    #order-standard_cart #frmCheckout .cc-input-container label.radio-inline {
+        padding-right: 30px;
+    }
+.body-rtl .primary-content .landing-page.sitelockvpn .feature.world .row.text-center.text-md-left {
+    text-align: right !important;
+}
+.body-rtl .primary-content .landing-page.sitelockvpn .feature.devices .logos {
+    text-align: right;
+}
+.body-rtl .primary-content .landing-page.sitelockvpn .feature.all-plans span {
+    padding-right: 25px;
+}
+.body-rtl .primary-content .landing-page.weebly .content-block.faq .col-md-4, 
+.primary-content .landing-page.ox .faqs .col-lg-6, 
+.primary-content .landing-page.codeguard .content-block.faqs .col-lg-4, 
+.primary-content .landing-page.mail-services .content-block.faq .col-lg-4 {
+    padding-left: 15px;
+    padding-right: 0;
+}
+}
+@media (max-width: 575px) {
+    .body-rtl .container-fluid.invoice-container .invoice-col.right, .primary-content #order-standard_cart .view-cart-items .item-price {
+            text-align: right;
+    }
+    .body-rtl .invoice-container .row.invoice-header .small-text {
+            padding-right: 0;
+    }
+    form#frmConfigureDomains .sub-heading~.row {
+        margin: 0px 0 -9px;
+    }
+    #order-standard_cart #frmConfigureProduct .addon-promo-container label.radio-inline span {
+        padding-right: 7px;
+    }
+    .body-rtl .home-domain-search .row.d-sm-none .col-6:first-child {
+        padding-right: 2px;
+    }
+    .body-rtl .home-domain-search .row.d-sm-none .col-6:last-child {
+        padding-left: 2px;
+    }
+    .body-rtl .primary-content .landing-page.ox .features .feature-block p {
+        margin-right: 0;
+    }
+    .body-rtl .tiles .tile i {
+        right: 16px;
+        left: auto;
+    }
+}
+@media(max-width: 480px) {
+    .body-rtl .view-cart-tabs button.btn.btn-block.btn-default {
+        margin-right: 0;
+    }
+}
+@media(max-width: 400px) {
+    #order-standard_cart form#frmProductDomain .domain-selection-options .option:nth-of-type(2) .col-sm-8.col-sm-offset-1.offset-sm-1 {
+        padding-right: 20px;
+    }
+    #order-standard_cart form#frmProductDomain .domain-selection-options .option:nth-of-type(2) .col-sm-2 .btn {
+        margin-right: 12px;
+    }
+    #order-standard_cart form#frmProductDomain .domain-selection-options .option:nth-of-type(3) .col-sm-9 {
+        padding-right: 12px;
+    }
+    #order-standard_cart form#frmProductDomain .domain-selection-options .option:nth-of-type(3) .col-sm-2 {
+        padding-right: 14px;
+    }
+    header.header .top-nav-20i button.btn.nav-link {
+        padding-right: 1px;
+        padding-left: 7px;
+    }
+    header.header .top-nav-20i .nav-link {
+        padding-right: 0.5rem;
+    }
+.body-rtl .top-nav-20i li.nav-item:nth-of-type(1) a {
+        padding-left: 0rem;
+        padding-right: 0;
+    }
+    header .not-login-20i-header .top-nav-20i button.btn.nav-link {
+        padding-right: 0.5rem;
+    }
+}
+@media(max-width: 361px) {
+    form#frmManagePaymentMethod .submit-container button#btnSubmit {
+        margin-left: 0px;
+    }
+}

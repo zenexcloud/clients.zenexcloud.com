@@ -1,0 +1,2331 @@
+
+form#frmCheckout .captcha-cloudx .col-md-8.offset-md-2.col-10.offset-1 {
+    padding: 25px 25px 0px;
+}
+
+form#frmCheckout div#default-captcha-domainchecker p {
+    text-align: left;
+}
+
+form#frmCheckout div#default-captcha-domainchecker .col-6.captchaimage {
+    max-width: 100px;
+}
+
+form#frmCheckout #default-captcha-domainchecker #inputCaptcha {
+    float: left;
+}
+
+#order-standard_cart form .view-cart-items .item-price span {
+    color: #2F1C6A;
+}
+
+#order-standard_cart form .view-cart-items .item-price {
+    display: block;
+}
+
+#order-standard_cart .view-cart-items .row {
+    align-items: center;
+}
+
+#order-standard_cart .view-cart-items .btn-remove-from-cart {
+    background-color: #FFEEF3;
+    color: #fc5185;
+    border-radius: 2px;
+}
+
+#order-standard_cart form .view-cart-items-header {
+    margin-top: 10px;
+}
+
+body #order-standard_cart #scrollingPanelContainer .order-summary .recurring-totals {
+    padding: 8px 0px 10px;
+}
+
+#order-standard_cart #scrollingPanelContainer .order-summary .total-due-today-padded {
+    margin: 0 0 20px;
+}
+
+#order-standard_cart #scrollingPanelContainer .order-summary .btn-continue-shopping {
+    color: #fff;
+    padding: 12px 0;
+    text-decoration: none;
+    width: 100%;
+    margin: 10px 0 0;
+    background: #673DE6;
+    font-size: 15px;
+    font-weight: 700;
+    border-radius: 50px;
+    border: 1px solid #673de6;
+}
+
+#order-standard_cart #scrollingPanelContainer .order-summary .btn-continue-shopping:hover {
+    background-color: #fff;
+    color: #673DE6;
+}
+
+#order-standard_cart .secondary-cart-body .empty-cart {
+    margin: 0;
+}
+
+#order-standard_cart .secondary-cart-body .empty-cart .btn {
+    font-size: 11px;
+    line-height: 18px;
+    color: #673de6;
+    font-weight: normal;
+    background-color: #ffffff;
+    text-decoration: none;
+    padding: 7px 15px;
+    box-shadow: 0px 0px 10px #673de614;
+    border-radius: 4px;
+}
+
+body #order-standard_cart #scrollingPanelContainer div#orderSummary.order-summary .summary-container {
+    padding-bottom: 0;
+}
+
+#order-standard_cart #scrollingPanelContainer div#orderSummary.order-summary {
+    background-color: #fff;
+}
+
+#order-standard_cart .secondary-cart-body .view-cart-tabs {
+    background-color: #ffffff;
+    padding: 10px;
+    border-radius: 3px;
+    box-shadow: 0 1px 5px 1px rgb(26 32 44 / 4%);
+}
+
+#order-standard_cart .secondary-cart-body .view-cart-tabs ul li a, #order-standard_cart .secondary-cart-body .view-cart-tabs .nav-tabs>li.active>a {
+    font-size: 14px;
+    line-height: 22px;
+    color: #2f1c6a;
+    font-family: 'Poppins Medium';
+    background-color: transparent;
+    border: 0;
+    padding: 10px 0px;
+}
+
+#order-standard_cart .secondary-cart-body .view-cart-tabs ul {
+    padding: 0 18px;
+    border: 0;
+    margin-bottom: 10px;
+}
+
+#order-standard_cart .secondary-cart-body .view-cart-tabs .tab-content {
+    background-color: transparent;
+    padding: 0 18px 15px;
+}
+
+#order-standard_cart .view-cart-tabs .tab-content input, form#frmAddToCart .store-domain-tab-content input {
+    font-size: 13px;
+    color: #2e34425e;
+    height: 46px;
+    padding: 10px 18px;
+    border-radius: 2px;
+    border: 0;
+    border: 1px solid #e7e7e7;
+}
+
+#order-standard_cart .view-cart-tabs .tab-content input {
+    border-radius: 2px 0px 2px 2px;
+}
+
+#order-standard_cart .view-cart-tabs .promo .form-group label {
+    display: none;
+}
+#order-standard_cart form#frmConfigureDomains .panel-addon {
+    font-size: .8em;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    background: #f1f3fa;
+    padding: 10px;
+    align-items: center;
+    border: 1px solid #e0e7fe;
+    border-radius: 5px;
+}
+#order-standard_cart form#frmConfigureDomains .panel-addon .panel-body label {
+    font-weight: 700;
+    color: #293042;
+    font-size: 13px;
+    
+    margin-bottom: 5px;
+}
+#order-standard_cart form#frmConfigureDomains .panel-addon .panel-price {
+    font-size: 10px;
+    text-align: center;
+    font-weight: 600;
+    border-radius: 50px;
+    background-color: #fff;
+    color: #131313;
+    padding: 2px 5px !important;
+    box-shadow: 0 3px 5px #0000005c;
+    margin-left: 5px;
+    line-height: 14px;
+    display: inline-block;
+}
+form#frmConfigureDomains p {
+    padding-left: 32px;
+}
+.domain-addon-sec .icheckbox_square-blue {
+    margin-right: 5px;
+}
+#order-standard_cart form#frmConfigureDomains .panel-addon .panel-add{
+    background-color: #673fea;
+    font-weight: normal;
+    border-radius: 5px;
+    padding: 5px 10px;
+}
+input#inputEppcode0 {
+    border: transparent !important;
+    padding-left: 0 !important;
+    width: 100%;
+}
+.row.epp-code-rows .form-group br {
+    display: none;
+}
+.row.epp-code-rows .form-group {
+    display: flex;
+    align-items: center;
+}
+.epp-box-inpt {
+    display: flex;
+    width: 400px;
+    position: relative;
+    padding: 10px;
+    border: 1px solid #ddd;
+    padding-right: 45px;
+}
+.epp-box-inpt label.field-icon {
+    right: 0;
+}
+form#frmConfigureDomains .epp-code-rows .form-group {
+    font-weight: 600;
+    color: #2F1C6D;
+}
+.epp-code-rows .form-group label {
+    margin-bottom: 0px;
+}
+form#frmConfigureDomains .sub-heading+p{
+    color: #2F1C6D;
+}
+form#frmConfigureDomains .row.addon-products .col-sm-4 {
+    text-align: left !important;
+    max-width: 100%;
+    width: 100%;
+    flex: 0 0 100%;
+}
+form#frmConfigureDomains .sub-heading .primary-bg-color {
+    color: #2F1C6A;
+}
+.row.addon-products .panel-body {
+    width: 60%;
+}
+#order-standard_cart .checkout-security-msg i {
+    float: unset;
+    margin-left: unset;
+    font-size: unset;
+}
+#order-standard_cart .apply-credit-container{
+    background-color: #fff;
+}
+div#totalDueToday {
+    color: #000;
+}
+#order-standard_cart .apply-credit-container span {
+    font-weight: normal;
+}
+div#containerNewUserSecurity {
+    padding: 0 25px;
+}
+div#containerNewUserSecurity .sub-heading {
+    padding: 0 !important;
+}
+.hooks-output-checkout {
+    margin-top: 20px;
+}
+.hooks-output-checkout .mc-promos.checkout {
+    margin-top: 0 !important;
+}
+div#containerExistingUserSignin img {
+    display: unset;
+}
+div#containerExistingUserSignin {
+    background: #fff;
+}
+div#containerExistingUserSignin .row {
+    padding: 20px 25px 10px;
+}
+#order-standard_cart .sub-heading-borderless span.primary-bg-color {
+    text-align: center !important;
+}
+#order-standard_cart .sub-heading-borderless{
+    margin-bottom: 20px;
+}
+div#modalAjax button.close span {
+    color: #fff;
+    font-weight: 500;
+}
+body #order-standard_cart .products .row.row-eq-height .product {
+    padding: 25px 22px 28px;
+    border: 0;
+    box-shadow: 0px 1px 1.5px rgba(42, 46, 54, 0.11);
+    height: auto;
+}
+#order-standard_cart .secondary-cart-body .view-cart-tabs a.nav-link.active {
+    background-color: #f1f3fa !important;
+}
+
+#order-standard_cart .secondary-cart-body .view-cart-tabs a.nav-link {
+    padding: 10px 10px !important;
+}
+div#calcTaxes label {
+    width: 100px;
+    text-align: left !important;
+}
+div#calcTaxes {
+    padding: 0px 30px;
+}
+#order-standard_cart .secondary-cart-body .view-cart-tabs .tab-content div#calcTaxes form {
+    display: block;
+}
+div#calcTaxes .col-sm-7 {
+    padding: 0;
+}
+body #order-standard_cart .font-size-24~p {
+    color: #7c8088;
+    font-size: 12px;
+}
+
+#order-standard_cart .domain-renewals .btn-add-renewal-to-cart {
+    font-size: 12px;
+    letter-spacing: normal;
+    line-height: 18px;
+    color: #ffffff;
+    font-weight: 600;
+    padding: 6px 16px;
+    border-radius: 3px;
+    background-color: #FC5185;
+    border: 1px solid #FC5185;
+}
+
+#order-standard_cart #scrollingPanelContainer .order-summary {
+    background-color: transparent;
+    border-bottom: 0;
+    margin: 0;
+}
+
+#order-standard_cart #scrollingPanelContainer .order-summary h2 {
+    margin: 0;
+    padding: 20px 0px 10px;
+    color: #2f1c6a;
+    text-align: left;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+#order-standard_cart #scrollingPanelContainer .summary-container {
+    border-radius: 0px;
+    background-color: #ffffff;
+    padding: 10px 0px;
+}
+
+#order-standard_cart #scrollingPanelContainer .order-summary .product-name {
+    padding: 10px 0px;
+}
+
+#order-standard_cart #scrollingPanelContainer .order-summary .summary-totals, #order-standard_cart #scrollingPanelContainer .order-summary .subtotal, #order-standard_cart #scrollingPanelContainer .order-summary .recurring-totals {
+    padding: 0px 0px 18px;
+    border-top: 0;
+    border-bottom: 1px solid #edeef0;
+}
+#order-standard_cart #scrollingPanelContainer .order-summary .btn-checkout, 
+#order-standard_cart #frmConfigureProduct #scrollingPanelContainer #orderSummary button#btnCompleteProductConfig {
+    background-color: #FC5185;
+    border-color: #FC5185;
+    border-radius: 50px;
+    width: 100%;
+    font-size: 15px;
+    font-weight: 700;
+    padding: 12px 0;
+}
+#order-standard_cart .order-summary .total-due-today-padded {
+    display: inline-block;
+    width: 100%;
+}
+
+#order-standard_cart #scrollingPanelContainer .order-summary .total-due-today .amt {
+    order: 2;
+    font-weight: 800;
+    font-size: 20px;
+    color: #000;
+    font-family: 'Poppins SemiBold';
+    float: right;
+}
+
+#order-standard_cart #scrollingPanelContainer .order-summary .total-due-today span {
+    text-align: left;
+    order: 1;
+    font-size: 14px;
+    line-height: 20px;
+    color: #000;
+    margin-bottom: 12px;
+}
+
+body #order-standard_cart .domain-renewals .font-size-24 {
+    font-size: 17px;
+    line-height: 25px;
+    color: #673DE6;
+    font-weight: 700;
+    margin-bottom: 4px;
+}
+
+body #order-standard_cart .domain-renewals label.control-label {
+    color: #7c8088;
+}
+
+body #order-standard_cart .domain-renewals label.control-label {
+    font-size: 12px;
+    font-weight: 500;
+}
+body #order-standard_cart .domain-renewals .form-control {
+    font-size: 12px;
+    color: #2e34429c;
+    font-weight: 600;
+    border-radius: 2px;
+    background-color: #f3f6f9;
+    border: 0;
+    max-width: 175px;
+}
+
+#order-standard_cart .secondary-cart-body .domain-renewals form.form-horizontal .col-md-5 {
+    margin: 0 25px 0 0;
+    padding: 5px 0 0 0;
+    max-width: 100%;
+}
+
+#order-standard_cart .domain-renewals~.text-center {
+    text-align: left !important;
+}
+#order-standard_cart .domain-renewals .domain-renewal .text-right{
+    text-align: right !important;
+}
+body #order-standard_cart .domain-renewals form.form-horizontal .col-sm-6 {
+    padding: 0;
+}
+
+#order-standard_cart .domain-renewals {
+    background-color: transparent;
+}
+
+#order-standard_cart .domain-renewals .domain-renewal {
+    background-color: #fff;
+    box-shadow: 0px 1px 1.5px rgba(42, 46, 54, 0.11);
+    border-radius: 3px;
+    margin-bottom: 10px;
+    padding: 25px 22px;
+}
+
+#order-standard_cart .domain-renewals .domain-renewal form.form-horizontal {
+    float: left;
+    width: 66%;
+}
+
+body #order-standard_cart .domain-renewals .font-size-24~p {
+    margin-bottom: 28px;
+}
+
+#order-standard_cart #scrollingPanelContainer .order-summary .recurring-totals .float-right span {
+    font-size: 11px;
+    color: #6b788b;
+}
+
+#order-standard_cart #scrollingPanelContainer .order-summary .recurring-totals span span.cost {
+    font-size: 13px;
+    color: #000;
+}
+
+#order-standard_cart .cart-sidebar h3 i.fas.fa-chevron-up.panel-minimise {
+    position: relative;
+    top: 4px;
+}
+
+#order-standard_cart .panel.card.mb-3.panel-sidebar {
+    margin-bottom: 0 !important;
+    border: 0;
+    border-top: 1px solid #f3f6f9;
+    padding: 12px 0px 20px 0px;
+}
+
+#order-standard_cart .cart-sidebar .panel-sidebar:first-child {
+    border-radius: 3px 3px 0px 0px;
+}
+
+#order-standard_cart .cart-sidebar .panel-sidebar:last-child {
+    border-radius: 0px 0px 3px 3px;
+}
+body #order-standard_cart .products#products .product div.product-desc br {
+    display: none;
+}
+
+body #order-standard_cart .products#products .product {
+    padding: 30px 20px 30px;
+    background-color: #ffffff;
+    transition: all .3s ease-in-out;
+    border: 1px solid #ffffff;
+    height: auto;
+    min-height: 550px;
+}
+
+body #order-standard_cart .products .product:hover {
+    box-shadow: 0px 9px 11.5px rgba(0, 0, 0, 0.14);
+}
+
+#order-standard_cart .products .product div.product-desc ul.list, body #order-standard_cart .products .product header {
+    padding: 0;
+}
+
+body #order-standard_cart .products .btn-success {
+    font-size: 14px;
+    letter-spacing: 1px;
+    line-height: 22px;
+    color: #ffffff;
+    padding: 10px 25px;
+    border-radius: 50px;
+    background-color: #673DE6;
+    border: 2px solid #673DE6;
+    font-family: 'Poppins Medium';
+    width: 100%;
+}
+
+body #order-standard_cart .products .btn-success:hover {
+    background-color: #fff;
+    border-color: #673DE6;
+    color: #673DE6;
+}
+
+body #order-standard_cart .products#products .product div.product-pricing span.price {
+    width: auto;
+    float: left;
+}
+body #order-standard_cart .products .row.row-eq-height .product div.product-pricing span.price {
+    font-size: 22px;
+    display: inline-block;
+    margin-bottom: 12px;
+}
+
+body #order-standard_cart .products .row.row-eq-height .product div.product-pricing span.price, body #order-standard_cart .products .product footer, body #order-standard_cart .products .product div.product-desc {
+    width: 100%;
+    text-align: left;
+}
+
+body #order-standard_cart .products .product footer, body #order-standard_cart .products .product div.product-desc {
+    margin: 0;
+}
+
+body #order-standard_cart .products#products .product div.product-pricing {
+    display: flex;
+     align-items: center;
+      margin-bottom: 15px;
+      flex-wrap: wrap;
+      margin-top: 25px;
+    }
+    #order-standard_cart .cart-sidebar .panel-heading.card-header i {
+        display: none;
+    }
+    
+    body #order-standard_cart .products .row.row-eq-height .product footer {
+        padding: 10px 0px 20px;
+        background: transparent;
+    }
+    
+    #order-standard_cart .cart-sidebar .panel-heading.card-header .fa-chevron-up {
+        display: block;
+    }
+    #order-standard_cart .products .product div.product-desc p {
+        margin: 0;
+    }
+    
+    #order-standard_cart .cart-body p.text-center a.btn.btn-default {
+        font-size: 14px;
+        line-height: 26px;
+        color: #3699ff;
+        font-weight: 600;
+        border-radius: 2px;
+        background-color: #e1f0ff;
+        padding: 7px 20px;
+        border: 0;
+        width: auto;
+        display: inline-block;
+    }
+    #order-standard_cart .cart-sidebar .panel-sidebar:first-child h3.panel-title {
+        text-indent: -5px;
+    }
+    
+#order-standard_cart .domain-checker-container .input-group-box {
+    background-color: transparent;
+    padding: 0;
+}
+   
+#order-standard_cart .domain-pricing .tld-pricing-header .col-xs-4 {
+    padding: 0px 12px;
+}
+#order-standard_cart .domain-pricing .tld-pricing-header>div {
+    padding: 15px 0;
+}
+#order-standard_cart .domain-pricing .two-row-center {
+    padding-left: 0 !important;
+    padding: 20px 0px;
+    margin: 0;
+}
+body #order-standard_cart .domain-promo-box .font-size-24, body #order-standard_cart .domain-promo-box .font-size-22 {
+    font-size: 20px;
+    line-height: 28px;
+    color: #2F1C6A;
+}
+#order-standard_cart .domain-promo-box .clearfix p, body #order-standard_cart .domain-promo-box .font-size-24~p {
+    font-size: 14px;
+    line-height: 18px;
+    color: #7c8088 !important;
+    margin-bottom: 32px;
+    padding: 2px 0px 0px 55px;
+}
+#order-standard_cart .domain-promo-box p {
+    font-size: 13px;
+    line-height: 18px;
+    color: #acb0b8;
+    font-weight: 400;
+    margin: 0px 0 14px 0;
+}
+#order-standard_cart .domain-promo-box i {
+    float: left;
+    margin-right: 20px;
+    color: #673DE6;
+    font-size: 36px;
+    padding-top: 6px;
+}
+#order-standard_cart .domain-promo-box a.btn.btn-warning, #order-standard_cart .domain-promo-box a.btn.btn-primary {
+    font-size: 13px;
+    line-height: 22px;
+    color: #ffffff;
+    font-weight: 600;
+    border-radius: 3px;
+    background-color: #673DE6;
+    border: 1px solid#673DE6;
+    padding: 7px 13px;
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 25px;
+}
+#order-standard_cart .domain-promo-box a.btn.btn-warning:hover, #order-standard_cart .domain-promo-box a.btn.btn-primary:hover {
+    background-color: transparent;
+    border-color: #673DE6;
+    color: #673DE6;
+}
+#order-standard_cart .domain-promo-box {
+    padding: 25px 25px 65px 25px;
+    background-color: #fff;
+    border: 0;
+    border-radius: 3px;
+    box-shadow: 0px 1px 1.5px rgba(42, 46, 54, 0.11);
+    position: relative;
+    margin-top: 32px;
+}
+#order-standard_cart .domain-checker-container {margin: 40px 0 15px;
+}
+#order-standard_cart .domain-checker-container div#captchaContainer {margin-bottom: 25px;}
+ #order-standard_cart .domain-pricing .tld-row.highlighted:hover {
+    background-color: #f1f8ff;
+}
+
+#order-standard_cart .text-center .font-size-30 {
+    color: #2F1C6A;
+    margin-bottom: 0;
+    padding-top: 10px;
+}
+
+#order-standard_cart .text-center .font-size-30~p {
+    color: #464747;
+    font-size: 14px;
+    text-align: left;
+    margin-bottom: 0;
+}
+
+#order-standard_cart form#frmDomainChecker .default-captcha.default-captcha-register-margin>div {
+    width: 100%;
+    max-width: 201px;
+    margin: auto;
+}
+
+#order-standard_cart .products #product0:hover button.btn.btn-success {
+    color: #FC5185;
+}
+
+
+body #order-standard_cart .products .row.row-eq-height .product div.product-pricing {
+    margin-bottom: 10px;
+}
+
+#order-standard_cart #btnAlreadyRegistered, #order-standard_cart #btnNewUserSignup {
+    margin: 0 0 0 10px;
+    font-size: 13px;
+    font-weight: normal;
+    letter-spacing: normal;
+    border-width: 1px;
+}
+
+#order-standard_cart .view-cart-items span.item-domain {
+    margin-top: -5px;
+}
+
+#order-standard_cart form .view-cart-items .item, #order-standard_cart form .view-cart-items-header, #order-standard_cart form .view-cart-items .item:nth-child(even) {
+    border-bottom: 1px solid #f1f1f1;
+    background-color: #fff;
+    padding: 15px 20px;
+}
+
+#order-standard_cart form .view-cart-items .item {
+    padding: 15px 20px 22px;
+}
+
+#order-standard_cart .view-cart-items span.item-domain, #order-standard_cart form .view-cart-items .item-price span, #order-standard_cart form .view-cart-items .item-title {
+    font-size: 15px;
+    line-height: 25px;
+    font-weight: 700;
+}
+
+#order-standard_cart form .view-cart-items .item:last-child {
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+#order-standard_cart #scrollingPanelContainer .order-summary .recurring-totals span {
+    font-style: inherit;
+}
+
+#order-standard_cart .secondary-cart-body .view-cart-tabs .tab-content form {
+    display: flex;
+}
+
+#order-standard_cart .secondary-cart-body .view-cart-items {
+    margin-bottom: 10px;
+}
+
+#order-standard_cart .secondary-cart-body .empty-cart {
+    margin: 0px 0px 20px;
+}
+
+#order-standard_cart .mc-promos.viewcart, #order-standard_cart .mc-promos.checkout {
+    max-width: 100%;
+}
+
+#order-standard_cart .mc-promos.viewcart .mc-promo, #order-standard_cart .mc-promos.checkout .mc-promo {
+    border: 0;
+}
+
+#order-standard_cart .mc-promos.viewcart .mc-promo i, #order-standard_cart .mc-promos.checkout .mc-promo i {
+    color: #673DE6;
+}
+
+body #order-standard_cart .mc-promos.viewcart .tagline, #order-standard_cart .mc-promos.viewcart .mc-promo i, body #order-standard_cart .mc-promos.checkout .tagline, #order-standard_cart .mc-promos.checkout .mc-promo i {
+    font-size: 14px;
+}
+
+#order-standard_cart .mc-promos.viewcart .icon, #order-standard_cart .mc-promos.checkout .icon {
+    margin: 7px 10px;
+    line-height: 31px;
+    background-color: #edf2fd;
+    padding: 8px;
+    border-radius: 3px;
+}
+
+#order-standard_cart .mc-promos.viewcart .tagline, #order-standard_cart .mc-promos.checkout .tagline {
+    font-size: 14px;
+    color: #004747;
+    font-weight: 600;
+}
+
+#order-standard_cart .mc-promos.viewcart .btn-add span, #order-standard_cart .mc-promos.checkout .btn-add span {
+    background-color: transparent;
+    padding: 0px 5px 0 0px;
+}
+
+body #order-standard_cart .mc-promos.viewcart .text, body #order-standard_cart .mc-promos.checkout .text {
+    padding: 2px 3px 0px 8px;
+}
+
+#order-standard_cart .mc-promos.viewcart .text, #order-standard_cart .mc-promos.viewcart .mc-promo i, #order-standard_cart .mc-promos.checkout .text, #order-standard_cart .mc-promos.checkout .mc-promo i {
+    font-size: 11px;
+}
+
+#order-standard_cart .mc-promos.viewcart .btn-add span i, #order-standard_cart .mc-promos.checkout .btn-add span i, .account-manage-cloudx form .btn-default {
+    color: #fff;
+}
+
+body #order-standard_cart .mc-promos.viewcart .price, body #order-standard_cart .mc-promos.checkout .price {
+    font-size: 13px;
+    color: #2F1C6A;
+    font-weight: 700;
+}
+
+#order-standard_cart .mc-promos.viewcart .mc-promo .header, #order-standard_cart .mc-promos.checkout .mc-promo .header {
+    height: auto;
+    padding: 15px 5px;
+}
+
+#order-standard_cart .mc-promos.checkout .mc-promo .header {
+    padding: 20px 5px;
+}
+
+#order-standard_cart .mc-promos.viewcart .mc-promo .body, #order-standard_cart .mc-promos.checkout .mc-promo .body {
+    padding: 20px 15px;
+    border-top: 1px solid #f1f1f1;
+    background-color: #ffffff;
+}
+
+body #order-standard_cart .mc-promos.viewcart .mc-promo .body li, body #order-standard_cart .mc-promos.checkout .mc-promo .body li {
+    font-weight: 600;
+    position: relative;
+    padding-left: 20px;
+    font-size: 13px;
+    
+}
+body #order-standard_cart .mc-promos.viewcart .mc-promo .body li{
+    font-size: 13px;
+    line-height: 25px;
+    color: #474747;
+    font-weight: 400;
+}
+body #order-standard_cart .mc-promos.checkout .mc-promo .body li {
+    font-size: 14px;
+}
+
+body #order-standard_cart .mc-promos.viewcart .mc-promo .body li i, body #order-standard_cart .mc-promos.checkout .mc-promo .body li i {
+    position: absolute;
+    left: 0;
+    top: 4px;
+}
+
+#order-standard_cart .mc-promos.viewcart .mc-promo .expander, #order-standard_cart .mc-promos.checkout .mc-promo .expander {
+    text-align: center;
+}
+
+#order-standard_cart .mc-promos.viewcart .mc-promo .expander i, #order-standard_cart .mc-promos.checkout .mc-promo .expander i {
+    font-size: 12px;
+}
+
+#order-standard_cart .mc-promos.viewcart .btn-add:hover span i, #order-standard_cart .mc-promos.checkout .btn-add:hover span i {
+    color: #673DE6;
+}
+
+#order-standard_cart .mc-promos.viewcart .headline, #order-standard_cart .mc-promos.checkout .headline {
+    font-size: 16px;
+}
+
+#order-standard_cart form#frmProductDomain .domain-selection-options span.input-group-text {
+    background-color: #fff;
+    border-color: #dee3e8;
+    border-right: 0;
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+}
+
+#order-standard_cart form#frmProductDomain .domain-selection-options input {
+    border-left: 0;
+}
+
+#order-standard_cart form#frmProductDomain .domain-selection-options select {
+    font-weight: 600;
+    margin-left: 6px;
+}
+
+#order-standard_cart form#frmProductDomain .domain-selection-options .option.option-selected, body #order-standard_cart form#frmProductDomain .domain-selection-options .option:first-child div#domainregister {
+    padding: 15px 20px 30px;
+}
+
+#order-standard_cart form#frmProductDomain .domain-selection-options .option.option-selected {
+    background-color: #f3f6f9;
+    border-radius: 0;
+}
+
+#order-standard_cart form#frmProductDomain .domain-selection-options .option:first-child, #order-standard_cart #frmCheckout .cc-input-container+.sub-heading, #order-standard_cart #frmCheckout div#containerNewUserSignup+.sub-heading {
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+
+#order-standard_cart form#frmProductDomain .domain-selection-options .row .col-sm-8.col-sm-offset-1.offset-sm-1 {
+    margin: 0;
+    padding-left: 25px;
+}
+
+#order-standard_cart form#frmProductDomain .domain-selection-options .option:nth-of-type(2) .col-sm-8.col-sm-offset-1.offset-sm-1 {
+    padding-left: 47px;
+}
+
+#order-standard_cart form#frmProductDomain .domain-selection-options .option:nth-of-type(3) .col-sm-9 {
+    padding-left: 35px;
+}
+
+#order-standard_cart form#frmProductDomain .domain-input-group {
+    margin: 0;
+    position: relative;
+    top: -3px;
+}
+
+#order-standard_cart form#frmProductDomain .domain-selection-options .option {
+    background-color: #fff;
+    border-radius: 0;
+    margin: 0;
+    border-top: 1px solid #f1f1f1;
+    padding: 0px 20px;
+}
+
+#order-standard_cart form#frmProductDomain .domain-selection-options .option:last-child, #order-standard_cart #frmCheckout .cc-input-container+.sub-heading+.row, #order-standard_cart #frmCheckout div#totalDueToday {
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+#order-standard_cart form#frmProductDomain .domain-selection-options .option .iradio_square-blue {
+    left: 4px;
+}
+
+#order-standard_cart form#frmProductDomain .domain-selection-options .option .iradio_square-blue, #order-standard_cart #frmCheckout .account-select-container div.account label .iradio_square-blue, #order-standard_cart #frmCheckout .cc-input-container label.radio-inline .iradio_square-blue, #order-standard_cart #frmConfigureProduct .addon-promo-container label .iradio_square-blue {
+    position: absolute !important;
+}
+
+#order-standard_cart form#frmProductDomain .domain-selection-options div#domainregister, form#frmProductDomain .domain-selection-options div#domaintransfer, form#frmProductDomain .domain-selection-options div#domainowndomain {
+    padding: 10px 0px 0px;
+}
+
+#order-standard_cart form#frmProductDomain .domain-selection-options .option .row.domains-row {
+    padding: 0px 0px 5px 5px;
+}
+
+#order-standard_cart #frmCheckout div#containerExistingUserSignin .sub-heading {
+    margin-bottom: 15px;
+}
+
+#order-standard_cart #frmCheckout div#containerExistingUserSignin {
+    padding-bottom: 15px;
+}
+
+#order-standard_cart #frmCheckout div#containerNewUserSignup .sub-heading {
+    padding: 24px 0px 0px;
+    border: 0;
+}
+
+#order-standard_cart #frmCheckout .account-select-container div.account {
+    background: #fff;
+    padding: 22px 25px;
+    border: 0;
+    border-bottom: 1px solid #f1f1f1 !important;
+}
+
+#order-standard_cart #frmCheckout .account-select-container .col-sm-12:nth-of-type(2) div.account.active {
+    border-bottom: 0 !important;
+    padding-bottom: 10px;
+}
+
+#order-standard_cart #frmCheckout .account-select-container div.account label, #order-standard_cart #frmCheckout .cc-input-container label.radio-inline {
+    margin: 0;
+    position: relative;
+    padding-left: 32px;
+}
+
+#order-standard_cart #frmCheckout .cc-input-container label.radio-inline {
+    padding-left: 23px;
+    margin-bottom: 10px;
+}
+
+#order-standard_cart #frmCheckout .account-select-container div.account label .iradio_square-blue, #order-standard_cart #frmCheckout .cc-input-container label.radio-inline .iradio_square-blue, #order-standard_cart #frmConfigureProduct .addon-promo-container label .iradio_square-blue {
+    left: 0;
+}
+
+#order-standard_cart #frmCheckout .account-select-container div.account label strong {
+    margin-bottom: 12px;
+    display: inline-block;
+}
+
+#order-standard_cart #frmCheckout .account-select-container div.account label span.label.label-info {
+    background-color: #edf2fd;
+    padding: 4px 10px;
+    font-size: 10px;
+    color: #4f7cec;
+    font-weight: 700;
+    border-color: #edf2fd;
+    border-radius: 2px;
+    display: inline-block;
+    position: relative;
+    top: -2px;
+    left: 2px;
+}
+
+#order-standard_cart #frmCheckout .form-group label {
+    line-height: 47px;
+}
+
+#order-standard_cart #frmCheckout .cc-input-container, #frmCheckout div#containerNewUserSignup, #frmCheckout div#paymentGatewaysContainer, #order-standard_cart #frmCheckout .cc-input-container #newCardInfo button.btn.btn-default:focus, #order-standard_cart #frmCheckout .cc-input-container #newCardInfo button.btn.btn-default:active, #order-standard_cart #frmCheckout .cc-input-container #newCardInfo button.btn.btn-default:hover, #order-standard_cart #frmCheckout .cc-input-container+.sub-heading+.row, div#DomainSearchResults div#searchDomainInfo, .suggested-domains .panel-heading.card-header, #order-standard_cart #frmConfigureProduct .product-info, #order-standard_cart #frmConfigureProduct .field-container, #frmCheckout div#containerNewUserSecurity {
+    background-color: #fff;
+}
+#order-standard_cart #frmCheckout .cc-input-container #newCardInfo button.btn.btn-default:focus, #order-standard_cart #frmCheckout .cc-input-container #newCardInfo button.btn.btn-default:active, #order-standard_cart #frmCheckout .cc-input-container #newCardInfo button.btn.btn-default:hover, #order-standard_cart #frmCheckout .cc-input-container #newCardInfo button.btn.btn-default {
+    border-left: 0;
+    border-color: #dee3e8;
+}
+
+#order-standard_cart #frmCheckout .form-group .form-control::placeholder {
+    color: #2e34426e;
+}
+
+#order-standard_cart #frmCheckout .account-select-container {
+    border-right: 0;
+    background-color: #fff;
+}
+
+#order-standard_cart #frmCheckout div#paymentGatewaysContainer .text-center label {
+    display: inline-block;
+    width: 100%;
+    text-align: left;
+    margin-bottom: 16px;
+    line-height: normal;
+    font-family: 'Poppins Medium';
+    font-weight: normal;
+}
+
+#order-standard_cart .cc-input-container div#newCardInfo .form-group {
+    margin-bottom: 5px;
+}
+
+#order-standard_cart #frmCheckout .cc-input-container+.sub-heading {
+    margin-top: 20px;
+    border: 0;
+    box-shadow: 0px 1px 1.5px rgb(42 46 54 / 11%);
+}
+
+#order-standard_cart #frmCheckout .cc-input-container+.sub-heading+.row {
+    margin: 0;
+    box-shadow: 0px 1px 1.5px rgb(42 46 54 / 11%);
+    padding: 0px 10px 28px;
+}
+
+#order-standard_cart #frmCheckout .cc-input-container label {
+    line-height: 20px;
+}
+
+#order-standard_cart #frmCheckout div#containerNewUserSignup+.sub-heading {
+    margin-top: 20px;
+}
+
+#order-standard_cart #frmConfigureProduct .product-info, #order-standard_cart #frmConfigureProduct .field-container {
+    padding: 20px 25px;
+}
+
+#order-standard_cart #frmConfigureProduct .product-info ul li b {
+    font-weight: 800;
+    color: #2F1C6A;
+}
+
+#order-standard_cart #frmConfigureProduct .product-info ul li:last-child, #order-standard_cart #frmConfigureProduct .product-info ul {
+    margin-bottom: 0;
+}
+
+#order-standard_cart #frmConfigureProduct .field-container select, #order-standard_cart #frmConfigureProduct .addon-products .panel-add {
+    font-size: 13px;
+    line-height: 18px;
+    color: #fff;
+    font-weight: 500;
+}
+
+#order-standard_cart #frmConfigureProduct .field-container select {
+    width: 100%;
+    background-color: #f3f6f9;
+    border: 0;
+}
+
+body #order-standard_cart #frmConfigureProduct .field-container label, body #order-standard_cart #frmConfigureProduct .addon-promo-container h3 {
+    margin-bottom: 15px;
+}
+
+#order-standard_cart #frmConfigureProduct .addon-promo-container .description p, #order-standard_cart #frmConfigureProduct .addon-products .panel-body {
+    font-size: 13px;
+    line-height: 21px;
+    color: #7c8088;
+    font-weight: 500;
+}
+
+#order-standard_cart #frmConfigureProduct .addon-promo-container label.radio-inline {
+    font-size: 14px;
+    line-height: 25px;
+    color: #6b788b;
+    font-weight: 600;
+    position: relative;
+    padding-left: 25px;
+}
+
+#order-standard_cart #frmConfigureProduct .field-container, #order-standard_cart #frmConfigureProduct .addon-products .card {
+    margin-bottom: 20px;
+}
+
+#order-standard_cart #frmConfigureProduct .addon-products .panel-body {
+    padding: 0 0 15px 0;
+}
+
+#order-standard_cart #frmConfigureProduct .addon-products .panel-price {
+    font-size: 20px;
+    line-height: 32px;
+    color: #2F1C6A;
+    font-weight: 700;
+    background-color: transparent;
+    text-align: left;
+    padding: 0px 0px 15px;
+}
+
+#order-standard_cart #frmConfigureProduct .addon-products {
+    margin: 0 -10px;
+}
+
+#order-standard_cart #frmConfigureProduct .addon-products .col-sm-6 {
+    padding: 0px 10px;
+}
+
+#order-standard_cart #frmConfigureProduct .addon-products .card {
+    padding: 25px;
+}
+
+#order-standard_cart #frmConfigureProduct .addon-products .panel-body label .icheckbox_square-blue {
+    margin-right: 5px;
+}
+
+#order-standard_cart #frmConfigureProduct #scrollingPanelContainer .order-summary .product-name, #order-standard_cart #frmConfigureProduct #scrollingPanelContainer .order-summary .clearfix span, #order-standard_cart #frmConfigureProduct #scrollingPanelContainer .order-summary .product-group {
+    font-size: 12px;
+    line-height: 18px;
+    color: #7c8088;
+}
+
+#order-standard_cart #frmConfigureProduct #scrollingPanelContainer .order-summary .product-name {
+    padding: 0 0 10px 0;
+    font-family: 'Poppins SemiBold';
+    font-weight: normal;
+}
+
+body #order-standard_cart .order-summary .product-group {
+    font-style: normal;
+}
+
+#order-standard_cart #frmConfigureProduct #scrollingPanelContainer .order-summary .summary-totals {
+    border-top: 1px solid #f1f1f1;
+    padding: 12px 0px;
+    margin-top: 12px;
+}
+
+#order-standard_cart #frmConfigureProduct #scrollingPanelContainer .order-summary .clearfix span, #order-standard_cart #frmConfigureProduct #scrollingPanelContainer .order-summary .product-group {
+    color: #474747;
+}
+
+#order-standard_cart #frmConfigureProduct #scrollingPanelContainer .order-summary .total-due-today {
+    padding: 15px 0px;
+}
+#order-standard_cart .alert.alert-info.order-confirmation span {
+    display: block;
+    font-size: 37px;
+    line-height: 44px;
+    color: #673DE6;
+    font-weight: 700;
+    padding-top: 4px;
+}
+
+#order-standard_cart .order-confirmation {
+    background-color: #fff;
+    border-color: #fff;
+    padding: 30px;
+    font-size: 15px;
+    color: #7c8088;
+}
+
+#order-standard_cart #frmCheckout div#containerNewUserSignup+.sub-heading+p {
+    color: #212529 !important;
+    font-size: 14px;
+    padding: 20px 25px;
+    margin: 0;
+}
+
+#order-standard_cart #frmCheckout div#containerNewUserSignup+.sub-heading+p+.row.margin-bottom .col-sm-6.col-sm-offset-3.offset-sm-3 {
+    margin-left: 0;
+    padding: 0;
+}
+
+#order-standard_cart #frmCheckout div#containerNewUserSignup+.sub-heading+p+.row.margin-bottom, #order-standard_cart #frmCheckout div#containerNewUserSignup+.sub-heading+p, #order-standard_cart #frmCheckout div#containerNewUserSignup+.sub-heading+p+.row.margin-bottom+.w-hidden div#domainRegistrantInputFields, #order-standard_cart #frmCheckout div#containerNewUserSignup+.sub-heading+p+.row.margin-bottom+div>div#domainRegistrantInputFields {
+    background-color: #fff;
+}
+
+#order-standard_cart #frmCheckout div#containerNewUserSignup+.sub-heading+p+.row.margin-bottom {
+    padding: 0 25px 15px;
+}
+
+#order-standard_cart #frmCheckout div#containerNewUserSignup+.sub-heading+p+.row.margin-bottom+.w-hidden div#domainRegistrantInputFields, #order-standard_cart #frmCheckout div#containerNewUserSignup+.sub-heading+p+.row.margin-bottom+div>div#domainRegistrantInputFields {
+    padding: 0px 15px 15px;
+}
+
+#order-standard_cart #frmCheckout div#containerNewUserSignup+.sub-heading+p+.row.margin-bottom+.w-hidden div#domainRegistrantInputFields>div, #order-standard_cart #frmCheckout div#containerNewUserSignup+.sub-heading+p+.row.margin-bottom+div>div#domainRegistrantInputFields>div {
+    padding: 0px 10px;
+}
+
+#order-standard_cart #frmCheckout div#containerNewUserSignup+.sub-heading+p+.row.margin-bottom+.w-hidden+.sub-heading, .contact-page-cloudx .btn.btn-primary {
+    margin-top: 22px;
+}
+
+#order-standard_cart #frmCheckout div#containerNewUserSignup+.sub-heading+p+.row.margin-bottom+div>div#domainRegistrantInputFields {
+    margin: 0;
+}
+body #order-standard_cart .products header{
+    z-index: unset;
+}
+body #order-standard_cart .products .product header .qty {
+    float: right;
+     font-size: .8em;
+      color: #673de6;
+      font-style: normal;
+      background: #eff8ff;
+      padding: 2px 10px;
+      border-radius: 15px;
+}
+#order-standard_cart .modal-title i{
+    font-size: 30px;
+}
+#order-standard_cart label.config-option-label {
+    color: #2f1c6e;
+    font-size: 14px;
+    font-weight: 600;
+}
+.primary-content #order-standard_cart .alert-warning {
+    font-size: 14px;
+    line-height: 23px;
+    color: #fc5185;
+    background-color: #f3dbe3;
+    padding: 8px 10px;
+    border-color: transparent;
+    border-radius: 3px;
+    width: 100%;
+    width: 100%;
+    position: relative;
+    z-index: 99;
+}
+
+#order-standard_cart #scrollingPanelContainer .order-summary .btn-checkout {
+    border-width: 2px;
+}
+#order-standard_cart .domain-renewals .btn-add-renewal-to-cart:hover {
+    background-color: transparent;
+    color: #FC5185;
+}
+#order-standard_cart .domain-renewals~.text-center small{
+    font-size: 12px;
+    line-height: 19px;
+    color: #7c8088;
+    font-weight: 400;
+    margin-top: 10px;
+    display: inline-block;
+}
+ #order-standard_cart #scrollingPanelContainer .order-summary .subtotal span, #order-standard_cart #scrollingPanelContainer .order-summary .recurring-totals span {
+    font-size: 13px;
+    line-height: 22px;
+    color: #000;
+    font-weight: 400;
+}
+#order-standard_cart #scrollingPanelContainer .order-summary .btn-continue-shopping {
+    font-size: 12px;
+    line-height: 20px;
+    color: #fff;
+    font-weight: 400;
+}
+body #order-standard_cart #frmConfigureProduct .product-info .product-title, body #order-standard_cart #frmConfigureProduct .field-container label, body #order-standard_cart #frmConfigureProduct .addon-promo-container h3 {
+    font-family: 'Poppins SemiBold';
+}
+body #order-standard_cart .cart-sidebar .list-group-item {
+    font-size: 13px;
+    line-height: 23px;
+    color: #000000;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+#order-standard_cart .cart-sidebar .list-group-item {
+    font-weight: 500;
+}
+#order-standard_cart .cart-sidebar h3 i {
+    font-size: 13px;
+}
+#order-standard_cart .cart-sidebar h3 i {
+    font-size: 13px;
+}
+body #order-standard_cart .cart-sidebar .list-group.collapsable-card-body {
+    padding: 0px 20px;
+}
+
+body #order-standard_cart .cart-sidebar .list-group-item:hover, body #order-standard_cart .cart-sidebar .list-group-item.active {
+    background: #f4f5ff;
+    color: #673de6;
+    border-radius: 10px;
+}
+body #order-standard_cart .cart-sidebar .list-group-item, #order-standard_cart .cart-sidebar .panel-heading.card-header{
+    border: 0;
+} 
+.sidebar .card-sidebar .card-header, .sidebar .card-sidebar .list-group-item:hover, #order-standard_cart .cart-sidebar .list-group-item:hover, #order-standard_cart .cart-sidebar .list-group-item.active, #order-standard_cart .cart-sidebar .panel-heading.card-header, div#registration .intl-tel-input.separate-dial-code .selected-flag {
+    background-color: transparent;
+}
+#order-standard_cart .cart-sidebar .list-group-item:hover, #order-standard_cart .cart-sidebar .list-group-item.active {
+    color: #673DE6;
+}
+body #order-standard_cart .cart-sidebar h3, #order-standard_cart #frmCheckout .primary-bg-color, #frmCheckout div#paymentGatewaysContainer p.small, #order-standard_cart #frmCheckout .cc-input-container label, .suggested-domains .panel-heading.card-header, #spotlightTlds .domain-lookup-result .available.price, #order-standard_cart .mc-promos.viewcart .headline, #order-standard_cart .mc-promos.checkout .headline, div#modalRemoveItem h4.modal-title, form#frmAddToCart .col-sm-5 .payment-term h4, form#frmAddToCart h4, form#frmCheckout .marketing-email-optin h4, form#frmCheckout div#containerNewUserSignup #providerLinkingMessages+.sub-heading .primary-bg-color {
+    font-size: 16px;
+    line-height: 24px;
+    color: #2F1C6A;
+    font-weight: 700;
+}
+#order-standard_cart .cart-sidebar .list-group-item:hover, #order-standard_cart .cart-sidebar .list-group-item.active, #order-standard_cart .cart-sidebar .panel-heading.card-header{
+    background-color: transparent;
+}
+
+#order-standard_cart .cart-sidebar .list-group-item:hover, #order-standard_cart .cart-sidebar .list-group-item.active {
+    color: #673DE6;
+}
+.sidebar .card-sidebar .card-header, .sidebar .card-sidebar .list-group-item:hover, #order-standard_cart .cart-sidebar .list-group-item:hover, #order-standard_cart .cart-sidebar .list-group-item.active, #order-standard_cart .cart-sidebar .panel-heading.card-header, div#registration .intl-tel-input.separate-dial-code .selected-flag {
+    background-color: transparent;
+}
+
+#order-standard_cart .cart-sidebar .list-group-item:hover, #order-standard_cart .cart-sidebar .list-group-item.active {
+    color: #673DE6;
+}
+body #order-standard_cart .cart-sidebar h3, #order-standard_cart #frmCheckout .primary-bg-color, #frmCheckout div#paymentGatewaysContainer p.small, #order-standard_cart #frmCheckout .cc-input-container label, .suggested-domains .panel-heading.card-header, #spotlightTlds .domain-lookup-result .available.price, #order-standard_cart .mc-promos.viewcart .headline, #order-standard_cart .mc-promos.checkout .headline, div#modalRemoveItem h4.modal-title, form#frmAddToCart .col-sm-5 .payment-term h4, form#frmAddToCart h4, form#frmCheckout .marketing-email-optin h4, form#frmCheckout div#containerNewUserSignup #providerLinkingMessages+.sub-heading .primary-bg-color {
+    font-size: 14px;
+    line-height: 24px;
+    color: #2F1C6A;
+    font-weight: 700;
+}
+body #order-standard_cart .products {
+    margin-top: 10px;
+}
+#order-standard_cart .cart-sidebar .panel-heading.card-header h3.panel-title {
+    margin-bottom: 4px;
+}
+
+#order-standard_cart .header-lined {
+    background: #fff;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+#order-standard_cart .header-lined h1, .card.mass-payment-card .card-body .card-title, .announcement-card .card-title {
+    background-color: #ffffff;
+    padding: 0;
+    color: #2F1C6A;
+    margin: 0;
+}
+
+#order-standard_cart .header-lined p {
+    font-weight: normal;
+    color: #6b788b;
+}
+
+#order-standard_cart .products .product div.product-desc ul li b {
+    color: #2F1C6A;
+}
+small.billing-cycle-p-list {
+    font-size: 13px;
+    color: #6c737f;
+    font-family: 'Poppins';
+}
+body #order-standard_cart .products .product header .starting-from {
+    font-size: 13px;
+    font-weight: normal;
+    color: #6c737f;
+    font-family: 'Poppins';
+}
+body #order-standard_cart .products#products .product header {
+    background: transparent;
+     margin-bottom: 10px; 
+     border-bottom: 1px solid #e5e7eb;
+     padding-bottom: 20px;
+}
+
+body #order-standard_cart .products .product header span, #order-standard_cart #frmConfigureProduct .product-info .product-title {
+    font-size: 24px;
+    line-height: 20px;
+    color: #2f1c6a;
+    font-family: 'Poppins SemiBold';
+}
+
+#order-standard_cart #frmConfigureProduct .product-info .product-title {
+    margin-bottom: 25px;
+}
+
+#order-standard_cart #scrollingPanelContainer .order-summary .btn-checkout:hover, #order-standard_cart #frmConfigureProduct #scrollingPanelContainer #orderSummary button#btnCompleteProductConfig:hover, body #order-standard_cart .products .product:hover .form-inline .btn-success {
+    background-color: transparent;
+    color: #FC5185;
+    border-color: #FC5185;
+}
+
+body #order-standard_cart .products#products .product div.product-pricing span.price, body #order-standard_cart .products .row.row-eq-height .product div.product-pricing span.price {
+    font-size: 30px;
+    line-height: 32px;
+    color: #1f2a37;
+    font-weight: 600;
+    position: relative;
+    top: 7px;
+    margin-right: 6px;
+}
+#order-standard_cart form#frmDomainTransfer .card-header .font-size-24, #order-standard_cart .text-center .font-size-30, .card.mass-payment-domain .card-header .card-title {
+    font-size: 22px;
+    line-height: 34px;
+    color: #2F1C6A;
+    font-weight: 700;
+    text-align: left;
+}
+
+#order-standard_cart form#frmDomainTransfer .card label a {
+    color: #fff6;
+}
+
+#order-standard_cart form#frmDomainTransfer .card label{
+    color: #727586;
+    font-weight: 400;
+    max-width: 490px;
+    margin-bottom: 4px;
+    font-size: 13px;
+}
+#order-standard_cart .domain-pricing .tld-row {
+    align-items: center;
+}
+#order-standard_cart .domain-pricing .tld-row .tld-sale-group {
+    padding: 2px 4px;
+    font-size: 8px;
+    border-radius: 2px;
+    font-weight: 600;
+}
+#order-standard_cart .domain-pricing .tld-row {
+    padding: 0px 25px;
+}
+#order-standard_cart .domain-renewals .domain-renewal form.form-horizontal .row {
+    width: 100%;
+    margin: 0;
+}
+
+#order-standard_cart .domain-pricing .tld-pricing-header .col-xs-4:nth-of-type(3){
+    padding-right: 0px;
+}
+#order-standard_cart form .view-cart-items .item-price span.cycle {
+    font-size: 11px;
+    line-height: normal;
+}
+#order-standard_cart .domain-pricing .tld-row {
+    border-top: 1px solid #f1f1f1;
+}
+#order-standard_cart .domain-pricing .tld-row, #order-standard_cart .domain-pricing .tld-pricing-header .col-xs-4 {
+    border-bottom: 0;
+}
+#order-standard_cart .view-cart-items span.item-group, 
+#order-standard_cart form .view-cart-items .item-price span.cycle, #order-standard_cart .view-cart-items small {
+    font-size: 12px;
+    line-height: 25px;
+    color: #7c8088;
+    font-weight: normal;
+}
+#order-standard_cart .domain-pricing .tld-pricing-header>div, #order-standard_cart .domain-pricing .tld-row.highlighted {
+    background-color: transparent;
+}
+#order-standard_cart .domain-pricing .two-row-center {
+    border-color: transparent;
+}
+#order-standard_cart .domain-pricing .font-size-18 {
+    color: #474747;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+#order-standard_cart .domain-checker-container .input-group-box input#inputDomain, .domain-checker-container button#btnCheckAvailability, .knowledgebase-cloudx form .kb-search input, .download-cloudx form .kb-search input, .download-cat-cloudx form .kb-search input {
+    border-radius: 3px !important;
+    height: 70px;
+}
+
+body #order-standard_cart .input-group-lg>.form-control::placeholder, .knowledgebase-cloudx form .kb-search input::placeholder, .knowledgebase-base-cat-cloudx form input::placeholder, .download-cloudx form .kb-search input::placeholder, .download-cat-cloudx form .kb-search input::placeholder {
+    color: #2e34426b;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+
+#order-standard_cart .products .product div.product-desc ul li, form#frmConfigureProduct .product-info ul li {
+    font-size: 14px;
+    line-height: 22px;
+    color: #0b2471;
+    font-weight: 500;
+    margin: 14px 0;
+    position: relative;
+    list-style-type: none;
+    padding-left: 31px;
+    font-family: 'Poppins Medium';
+}
+
+#order-standard_cart .products .product div.product-desc ul li::before, form#frmConfigureProduct .product-info ul li::before {
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    left: 0;
+    top: 0;
+    background: #eff8ff url(../images/bullets.svg);
+    background-size: 12px;
+    bottom: 0;
+    margin: auto;
+    opacity: 0.7;
+    padding: 11px;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 50%;
+}
+body #order-standard_cart .products .row.row-eq-height .product div.product-desc, #order-standard_cart .products .row.row-eq-height .product footer {
+    border: 0;
+    padding: 0;
+}
+
+body #order-standard_cart .products .row.row-eq-height .product div.product-pricing {
+    font-size: 13px;
+    color: #000;
+}
+
+body #order-standard_cart .products .row.row-eq-height .product header {
+    background: transparent;
+    margin-bottom: 5px;
+}
+div#ticketReplyContainer .form-group input.btn.btn-primary, .submit-ticket-two-cloudx p .btn.btn-primary, form#frmManagePaymentMethod .submit-container button#btnSubmit, form#frmConfigureDomains button.btn.btn-primary, body #order-standard_cart .mc-promos.viewcart .btn-add, body #order-standard_cart .mc-promos.checkout .btn-add, .modal button.btn.btn-primary, #frmAddToCart .btn-primary, .already-registered.clearfix button#btnAlreadyRegistered, .account-manage-cloudx .btn-primary, .payment-methods-cloudx table#payMethodList .btn-default, .account-manage-cloudx form .btn-default, .using-password-strength .btn-primary, .btn-primary, .account-new-cloudx button {
+    background-color: #673DE6;
+    border: 1px solid #673DE6;
+}
+body #order-standard_cart .products footer i.fas.fa-shopping-cart {
+    display: none;
+}
+body #order-standard_cart .products footer i.fas.fa-shopping-cart {
+    display: none;
+}
+.order-summary .clearfix {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+.order-summary span.pull-left.float-left, .order-summary span.pull-right.float-right {
+    float: unset !important;
+}
+.order-summary span.pull-left.float-left {width: 100%;max-width: 71%;}
+div#producttotal .summary-totals .clearfix span{
+    font-size: 13px;
+    line-height: 22px;
+    color: #000;
+    font-weight: 400;
+}
+div#scrollingPanelContainer div#orderSummary {
+    background-color: #fff;
+    padding: 7px 15px 30px;
+    box-shadow: 0 1px 5px 1px rgb(26 32 44 / 4%);
+}
+#scrollingPanelContainer a#btnGoToCart:hover{
+    background-color: transparent;
+    color: #FC5185;
+}
+.secondary-cart-body .domain-renewals .domain-renewal .label {
+    border-radius: 3px;
+    font-size: 11px;
+    line-height: 15px;
+    color: #fc5185;
+    font-weight: 700;
+    background-color: #ffeaec;
+    padding: 4px 10px;
+    display: inline-block;
+}
+
+#scrollingPanelContainer .total-due-today {
+    padding: 15px 5px;
+    text-align: left;
+    margin: 0;
+}
+.order-summary .summary-totals span {
+    padding: 4px 0;
+}
+#scrollingPanelContainer a#btnGoToCart{
+    background-color: #FC5185;
+    border-color: #FC5185;
+    border-radius: 50px;
+    width: 100%;
+    font-size: 15px;
+    font-weight: 700;
+    padding: 12px 0;
+}
+.domain-renewals .domain-renewal {
+    border-bottom: none!important;
+}
+.domain-renewals {
+    border-top: none!important;
+}
+#scrollingPanelContainer a#btnGoToCart i {
+    display: none;
+}
+form#frmManagePaymentMethod .form-group input, form#frmProductDomain .domain-selection-options input, #order-standard_cart form#frmProductDomain .domain-selection-options select, #order-standard_cart #frmCheckout .form-group .form-control, #order-standard_cart #frmConfigureProduct .field-container select, #frmCheckout select#inputDomainContact, #frmManagePaymentMethod .fieldgroup-creditcard label+div .form-control, form#frmAddToCart select, form#frmAddToCart .store-domain-tab-content input, .landing-page select.form-control.currency-selector, form.using-password-strength .form-control {
+    height: 46px;
+    border-radius: 2px;
+    border: 1px solid #dee3e8 !important;
+}
+.product-recommendations .product-recommendation .arrow{
+    background-color: #e13f75 !important
+}
+.product-recommendations .product-recommendation .btn-add {
+    padding: 0;
+    background-color: #FC5185 !important;
+}
+.product-recommendations .product-recommendation{
+    border: 1px dashed #673fea !important;
+    border-bottom: 4px solid #673fea !important;
+}
+span.breakdown-price {
+    color: #6741ee;
+}
+.product-recommendations .product-recommendation .expander i {
+    color: #6741ee;
+}
+#order-standard_cart .order-summary .bordered-totals{
+    border-bottom: transparent;
+}
+.modal-header{
+    justify-content: flex-end;
+}
+#frmCheckout div#containerNewUserSecurity div#containerPassword {
+    padding: 0px;
+}
+
+#frmCheckout div#containerNewUserSecurity .row {
+    padding: 0px 17px;
+}
+
+
+#order-standard_cart #frmCheckout .form-group .intl-tel-input.separate-dial-code .selected-flag, div#DomainSearchResults .spotlight-tlds, .intl-tel-input.separate-dial-code .selected-flag, .intl-tel-input.separate-dial-code .selected-flag:hover, .intl-tel-input.allow-dropdown .flag-container:hover, .intl-tel-input.allow-dropdown .flag-container:hover .selected-flag {
+    background-color: transparent;
+}
+
+#order-standard_cart #frmCheckout .form-group .intl-tel-input.separate-dial-code .selected-flag:focus, .intl-tel-input.separate-dial-code .selected-flag:focus {
+    outline: 0;
+}
+
+#frmCheckout div#paymentGatewaysContainer p.small {
+    color: #474747 !important;
+    margin-bottom: 20px;
+    font-family: 'Poppins Medium';
+    font-weight: normal;
+}
+
+#frmCheckout div#paymentGatewaysContainer, #order-standard_cart #frmCheckout .cc-input-container {
+    padding: 25px 26px;
+    margin-bottom: 22px;
+}
+
+
+#frmCheckout div#totalDueToday {
+    margin: 0px 0px 22px;
+    background-color: #fff;
+    border-color: #edf2fd;
+    padding: 30px 25px;
+    font-size: 20px;
+    line-height: 35px;
+    font-weight: 400;
+    border-radius: 0;
+}
+
+#frmCheckout div#totalDueToday strong {
+    font-size: 25px;
+    font-weight: 800;
+    color: #673DE6;
+}
+
+#frmCheckout .cc-input-container div#newCardInfo, #frmCheckout .cc-input-container div#newCardSaveSettings, #frmCheckout .cc-input-container .stripe-cards-inputs {
+    padding: 0px 37px;
+}
+
+#order-standard_cart #frmCheckout .cc-input-container+.sub-heading+.row .form-group, #frmCheckout .cc-input-container div#newCardSaveSettings div#inputDescriptionContainer {
+    margin: 0;
+}
+
+#order-standard_cart #frmCheckout .cc-input-container+.sub-heading+.row .form-group textarea {
+    min-height: 125px;
+}
+
+#frmCheckout .cc-input-container .stripe-cards-inputs {
+    margin: 0px 0px 15px;
+}
+#frmCheckout button#btnCompleteOrder, #frmProductDomainSelections button#btnDomainContinue {
+    background-color: #673DE6;
+    padding: 14px 35px;
+}
+
+#frmCheckout button#btnCompleteOrder {
+    font-size: 15px;
+    padding: 14px 25px;
+    margin-top: 20px;
+}
+
+#order-standard_cart .cc-input-container .form-group {
+    margin-bottom: 6px;
+}
+
+#order-standard_cart #frmCheckout .cc-input-container+.sub-heading+.row+.text-center, #frmCheckout div#totalDueToday {
+    text-align: left !important;
+}
+
+form#frmCheckout .marketing-email-optin {
+    background-color: #fff;
+    margin-top: 20px;
+    padding: 25px;
+}
+
+#frmCheckout .cc-input-container .col-sm-3, #frmCheckout .cc-input-container .col-sm-6, #frmCheckout .cc-input-container .col-md-6, #frmCheckout .cc-input-container .col-md-3, #frmCheckout .cc-input-container .col-md-3 {
+    padding: 0px 10px;
+}
+
+#frmCheckout .cc-input-container .stripe-cards-inputs .form-control {
+    padding-top: 13px;
+}
+
+#frmCheckout .cc-input-container .stripe-cards-inputs {
+    max-width: 100%;
+}
+
+
+#frmCheckout .cc-input-container div#newCardInfo label, #frmCheckout .cc-input-container div#newCardSaveSettings label {
+    line-height: 45px;
+}
+#order-standard_cart form#frmDomainChecker .default-captcha.default-captcha-register-margin{
+    background-color: transparent;
+    border: 0;
+    box-shadow: none;
+}
+#order-standard_cart form#frmDomainChecker .default-captcha.default-captcha-register-margin p{
+    color: #fff;
+}
+#order-standard_cart form#frmDomainChecker .default-captcha.default-captcha-register-margin>div input, form#frmDomainTransfer div#captchaContainer .default-captcha input {
+    height: 32px;
+    min-height: 32px;
+}
+form#frmDomainTransfer div#captchaContainer .default-captcha {
+    background-color: transparent;
+    border: 0;
+    box-shadow: none;
+}
+form#frmDomainTransfer div#captchaContainer .default-captcha {
+    color: #fff;
+}
+#order-standard_cart .sidebar-collapsed select#gidForm{
+    font-size: 14px;
+}
+
+#order-standard_cart .products .row.row-eq-height .product div.product-desc p {
+    font-size: 12px;
+    line-height: 23px;
+    color: #0b2471;
+}
+
+#order-standard_cart .products .row.row-eq-height .form-control {
+    border-radius: 3px;
+    font-size: 13px;
+    color: #2e3442b0;
+    font-weight: 600;
+    border-radius: 2px;
+    background-color: #f3f6f9;
+    margin: 28px 0px 20px;
+    width: 100%;
+    height: 46px;
+    border: 0;
+}
+
+#order-standard_cart .products .form-inline .btn-success {
+    width: 100%;
+    padding: 12px;
+    font-size: 15px;
+    line-height: 20px;
+    color: #ffffff;
+    font-weight: 700;
+    background-color: #673DE6;
+    border: 1px solid #673DE6;
+}
+#order-standard_cart .products #product0:hover button.btn.btn-success, #order-standard_cart .products .product:hover button.btn.btn-success {
+    background-color: #e2e7ec42;
+}
+ #order-standard_cart #frmCheckout .account-select-container div.account.active label, #order-standard_cart #frmCheckout .account-select-container div.account.active label strong {
+    color: #4f7cec;
+}
+.view-announcement-cloudx, .server-status-cloudx .card, .knowledgebase-cloudx .card, .view-ticket .card-body.p-3, .card.view-ticket, div#ticketReplyContainer, .knowledgebase-article-cloudx .card, .knowledgebase-base-cat-cloudx .card, .download-cloudx .card, .download-cat-cloudx .card, .payment-methods-cloudx .card, .submit-ticket-two-cloudx .card, .payment-method-add-card .card, #frmCheckout div#totalDueToday, #frmCheckout div#paymentGatewaysContainer, #order-standard_cart #frmCheckout .cc-input-container, div#DomainSearchResults div#searchDomainInfo, div#DomainSearchResults .spotlight-tld, #order-standard_cart #frmConfigureProduct .product-info, #order-standard_cart #frmConfigureProduct .field-container, #order-standard_cart #frmConfigureProduct .addon-products .card, form#frmConfigureProduct div#orderSummary, .home-page-slider-panel, #order-standard_cart .mc-promos.viewcart .mc-promo, #order-standard_cart .mc-promos.checkout .mc-promo, form#frmAddToCart, .card-body.store-promoted-product, form#frmCheckout .marketing-email-optin, .user-management-cloudx .card, form#frmConfigureProduct div#productConfigurableOptions, .contact-page-cloudx {
+    box-shadow: 0px 1px 1.5px rgb(42 46 54 / 11%);
+    border: 0;
+    border-radius: 3px;
+}
+
+#order-standard_cart.cloudx_cart_body .cart-sidebar .list-group-item{
+    margin-bottom: 5px;
+}
+#order-standard_cart form .view-cart-items {
+    border: 0;
+}
+ #order-standard_cart #frmCheckout .sub-heading {
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+#order-standard_cart #frmCheckout .account-select-container .account.border-bottom, #order-standard_cart #frmCheckout div#containerNewUserSignup+.sub-heading+p+.row.margin-bottom {
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+#order-standard_cart .view-cart-items span.item-domain {
+    color: #673DE6;
+}
+#order-standard_cart .mc-promos.viewcart .btn-add:hover, #order-standard_cart .mc-promos.checkout .btn-add:hover,  #order-standard_cart .mc-promos.viewcart .btn-add:focus, #order-standard_cart .mc-promos.checkout .btn-add:focus {
+    border-color: #673DE6;
+    background-color: #e1f0ff63;
+    color: #673DE6;
+}
+
+#order-standard_cart #frmCheckout .sub-heading, form#frmConfigureDomains .sub-heading {
+    background-color: #fff;
+    margin: 0;
+    padding: 30px 25px 5px;
+    border-bottom: 1px solid #f1f1f1;
+    border-top: 0;
+    height: auto;
+}
+#order-standard_cart #frmCheckout .primary-bg-color{
+    background: transparent;
+    text-align: left;
+    display: inline-block;
+    width: 100%;
+    padding: 0;
+}
+#order-standard_cart #frmConfigureProduct .addon-promo-container .description p a{
+    color: #4f7cec;
+    text-decoration: none;
+}
+
+#order-standard_cart #frmConfigureProduct .addon-products .panel-body label {
+    width: 100%;
+    margin: 0 0 20px;
+}
+#order-standard_cart #frmConfigureProduct .addon-products .panel-body, #order-standard_cart #frmConfigureProduct .addon-products .panel-body label{
+    text-align: left;
+}
+#order-standard_cart #frmConfigureProduct .addon-products .panel-add, .home-page-slider-panel .promo-banner .card-body .btn-success{
+    background-color: #673DE6;
+    border: 1px solid #673DE6;
+    padding: 12px 16px;
+    color: #fff;
+    border-radius: 3px;
+    font-size: 14px;
+    font-weight: 600;
+}
+#order-standard_cart #frmCheckout div#containerNewUserSignup+.sub-heading+p+.row.margin-bottom, #order-standard_cart #frmCheckout div#containerNewUserSignup+.sub-heading+p+.row.margin-bottom+.w-hidden div#domainRegistrantInputFields {
+    margin: 0;
+}
+#order-standard_cart label, #order-standard_cart p.domain-renewal-desc {
+    color: #2f1c6e;
+}
+#order-standard_cart form .view-cart-items-header h6.view-page-tbl-head {
+    margin-bottom: 0;
+}
+#order-standard_cart form .view-cart-items-header .col-sm-4 {
+    text-align: right !important;
+}
+#order-standard_cart i.fas.fa-shopping-cart {
+    display: none;
+}
+body #order-standard_cart .products#products .product header {
+    box-shadow: none;
+}
+body .suggested-domains .promo{
+    font-size: 10px !important;
+    color: #fff !important;
+    font-weight: normal !important;
+    letter-spacing: normal;
+    border-radius: 4px;
+    line-height: 12px !important;
+    margin-left: 6px;
+}
+
+#searchDomainInfo .domain-available.domain-checker-available {
+    font-size: 22px;
+    line-height: 32px;
+    color: #fc5185;
+    font-weight: 400;
+}
+
+#searchDomainInfo p.domain-error.domain-checker-unavailable.headline {
+    font-size: 19px;
+    line-height: 28px;
+    color: #fc5185;
+    font-weight: 500;
+    max-width: 600px;
+    margin: auto;
+}
+
+#searchDomainInfo .domain-available.domain-checker-available {
+    color: #FC5185;
+    margin-bottom: 0;
+}
+
+div#DomainSearchResults div#searchDomainInfo {
+    padding: 25px;
+    margin: 20px 0px;
+}
+
+#spotlightTlds .domain-lookup-result .invalid, #spotlightTlds .btn-add-to-cart, #spotlightTlds .domain-lookup-result .unavailable, #spotlightTlds .domain-lookup-result button {
+    font-size: 11px;
+    line-height: 18px;
+    color: #4f7cec;
+    font-weight: 700;
+    border-radius: 1px;
+    background-color: #ffffff;
+    border: 1px solid #dcdee2;
+    padding: 3px 10px;
+    min-width: 80px;
+    width: auto;
+}
+
+#spotlightTlds .btn-add-to-cart span.added {
+    font-weight: 700;
+}
+
+div#DomainSearchResults .spotlight-tlds {
+    padding: 0;
+}
+
+div#DomainSearchResults div#spotlightTlds .spotlight-tld {
+    font-weight: 700;
+}
+
+#DomainSearchResults .domain-price span.price {
+    font-weight: 800;
+    margin: 13px 0px;
+    display: block;
+}
+
+div#DomainSearchResults .spotlight-tld-hot {
+    width: 90px;
+    padding: 0px 3px;
+    top: 6px;
+    right: -29px;
+}
+
+.suggested-domains .panel-heading.card-header {
+    border-bottom: 0;
+    padding: 25px;
+}
+
+#spotlightTlds .domain-lookup-result .available.price {
+    font-weight: 800;
+}
+
+#searchDomainInfo .domain-price span.register-price-label, .suggested-domains .domain-suggestions-warning p {
+    color: #4647477a;
+    display: block;
+}
+
+div#DomainSearchResults .suggested-domains a#moreSuggestions {
+    font-size: 14px;
+    line-height: 18px;
+    color: #4f7cec;
+}
+
+#DomainSearchResults div#domainSuggestions .domain-suggestion.list-group-item.w-hidden.clone button span {
+    font-size: 11px;
+    line-height: 18px;
+    color: #4f7cec;
+    font-weight: 500;
+}
+
+#DomainSearchResults div#domainSuggestions .domain-suggestion.list-group-item.w-hidden.clone button span.added {
+    font-weight: normal;
+}
+#order-standard_cart .view-cart-items span.item-domain {
+    font-weight: normal;
+}
+div#DomainSearchResults .suggested-domains .domain-suggestions-warning p {
+    max-width: 540px;
+    margin: 0 auto 10px;
+}
+
+div#DomainSearchResults .suggested-domains .panel-heading {
+    padding: 20px 25px;
+}
+
+div#DomainSearchResults .suggested-domains .panel-heading, #DomainSearchResults div#domainSuggestions .domain-suggestion.list-group-item {
+    border-bottom: 1px solid #f1f1f1;
+}
+
+#DomainSearchResults div#domainSuggestions .domain-suggestion.list-group-item button.btn {
+    background-color: #e2efff;
+    text-decoration: none;
+    padding: 3px 15px;
+    border-color: #e2efff;
+    border-radius: 2px;
+    color: #4f7cec;
+    margin-bottom: 5px;
+}
+
+#DomainSearchResults div#domainSuggestions .domain-suggestion.list-group-item button.btn.checkout {
+    border-color: #673DE6;
+}
+
+#DomainSearchResults div#domainSuggestions .domain-suggestion.list-group-item button.btn.checkout span {
+    font-weight: 700;
+}
+
+#DomainSearchResults div#domainSuggestions .domain-suggestion.list-group-item {
+    padding: 22px 25px;
+}
+
+#DomainSearchResults div#domainSuggestions .domain-suggestion.list-group-item:last-child {
+    padding-bottom: 25px;
+}
+
+
+/* ====================Register-domain-css ============================= */
+
+.knowledgebase-cloudx form .kb-search input, .knowledgebase-base-cat-cloudx form input, .download-cloudx form .kb-search input, form#frmProductDomain .domain-selection-options input, 
+.download-cat-cloudx form .kb-search input, form#frmProductDomain .domain-selection-options input {
+    font-size: 17px;
+    line-height: 22px;
+    color: #2e3442;
+    font-weight: 400;
+    border: 0;
+}
+
+.domain-checker-container .domain-checker-bg, .knowledgebase-cloudx form, .knowledgebase-base-cat-cloudx form, .download-cloudx form, .download-cat-cloudx form {
+    padding: 34px;
+    background-image: unset;
+    background-color: #e0e7fe;
+    border-radius: 3px;
+}
+
+.domain-checker-bg .row, .domain-checker-bg .col-md-8.col-md-offset-2.offset-md-2 {
+    max-width: 100%;
+    width: 100%;
+    margin: auto;
+}
+
+.domain-checker-bg .col-md-8.col-md-offset-2.offset-md-2 {
+    flex: 0 0 100%;
+    -ms-flex: 0 0 100%;
+    padding: 0;
+}
+
+
+.domain-checker-container button#btnCheckAvailability, .knowledgebase-cloudx form .kb-search input, .download-cloudx form .kb-search input, .download-cat-cloudx form .kb-search input {
+    border-radius: 3px !important;
+    height: 70px;
+}
+
+.domain-checker-container button#btnCheckAvailability, .knowledgebase-cloudx form button#btnKnowledgebaseSearch, .knowledgebase-base-cat-cloudx button#btnKnowledgebaseSearch, .download-cloudx #btnDownloadsSearch, .download-cat-cloudx #btnDownloadsSearch {
+    background-color: #FC5185;
+    margin-left: 10px;
+    min-width: 130px;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 600;
+    border: 1px solid #FC5185;
+    border-radius: 3px;
+}
+
+.domain-checker-container button#btnCheckAvailability:hover, .download-cloudx #btnDownloadsSearch:hover, .download-cat-cloudx #btnDownloadsSearch:hover, .knowledgebase-base-cat-cloudx button#btnKnowledgebaseSearch:hover, .knowledgebase-cloudx form button#btnKnowledgebaseSearch:hover, form#frmProductDomain .domain-selection-options button.btn.btn-primary:hover {
+    background-color: rgba(255, 255, 255, .102);
+    color: #FC5185;
+}
+
+.domain-pricing .featured-tld .img-container img {
+    max-width: 100px;
+}
+
+.knowledgebase-cloudx form .kb-search input::placeholder, .knowledgebase-base-cat-cloudx form input::placeholder, .download-cloudx form .kb-search input::placeholder, .download-cat-cloudx form .kb-search input::placeholder {
+    color: #2e34426b;
+    font-size: 17px;
+    font-weight: 500;
+}
+
+.domain-pricing .featured-tld .price {
+    background-color: unset;
+    color: #fff;
+    font-size: 16px;
+    line-height: 22px;
+    color: #474747;
+    font-weight: 700;
+    border-top: 1px solid #f7f7f7;
+    padding: 10px 0px;
+}
+
+.domain-pricing .featured-tld .img-container img {
+    max-width: 100px;
+    height: 35px;
+    object-fit: contain;
+    margin: auto;
+}
+
+.domain-pricing .featured-tld {
+    box-shadow: 0px 1px 1.5px rgba(42, 46, 54, 0.11);
+}
+
+.domain-pricing .featured-tld, .domain-pricing .featured-tld .img-container {
+    position: relative;
+    overflow: hidden;
+    transition: all 0.8s linear;
+    z-index: 0;
+}
+
+.domain-pricing .featured-tld::before {
+    position: absolute;
+    content: "";
+    background-color: #e1f0ff4f;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    opacity: 6;
+    width: 100%;
+    height: 100%;
+    transform: scale(0);
+}
+
+.domain-pricing .featured-tld:hover:before {
+    transform: scale(1);
+    transition: all 0.5s linear;
+    transition-delay: 0.1s;
+}
+
+.domain-pricing .featured-tld .img-container {
+    padding: 30px 0;
+    height: 95px;
+    line-height: normal;
+}
+
+.domain-pricing .featured-tlds-container .col-sm-2 {
+    display: none;
+}
+
+.domain-pricing .featured-tlds-container .col-lg-4 {
+    padding: 0px 10px;
+}
+
+.domain-pricing .featured-tlds-container {
+    padding: 0px 5px;
+    margin: 25px 0;
+}
+
+.domain-pricing .tld-filters a {
+    padding: 3px 9px;
+    border-radius: 2px;
+    font-size: 11px;
+    line-height: 15px;
+    color: #ababab;
+    background-color: #fff;
+    margin-right: 4px;
+    border: 1px solid transparent;
+}
+.domain-pricing .tld-filters a:last-child {
+    margin-right: 0;
+}
+.domain-pricing .tld-filters a:hover {
+    color: #673DE6;
+    border-color: #673DE6;
+}
+.domain-pricing .tld-filters {
+    margin: 0 0 18px 0;
+}
+.domain-pricing .tld-pricing-header>div {
+    font-size: 15px;
+    line-height: 22px;
+    color: #474747;
+    text-align: left;
+    padding: 10px;
+}
+.domain-pricing .tld-pricing-header>div .row.no-gutters>div, .domain-pricing .tld-pricing-header>div .row.no-gutters{
+    background-color: transparent;
+}
+.domain-pricing .tld-pricing-header>div .row.no-gutters>div{
+    border-color: transparent;
+}
+.domain-pricing .tld-row.filtered-row strong, .domain-pricing .tld-row.filtered-row .col-xs-4.col-4 {
+    font-size: 16px;
+    line-height: 25px;
+    color: #474747;
+}
+.domain-pricing .tld-row.filtered-row .col-xs-4.col-4 {
+    font-size: 13px;
+    text-align: left !important;
+}
+.domain-pricing .tld-row.filtered-row .col-xs-4.col-4 small{
+    font-size: 12px;
+    line-height: 25px;
+    color: #7c8088;
+    font-weight: normal;
+}
+
+.domain-pricing .tld-pricing-header {
+    align-items: center;
+}
+.domain-pricing .tld-pricing-header{
+    padding: 0px 25px;
+}
+.domain-pricing .tld-row .col-md-8 .row{
+    width: 100%;
+    margin: 0;
+}
+.domain-pricing .tld-row.filtered-row .col-xs-4.col-4:nth-of-type(3) {
+    padding-right: 0px;
+}
+
+.domain-pricing .tld-row.filtered-row .col-xs-4.col-4 small {
+    margin-top: -5px;
+    display: inherit;
+}
+.domain-pricing .bg-white {
+    border-radius: 3px;
+    box-shadow: 0px 1px 1.5px rgb(42 46 54 / 11%);
+}
+.domain-pricing .tld-row.btn:hover{
+    background-color: #f1f8ff;
+}
+
+/* ====================================================================== */
+
+/* ====================Register-domain-css-end ============================= */
+
+/* ========================================================================= */
+
+/* =======================Transfer-domain-css-start =========================== */
+
+form#frmDomainTransfer, .card.mass-payment-domain {
+    background-color: #fff;
+    border-radius: 3px;
+}
+
+form#frmDomainTransfer {
+    padding: 30px 0px;
+}
+
+form#frmDomainTransfer .card {
+    background-color: transparent;
+    border-color: transparent;
+}
+.card.mass-payment-domain .card-body label {
+    color: #727586;
+    font-weight: 400;
+    max-width: 490px;
+    margin-bottom: 4px;
+    font-size: 13px;
+}
+
+form#frmDomainTransfer div#captchaContainer {
+    padding: 10px 0px 20px;
+}
+
+form#frmDomainTransfer .col-sm-8.col-sm-offset-2.offset-sm-2, .fieldgroup-creditcard label.col-sm-4 {
+    margin: 0;
+    max-width: 100%;
+    flex: 0 0 100%;
+    -ms-flex: 0 0 100%;
+}
+
+#frmManagePaymentMethod .fieldgroup-creditcard .col-sm-2, #frmManagePaymentMethod .fieldgroup-creditcard .col-sm-7 {
+    max-width: 66.66667%;
+    flex: 0 0 66.66667%;
+    -ms-flex: 0 0 66.66667%;
+}
+
+form#frmDomainTransfer .card-body .form-group input, .card.mass-payment-domain .card-body .form-group select::placeholder, .card.mass-payment-domain button#btnMassPayMakePayment {
+    font-size: 15px;
+    color: #2e344269;
+    font-weight: 500;
+    border-radius: 3px;
+    border: 0;
+    height: 49px;
+    max-width: 490px;
+    display: block;
+    background: #f4f5ff;
+}
+
+form#frmDomainTransfer button#btnTransferDomain, div#ticketReplyContainer .form-group input.btn.btn-primary, div#ticketReplyContainer .form-group input.btn.btn-default, .submit-ticket-two-cloudx p .btn.btn-primary, .submit-ticket-two-cloudx p .btn.btn-default, form#frmManagePaymentMethod button#btnSubmit, form#frmManagePaymentMethod .form-group.submit-container .btn.btn-default, form#frmConfigureDomains button.btn.btn-primary, .modal button.btn.btn-primary, .modal button.btn.btn-default, .already-registered.clearfix button#btnAlreadyRegistered, .account-manage-cloudx .btn-primary, .account-manage-cloudx .btn-default, .account-manage-cloudx .btn-danger, .payment-methods-cloudx table#payMethodList .btn-set-default, .payment-methods-cloudx table#payMethodList .btn-default, .using-password-strength .btn-primary, .using-password-strength .btn-default, .btn-primary, .btn-default {
+    font-size: 15px;
+    line-height: 22px;
+    color: #ffffff;
+    border-radius: 50px;
+}
+
+form#frmDomainTransfer .card-footer, form#frmDomainTransfer .card-header, .card.mass-payment-domain .card-header {
+    padding: 0px 40px;
+}
+
+form#frmDomainTransfer .card-body, .card.mass-payment-domain .card-body {
+    padding: 22px 40px 0px;
+}
+
+form#frmDomainTransfer .card-header h3.card-title {
+    padding-bottom: 12px;
+    text-transform: capitalize;
+}
+.card.mass-payment-domain .card-header .card-title {
+    font-size: 22px;
+    line-height: 34px;
+    color: #2F1C6A;
+    font-weight: 700;
+    text-align: left;
+}
+
+
+form#frmDomainTransfer button#btnTransferDomain:hover {
+    background-color: transparent;
+    color: #FC5185;
+}
+
+form#frmDomainTransfer .panel-footer.card-footer {
+    text-align: left !important;
+}
+
+form#frmDomainTransfer .card-header, .card.mass-payment-domain .card-header {
+    border-bottom: 1px solid #2f1d6c;
+}
+
+form#frmDomainTransfer div#captchaContainer .default-captcha {
+    margin: 0px auto 15px 0px;
+    border: 0;
+    text-align: left;
+    width: 100%;
+    max-width: 490px;
+}
+
+/* ========================================================================= */
+
+/* =======================Transfer-domain-css-end =========================== */
+#order-standard_cart form .view-cart-items .item-price .btn-default.btn-default, .modal button.btn.btn-default {
+    color: #464646;
+}
+div#calcTaxes button.btn.btn-default {
+    color: #464747 !important;
+}
+div#containerNewUserSignup .providerPreLinking .social-signin-btns .btn.btn-social {
+    width: auto;
+    margin: 0px auto 15px;
+}
+#order-standard_cart #frmCheckout .account-select-container div.account.active span.small {
+    font-size: 12px;
+    color: #000;
+}
+a.btn.btn-default.complete-page-btn {
+    color: #000;
+}
+body #order-standard_cart #scrollingPanelContainer div#orderSummary.order-summary .summary-container .pull-right.float-right {
+    width: 100%;
+    max-width: 35%;
+    text-align: right;
+}
+#order-standard_cart #frmConfigureProduct #scrollingPanelContainer .order-summary .clearfix span.pull-right.float-right {
+    text-align: right;
+    margin-left: auto;
+}
+div#producttotal .clearfix span.pull-right.float-right {
+    margin-left: auto;
+}

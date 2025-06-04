@@ -1,0 +1,273 @@
+@media (max-width: 1240px){
+    .order-summary span.pull-left.float-left{
+        max-width: 65%;
+    }
+}
+@media (min-width: 992px){
+    body #order-standard_cart .secondary-cart-body {
+        padding-right: 8px;
+    }
+}
+@media (max-width: 991px){
+    body #order-standard_cart .secondary-cart-sidebar {
+        width: 100%;
+    }
+
+    body #order-standard_cart .secondary-cart-body {
+        margin-bottom: 20px;
+    }
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    #order-standard_cart .domain-promo-box {
+        min-height: 266px;
+    }
+}
+@media (max-width: 767px){
+    .epp-box-inpt{
+        width: 100%;
+    }
+    #order-standard_cart form#frmConfigureDomains .panel-addon{
+        display: block;
+    }
+    .row.addon-products .panel-body {
+        width: 100%;
+    }
+    form#frmConfigureDomains p {
+        padding-left: 0px;
+        line-height: 20px;
+        margin-top: 10px;
+    }
+    #order-standard_cart form#frmConfigureDomains .panel-addon .panel-add {
+        text-align: center;
+    }
+    #order-standard_cart .domain-promo-box{
+        margin-bottom: 0;
+        margin-top: 22px;
+    }
+    #order-standard_cart .domain-renewals .domain-renewal .text-right {
+        text-align: left !important;
+    }
+    .sidebar .list-group, body #order-standard_cart .domain-renewals .domain-renewal form.form-horizontal, .knowledgebase-cloudx .input-group.input-group-lg.kb-search input, .knowledgebase-cloudx .input-group.input-group-lg.kb-search button#btnKnowledgebaseSearch, .download-cloudx .input-group.input-group-lg.kb-search button#btnDownloadsSearch, .download-cat-cloudx .input-group.input-group-lg.kb-search button#btnDownloadsSearch, .download-cloudx .input-group.input-group-lg.kb-search input, .download-cat-cloudx .input-group.input-group-lg.kb-search input, .primary-content .landing-page.mail-services .content-block.tabs .nav-tabs, .primary-content .landing-page.mail-services .content-block.tabs .nav-tabs {
+        width: 100%;
+    }
+    #order-standard_cart .domain-pricing .tld-pricing-header .col-xs-4, .domain-pricing .tld-row.filtered-row .col-xs-4.col-, .primary-content .landing-page.mail-services .product-options {
+        padding: 0;
+    }
+    body #order-standard_cart .domain-renewals .domain-renewal form.form-horizontal {
+        float: none;
+    }
+
+    body #order-standard_cart .domain-renewals .form-control, html body #order-standard_cart .domain-renewals .font-size-24~p {
+        margin-bottom: 15px;
+    }
+    #order-standard_cart .domain-promo-box .clearfix p, body #order-standard_cart .domain-promo-box .font-size-24~p {
+        margin-bottom: 15px;
+    }
+    input#domainRenewalFilter {
+        min-height: 35px !important;
+    }
+    #order-standard_cart input#domainRenewalFilter {
+        width: 100% !important;
+        max-width: 100%;
+        margin-top: 10px;
+    }
+    #order-standard_cart .header-lined .float-right {
+        float: unset !important;
+    }
+    #order-standard_cart form#frmProductDomain .domain-selection-options .option:nth-of-type(2) .col-sm-2 .btn {
+        margin-left: 37px;
+    }
+
+    #order-standard_cart form#frmProductDomain .domain-selection-options .option:nth-of-type(3) .col-sm-2 {
+        max-width: 100%;
+        padding-left: 35px;
+    }
+    #order-standard_cart .domain-pricing .two-row-center {
+        padding-left: 12px !important;
+    }
+    #order-standard_cart #frmCheckout .cc-input-container label.radio-inline {
+        padding-left: 30px;
+    }
+    #order-standard_cart form#frmProductDomain .domain-selection-options .row .col-sm-8.col-sm-offset-1.offset-sm-1 {
+        padding: 0 25px 0px 20px;
+    }
+    #order-standard_cart form#frmProductDomain .domain-selection-options .row .col-sm-8.col-sm-offset-1.offset-sm-1, #frmCheckout .cc-input-container .col-sm-3, #frmCheckout .cc-input-container .col-sm-6, .store-promoted-product .col-sm-3, .store-promoted-product .col-sm-9 {
+        max-width: 100%;
+        flex: 0 0 100%;
+        -ms-flex: 0 0 100%;
+    }
+    #order-standard_cart form#frmProductDomain .domain-selection-options .row .col-sm-8.col-sm-offset-1.offset-sm-1 .row.domains-row .col-3 select {
+        width: 100%;
+        margin: 3px 0px;
+    }
+    .sidebar .list-group, body #order-standard_cart .domain-renewals .domain-renewal form.form-horizontal, .knowledgebase-cloudx .input-group.input-group-lg.kb-search input, .knowledgebase-cloudx .input-group.input-group-lg.kb-search button#btnKnowledgebaseSearch, .download-cloudx .input-group.input-group-lg.kb-search button#btnDownloadsSearch, .download-cat-cloudx .input-group.input-group-lg.kb-search button#btnDownloadsSearch, .download-cloudx .input-group.input-group-lg.kb-search input, .download-cat-cloudx .input-group.input-group-lg.kb-search input, .primary-content .landing-page.mail-services .content-block.tabs .nav-tabs, .primary-content .landing-page.mail-services .content-block.tabs .nav-tabs {
+        width: 100%;
+    }
+    body #order-standard_cart .domain-renewals .domain-renewal form.form-horizontal {
+        width: 100%;
+    }
+    #order-standard_cart .domain-pricing .tld-pricing-header .col-xs-4{
+        padding: 0;
+    }
+    #order-standard_cart .secondary-cart-body .domain-renewals form.form-horizontal .col-md-5 {
+        margin: 0 0px 5px 0;
+    }
+    #searchDomainInfo p.domain-error.domain-checker-unavailable.headline{
+        font-size: 15px;
+        margin: 0;
+    }
+    #order-standard_cart .domain-lookup-primary-results {
+        margin: 0;
+    }
+    .knowledgebase-cloudx form .kb-search input, .knowledgebase-base-cat-cloudx form input, .download-cloudx form .kb-search input, form#frmProductDomain .domain-selection-options input, .download-cat-cloudx form .kb-search input, form#frmProductDomain .domain-selection-options input{
+        font-size: 14px;
+    }
+    #frmCheckout div#paymentGatewaysContainer, #order-standard_cart #frmCheckout .cc-input-container {
+        padding: 20px 20px;
+    }
+    #order-standard_cart .cc-input-container .existing-cc-grid{
+        font-size: 11px;
+    }
+   
+    button.btn.btn-link.btn-xs.btn-remove-from-cart span.visible-xs.d-block.d-sm-none {
+        display: none !important;
+    }
+    #order-standard_cart .sidebar-collapsed{
+        padding: 0;
+    }
+    #frmCheckout .cc-input-container .stripe-cards-inputs,  #frmCheckout .cc-input-container div#newCardSaveSettings {
+        padding: 0px 15px;
+    }
+    #order-standard_cart #frmCheckout .cc-input-container label{
+        font-size: 12px;
+    }
+    #order-standard_cart form#frmDomainTransfer .card-header .font-size-24, #order-standard_cart .text-center .font-size-30, .card.mass-payment-domain .card-header .card-title{
+        font-size: 20px;
+    }
+    #searchDomainInfo .domain-available.domain-checker-available {
+        font-size: 18px;
+        line-height: 25px;
+    }
+    .abt-bx.host-raitbx.online-tred {
+        margin-top: 20px;
+    }
+}
+@media (max-width: 575px){
+    .primary-content #order-standard_cart .view-cart-items .item-price {
+        text-align: left;
+    }
+    #order-standard_cart #frmConfigureProduct .addon-promo-container label.radio-inline span {
+        padding-left: 7px;
+        width: 100%;
+    }
+    #order-standard_cart form#frmProductDomain .domain-selection-options #domainincart select{
+        width: 100%;
+    }
+    #order-standard_cart form#frmProductDomain .domain-selection-options select {
+        width: auto;
+    }
+    #order-standard_cart form#frmProductDomain .domain-selection-options .row .col-sm-8.col-sm-offset-1.offset-sm-1 {
+        padding: 0px 25px;
+        text-align: center;
+    }
+    form#frmProductDomain .domain-selection-options div#domainowndomain .col-xs-2.col-2.text-right .form-control-static {
+        margin-bottom: 16px;
+    }
+
+    #order-standard_cart form#frmProductDomain .domain-selection-options .option:first-child .col-sm-8.col-sm-offset-1.offset-sm-1 {
+        padding: 0px 0px;
+    }
+
+    #order-standard_cart form#frmProductDomain .domain-selection-options .option:first-child button.btn.btn-primary {
+        margin: 0;
+    }
+
+    #order-standard_cart form#frmProductDomain .domain-selection-options .option:nth-of-type(2) .col-sm-8.col-sm-offset-1.offset-sm-1 {
+        padding-left: 20px;
+    }
+
+    #order-standard_cart form#frmProductDomain .domain-selection-options .option:nth-of-type(2) .col-sm-2 .btn {
+        margin-left: 12px;
+    }
+
+    #order-standard_cart form#frmProductDomain .domain-selection-options .option:first-child .col-sm-2 {
+        padding: 0px 6px;
+    }
+
+    #order-standard_cart form#frmProductDomain .domain-selection-options .option:nth-of-type(3) .col-sm-9 {
+        padding-left: 12px;
+    }
+
+    #order-standard_cart form#frmProductDomain .domain-selection-options .option:nth-of-type(3) .col-sm-2 {
+        max-width: 100%;
+        padding-left: 14px;
+    }
+    #order-standard_cart .domain-renewals .domain-renewal .pull-right.float-right {
+        float: none !important;
+    }
+    #order-standard_cart form#frmProductDomain .domain-selection-options .row .col-sm-8.col-sm-offset-1.offset-sm-1 .row.domains-row .col-9, #order-standard_cart form#frmProductDomain .domain-selection-options .row .col-sm-8.col-sm-offset-1.offset-sm-1 .row.domains-row .col-3{
+        max-width: 100%;
+        flex: 0 0 100%;
+        -ms-flex: 0 0 100%;
+    }
+    
+    #order-standard_cart .domain-checker-container .input-group-box input#inputDomain, .domain-checker-container button#btnCheckAvailability, .knowledgebase-cloudx .input-group.input-group-lg.kb-search input, .knowledgebase-cloudx .input-group.input-group-lg.kb-search button#btnKnowledgebaseSearch, .download-cloudx .input-group.input-group-lg.kb-search input, .download-cloudx .input-group.input-group-lg.kb-search button#btnDownloadsSearch, .download-cat-cloudx .input-group.input-group-lg.kb-search input, .download-cat-cloudx .input-group.input-group-lg.kb-search button#btnDownloadsSearch {
+        height: 50px;
+    }
+    
+    #order-standard_cart .secondary-cart-body .view-cart-tabs .tab-content form, #frmCheckout div#totalDueToday strong {
+        display: block;
+    }
+    
+    #order-standard_cart .view-cart-items span.item-domain, #order-standard_cart form .view-cart-items .item-price span, #order-standard_cart form .view-cart-items .item-title {
+        font-size: 13px;
+    }
+    
+    #order-standard_cart .sidebar-collapsed .form-inline, #order-standard_cart .sidebar-collapsed .form-inline form {
+        width: 100%;
+        margin: 2px 0;
+    }
+    #order-standard_cart form#frmProductDomain .domain-selection-options .row .col-sm-8.col-sm-offset-1.offset-sm-1 .row.domains-row .col-9 {
+        max-width: 100%;
+    }
+    button#btnCheckAvailability {
+        margin-left: 0px !important;
+    }
+    #order-standard_cart .domain-checker-container .domain-checker-bg{
+        padding: 20px !important;
+    }
+    #order-standard_cart .domain-pricing .tld-row {
+        padding: 0px 10px 10px;
+    }
+    form#frmDomainTransfer .card-footer, form#frmDomainTransfer .card-header, .card.mass-payment-domain .card-header {
+        padding: 0px 20px;
+    }
+    form#frmDomainTransfer .card-body, .card.mass-payment-domain .card-body {
+        padding: 22px 20px 0px;
+    }
+    .row.epp-code-rows .form-group.float-right {
+        float: unset !important;
+    }
+    #order-standard_cart label, #order-standard_cart p.domain-renewal-desc{
+        margin-right: 6px;
+    }
+    #order-standard_cart form#frmConfigureDomains .panel-addon .panel-body label{
+        font-size: 12px;
+    }
+    #order-standard_cart .view-cart-tabs .promo .form-group {
+        margin-bottom: 10px;
+    }
+    .banner-text h1, .abt-bx h1{
+        line-height: 45px;
+        font-size: 40px;
+    }
+    section.hosting-features-wrp.bg-purple .titlebar {
+        margin-bottom: 20px;
+    }
+    div#creditCardInputFields {
+        overflow: auto;
+    }
+    #order-standard_cart .cc-input-container .existing-cc-grid{
+        width: 500px;
+    }
+}

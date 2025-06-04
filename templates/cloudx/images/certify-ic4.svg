@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24" height="24" viewBox="0 0 24 24">
+  <defs>
+    <clipPath id="clip-path">
+      <rect id="Rectangle_636" data-name="Rectangle 636" width="24" height="24" transform="translate(275 48.488)" fill="#07ca8d"/>
+    </clipPath>
+  </defs>
+  <g id="Mask_Group_118" data-name="Mask Group 118" transform="translate(-275 -48.488)" clip-path="url(#clip-path)">
+    <g id="speedometer_2_" data-name="speedometer (2)" transform="translate(275 48.488)">
+      <g id="Group_5059" data-name="Group 5059">
+        <path id="Path_3230" data-name="Path 3230" d="M8.96,15.693a.98.98,0,0,1,0-1.961l4.44-3.266L9.94,14.773A.983.983,0,0,1,8.96,15.693Z" transform="translate(3)" fill="#07ca8d"/>
+        <rect id="Rectangle_676" data-name="Rectangle 676" width="9.788" height="2.323" transform="translate(7.106 18.587)" fill="#07ca8d"/>
+        <path id="Path_3231" data-name="Path 3231" d="M20.485,6.605A12,12,0,0,0,1.5,20.909H3.743l1.64-.947-.724-1.255L2.55,19.925a10.552,10.552,0,0,1-1.166-4.835c0-.308.014-.613.04-.914l2.515.443.252-1.427-2.545-.449a10.612,10.612,0,0,1,2.9-5.2L6.265,9.6l1.11-.931L5.638,6.6a10.558,10.558,0,0,1,5.637-2.1V7.248h1.449V4.5a10.559,10.559,0,0,1,5.637,2.1l-1.737,2.07,1.11.931,1.724-2.055a10.613,10.613,0,0,1,2.9,5.2l-2.545.449.252,1.427,2.515-.444c.026.3.04.606.04.914a10.55,10.55,0,0,1-1.166,4.835l-2.109-1.218-.724,1.255,1.64.947H22.5a12.013,12.013,0,0,0-2.014-14.3Z" fill="#07ca8d"/>
+      </g>
+    </g>
+  </g>
+</svg>
