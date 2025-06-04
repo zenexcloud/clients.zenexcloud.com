@@ -20,7 +20,7 @@ document.addEventListener("DOMContentLoaded", function () {
     const ns1prefix = document.querySelector('input[name="ns1prefix"]');
     const ns2prefix = document.querySelector('input[name="ns2prefix"]');
 
-    if (hostname) hostname.value = "server" + Math.floor(Math.random() * 10000) + ".litehoster.com";
+    if (hostname) hostname.value = "server" + Math.floor(Math.random() * 10000) + ".zenexcloud.com";
     if (rootpw) rootpw.value = Math.random().toString(36).slice(-12);
     if (ns1prefix) ns1prefix.value = "ns1";
     if (ns2prefix) ns2prefix.value = "ns2";
