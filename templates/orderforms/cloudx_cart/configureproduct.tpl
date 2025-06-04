@@ -1,7 +1,7 @@
 {include file="orderforms/{$carttpl}/common.tpl"}
 
 <style>
-.sub-heading, .field-container {
+.server-info {
     display: none !important;
 }
 </style>
@@ -145,7 +145,7 @@ var _localLang = {
                                 <span class="primary-bg-color">{$LANG.cartconfigserver}</span>
                             </div>
 
-                            <div class="field-container">
+                            <div class="field-container server-info">
 
                                 <div class="row">
                                     <div class="col-sm-6">
