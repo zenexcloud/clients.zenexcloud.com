@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.48, created on 2025-05-31 06:30:30
+/* Smarty version 3.1.48, created on 2025-06-04 10:13:31
   from '/home/zenexcloud/public_html/billing.zenexcloud.com/templates/cloudx/includes/head.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.48',
-  'unifunc' => 'content_683aa206851f03_06921593',
+  'unifunc' => 'content_68401c4b0ab041_07628259',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '368718ce43049156aca1aa28582f272d406a4c80' => 
     array (
       0 => '/home/zenexcloud/public_html/billing.zenexcloud.com/templates/cloudx/includes/head.tpl',
-      1 => 1726855106,
+      1 => 1749023655,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_683aa206851f03_06921593 (Smarty_Internal_Template $_smarty_tpl) {
+function content_68401c4b0ab041_07628259 (Smarty_Internal_Template $_smarty_tpl) {
 ?><!-- Styling -->
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
 <link href="<?php echo call_user_func_array( $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['assetPath'][0], array( array('file'=>'all.min.css'),$_smarty_tpl ) );?>

@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.48, created on 2025-06-01 09:52:50
+/* Smarty version 3.1.48, created on 2025-06-04 10:13:31
   from '/home/zenexcloud/public_html/billing.zenexcloud.com/templates/orderforms/cloudx_cart/configureproduct.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.48',
-  'unifunc' => 'content_683c22f2da6501_06542186',
+  'unifunc' => 'content_68401c4b1576a8_58838388',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'c039a09abc1fa44c2f386279757baa31f6c40565' => 
     array (
       0 => '/home/zenexcloud/public_html/billing.zenexcloud.com/templates/orderforms/cloudx_cart/configureproduct.tpl',
-      1 => 1726854020,
+      1 => 1749031837,
       2 => 'file',
     ),
   ),
@@ -24,9 +24,44 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:orderforms/".((string)$_smarty_tpl->tpl_vars[\'carttpl\']->value)."/recommendations-modal.tpl' => 1,
   ),
 ),false)) {
-function content_683c22f2da6501_06542186 (Smarty_Internal_Template $_smarty_tpl) {
+function content_68401c4b1576a8_58838388 (Smarty_Internal_Template $_smarty_tpl) {
 $_smarty_tpl->_subTemplateRender("file:orderforms/".((string)$_smarty_tpl->tpl_vars['carttpl']->value)."/common.tpl", $_smarty_tpl->cache_id, $_smarty_tpl->compile_id, 0, $_smarty_tpl->cache_lifetime, array(), 0, true);
-echo '<script'; ?>
+?>
+
+<style>
+.sub-heading, .field-container {
+    display: none !important;
+}
+</style>
+
+<?php echo '<script'; ?>
+>
+var _localLang = {
+    'addToCart': '<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['LANG']->value['orderForm']['addToCart'], ENT_QUOTES, 'UTF-8', true);?>
+',
+    'addedToCartRemove': '<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['LANG']->value['orderForm']['addedToCartRemove'], ENT_QUOTES, 'UTF-8', true);?>
+'
+}
+<?php echo '</script'; ?>
+>
+
+<?php echo '<script'; ?>
+>
+document.addEventListener("DOMContentLoaded", function () {
+    const hostname = document.querySelector('input[name="hostname"]');
+    const rootpw = document.querySelector('input[name="rootpw"]');
+    const ns1prefix = document.querySelector('input[name="ns1prefix"]');
+    const ns2prefix = document.querySelector('input[name="ns2prefix"]');
+
+    if (hostname) hostname.value = "server" + Math.floor(Math.random() * 10000) + ".litehoster.com";
+    if (rootpw) rootpw.value = Math.random().toString(36).slice(-12);
+    if (ns1prefix) ns1prefix.value = "ns1";
+    if (ns2prefix) ns2prefix.value = "ns2";
+});
+<?php echo '</script'; ?>
+>
+
+<?php echo '<script'; ?>
 >
 var _localLang = {
     'addToCart': '<?php echo htmlspecialchars($_smarty_tpl->tpl_vars['LANG']->value['orderForm']['addToCart'], ENT_QUOTES, 'UTF-8', true);?>

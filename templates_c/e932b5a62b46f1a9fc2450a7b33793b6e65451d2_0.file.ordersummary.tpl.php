@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.48, created on 2025-05-29 05:27:48
+/* Smarty version 3.1.48, created on 2025-06-04 10:13:31
   from '/home/zenexcloud/public_html/billing.zenexcloud.com/templates/orderforms/standard_cart/ordersummary.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.48',
-  'unifunc' => 'content_6837f054051ac0_91902936',
+  'unifunc' => 'content_68401c4ba882b2_58522340',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'e932b5a62b46f1a9fc2450a7b33793b6e65451d2' => 
     array (
       0 => '/home/zenexcloud/public_html/billing.zenexcloud.com/templates/orderforms/standard_cart/ordersummary.tpl',
-      1 => 1746641212,
+      1 => 1749023655,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_6837f054051ac0_91902936 (Smarty_Internal_Template $_smarty_tpl) {
+function content_68401c4ba882b2_58522340 (Smarty_Internal_Template $_smarty_tpl) {
 if ($_smarty_tpl->tpl_vars['producttotals']->value) {?>
     <span class="product-name"><?php if ($_smarty_tpl->tpl_vars['producttotals']->value['allowqty'] && $_smarty_tpl->tpl_vars['producttotals']->value['qty'] > 1) {
 echo $_smarty_tpl->tpl_vars['producttotals']->value['qty'];?>

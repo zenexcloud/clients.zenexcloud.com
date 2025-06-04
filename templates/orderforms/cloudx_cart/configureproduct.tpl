@@ -1,4 +1,32 @@
 {include file="orderforms/{$carttpl}/common.tpl"}
+
+<style>
+.sub-heading, .field-container {
+    display: none !important;
+}
+</style>
+
+<script>
+var _localLang = {
+    'addToCart': '{$LANG.orderForm.addToCart|escape}',
+    'addedToCartRemove': '{$LANG.orderForm.addedToCartRemove|escape}'
+}
+</script>
+
+<script>
+document.addEventListener("DOMContentLoaded", function () {
+    const hostname = document.querySelector('input[name="hostname"]');
+    const rootpw = document.querySelector('input[name="rootpw"]');
+    const ns1prefix = document.querySelector('input[name="ns1prefix"]');
+    const ns2prefix = document.querySelector('input[name="ns2prefix"]');
+
+    if (hostname) hostname.value = "server" + Math.floor(Math.random() * 10000) + ".litehoster.com";
+    if (rootpw) rootpw.value = Math.random().toString(36).slice(-12);
+    if (ns1prefix) ns1prefix.value = "ns1";
+    if (ns2prefix) ns2prefix.value = "ns2";
+});
+</script>
+
 <script>
 var _localLang = {
     'addToCart': '{$LANG.orderForm.addToCart|escape}',

@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.48, created on 2025-05-31 06:30:30
+/* Smarty version 3.1.48, created on 2025-06-04 10:13:31
   from '/home/zenexcloud/public_html/billing.zenexcloud.com/templates/cloudx/includes/navbar.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.48',
-  'unifunc' => 'content_683aa2068887d7_29738970',
+  'unifunc' => 'content_68401c4b0cbf50_98926584',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '516cb95d26b55afba7ef4d4a8d700fa7976b0993' => 
     array (
       0 => '/home/zenexcloud/public_html/billing.zenexcloud.com/templates/cloudx/includes/navbar.tpl',
-      1 => 1726854018,
+      1 => 1749023655,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_683aa2068887d7_29738970 (Smarty_Internal_Template $_smarty_tpl) {
+function content_68401c4b0cbf50_98926584 (Smarty_Internal_Template $_smarty_tpl) {
 ?><ul id="nav" <?php if ($_smarty_tpl->tpl_vars['cloudx_theme_settings']->value['navigation_layout_theme'] == 'top') {?> class="navbar-nav mr-auto top-bar-nav-active"<?php } else { ?>class="side-bar-nav-active"<?php }?>>
 <?php
 $_from = $_smarty_tpl->smarty->ext->_foreach->init($_smarty_tpl, $_smarty_tpl->tpl_vars['navbar']->value, 'item');

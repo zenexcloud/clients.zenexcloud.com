@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.48, created on 2025-05-29 03:59:59
+/* Smarty version 3.1.48, created on 2025-06-04 10:13:31
   from '/home/zenexcloud/public_html/billing.zenexcloud.com/templates/twenty-one/includes/verifyemail.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.48',
-  'unifunc' => 'content_6837dbbf2c23e1_10430110',
+  'unifunc' => 'content_68401c4b0e81a8_75974609',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '4c999fac9573de02e8405e2a0510e27b24812c76' => 
     array (
       0 => '/home/zenexcloud/public_html/billing.zenexcloud.com/templates/twenty-one/includes/verifyemail.tpl',
-      1 => 1746641212,
+      1 => 1749023655,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_6837dbbf2c23e1_10430110 (Smarty_Internal_Template $_smarty_tpl) {
+function content_68401c4b0e81a8_75974609 (Smarty_Internal_Template $_smarty_tpl) {
 if ($_smarty_tpl->tpl_vars['showEmailVerificationBanner']->value) {?>
     <div class="verification-banner email-verification">
         <div class="container">

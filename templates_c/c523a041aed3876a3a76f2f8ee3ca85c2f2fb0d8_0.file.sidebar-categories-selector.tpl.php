@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.48, created on 2025-05-29 04:26:42
+/* Smarty version 3.1.48, created on 2025-06-04 10:13:31
   from '/home/zenexcloud/public_html/billing.zenexcloud.com/templates/orderforms/standard_cart/sidebar-categories-selector.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.48',
-  'unifunc' => 'content_6837e20208ba76_21277607',
+  'unifunc' => 'content_68401c4b198bd3_04046080',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'c523a041aed3876a3a76f2f8ee3ca85c2f2fb0d8' => 
     array (
       0 => '/home/zenexcloud/public_html/billing.zenexcloud.com/templates/orderforms/standard_cart/sidebar-categories-selector.tpl',
-      1 => 1746641212,
+      1 => 1749023655,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_6837e20208ba76_21277607 (Smarty_Internal_Template $_smarty_tpl) {
+function content_68401c4b198bd3_04046080 (Smarty_Internal_Template $_smarty_tpl) {
 if ($_smarty_tpl->tpl_vars['panel']->value) {?>
     <div class="m-0 panel-heading card-header">
         <h3 class="panel-title">

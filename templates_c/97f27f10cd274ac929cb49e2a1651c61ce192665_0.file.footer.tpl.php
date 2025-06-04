@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.48, created on 2025-06-02 10:18:20
+/* Smarty version 3.1.48, created on 2025-06-04 10:13:31
   from '/home/zenexcloud/public_html/billing.zenexcloud.com/templates/cloudx/footer.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.48',
-  'unifunc' => 'content_683d7a6c694fa3_90322340',
+  'unifunc' => 'content_68401c4b101d92_55232695',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '97f27f10cd274ac929cb49e2a1651c61ce192665' => 
     array (
       0 => '/home/zenexcloud/public_html/billing.zenexcloud.com/templates/cloudx/footer.tpl',
-      1 => 1748859494,
+      1 => 1749023655,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_683d7a6c694fa3_90322340 (Smarty_Internal_Template $_smarty_tpl) {
+function content_68401c4b101d92_55232695 (Smarty_Internal_Template $_smarty_tpl) {
 ?>                    </div>
 
                     </div>
@@ -152,13 +152,13 @@ echo $_smarty_tpl->tpl_vars['cloudx_email_company']->value;
  src="<?php echo call_user_func_array( $_smarty_tpl->smarty->registered_plugins[Smarty::PLUGIN_FUNCTION]['assetPath'][0], array( array('file'=>'cloudx.js'),$_smarty_tpl ) );?>
 "><?php echo '</script'; ?>
 >
-      <?php $_block_plugin1 = isset($_smarty_tpl->smarty->registered_plugins['block']['assetExists'][0][0]) ? $_smarty_tpl->smarty->registered_plugins['block']['assetExists'][0][0] : null;
-if (!is_callable(array($_block_plugin1, 'assetExists'))) {
+      <?php $_block_plugin6 = isset($_smarty_tpl->smarty->registered_plugins['block']['assetExists'][0][0]) ? $_smarty_tpl->smarty->registered_plugins['block']['assetExists'][0][0] : null;
+if (!is_callable(array($_block_plugin6, 'assetExists'))) {
 throw new SmartyException('block tag \'assetExists\' not callable or registered');
 }
 $_smarty_tpl->smarty->_cache['_tag_stack'][] = array('assetExists', array('file'=>"cloudx_overrides.js"));
 $_block_repeat=true;
-echo $_block_plugin1::assetExists(array('file'=>"cloudx_overrides.js"), null, $_smarty_tpl, $_block_repeat);
+echo $_block_plugin6::assetExists(array('file'=>"cloudx_overrides.js"), null, $_smarty_tpl, $_block_repeat);
 while ($_block_repeat) {
 ob_start();?>
         <?php echo '<script'; ?>
@@ -166,7 +166,7 @@ ob_start();?>
 "><?php echo '</script'; ?>
 >
       <?php $_block_repeat=false;
-echo $_block_plugin1::assetExists(array('file'=>"cloudx_overrides.js"), ob_get_clean(), $_smarty_tpl, $_block_repeat);
+echo $_block_plugin6::assetExists(array('file'=>"cloudx_overrides.js"), ob_get_clean(), $_smarty_tpl, $_block_repeat);
 }
 array_pop($_smarty_tpl->smarty->_cache['_tag_stack']);?>
     <div id="fullpage-overlay" class="w-hidden">

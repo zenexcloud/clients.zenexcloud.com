@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.48, created on 2025-05-31 08:29:26
+/* Smarty version 3.1.48, created on 2025-06-04 10:13:35
   from '/home/zenexcloud/public_html/billing.zenexcloud.com/templates/cloudx/contact.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.48',
-  'unifunc' => 'content_683abde6e82a49_81983491',
+  'unifunc' => 'content_68401c4f366e36_55803183',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '01d72b9757b07f41943ec5523bb8f286362dcdef' => 
     array (
       0 => '/home/zenexcloud/public_html/billing.zenexcloud.com/templates/cloudx/contact.tpl',
-      1 => 1726854008,
+      1 => 1749023655,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_683abde6e82a49_81983491 (Smarty_Internal_Template $_smarty_tpl) {
+function content_68401c4f366e36_55803183 (Smarty_Internal_Template $_smarty_tpl) {
 ?><section class="contact-wrp">
     <div class="container">
         <?php if ($_smarty_tpl->tpl_vars['sent']->value) {?>

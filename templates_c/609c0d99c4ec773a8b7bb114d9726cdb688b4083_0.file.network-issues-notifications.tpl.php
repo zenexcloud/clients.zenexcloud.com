@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.48, created on 2025-05-29 03:59:59
+/* Smarty version 3.1.48, created on 2025-06-04 10:13:31
   from '/home/zenexcloud/public_html/billing.zenexcloud.com/templates/twenty-one/includes/network-issues-notifications.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.48',
-  'unifunc' => 'content_6837dbbf2bcc07_01175749',
+  'unifunc' => 'content_68401c4b0e1cb2_08854948',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '609c0d99c4ec773a8b7bb114d9726cdb688b4083' => 
     array (
       0 => '/home/zenexcloud/public_html/billing.zenexcloud.com/templates/twenty-one/includes/network-issues-notifications.tpl',
-      1 => 1746641212,
+      1 => 1749023655,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_6837dbbf2bcc07_01175749 (Smarty_Internal_Template $_smarty_tpl) {
+function content_68401c4b0e1cb2_08854948 (Smarty_Internal_Template $_smarty_tpl) {
 if ($_smarty_tpl->tpl_vars['openNetworkIssueCounts']->value['open'] > 0) {?>
     <div class="alert alert-warning network-issue-alert m-0">
         <div class="container">

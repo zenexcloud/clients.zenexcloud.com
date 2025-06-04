@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.48, created on 2025-06-01 08:57:51
+/* Smarty version 3.1.48, created on 2025-06-04 10:13:31
   from '/home/zenexcloud/public_html/billing.zenexcloud.com/templates/orderforms/cloudx_cart/includes/product-recommendations.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.48',
-  'unifunc' => 'content_683c160fcb43d0_28932829',
+  'unifunc' => 'content_68401c4b1c1165_11934164',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'a16f281f13953e727b3677bcb228eda08a8e6009' => 
     array (
       0 => '/home/zenexcloud/public_html/billing.zenexcloud.com/templates/orderforms/cloudx_cart/includes/product-recommendations.tpl',
-      1 => 1737135264,
+      1 => 1749023655,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_683c160fcb43d0_28932829 (Smarty_Internal_Template $_smarty_tpl) {
+function content_68401c4b1c1165_11934164 (Smarty_Internal_Template $_smarty_tpl) {
 if (!empty($_smarty_tpl->tpl_vars['lastProduct']->value)) {?>
 <div class="product-added-panel panel card">
     <div class="panel-body card-body">

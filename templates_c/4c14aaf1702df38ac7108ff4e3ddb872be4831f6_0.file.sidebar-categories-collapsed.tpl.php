@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.48, created on 2025-05-29 04:26:42
+/* Smarty version 3.1.48, created on 2025-06-04 10:13:31
   from '/home/zenexcloud/public_html/billing.zenexcloud.com/templates/orderforms/standard_cart/sidebar-categories-collapsed.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.48',
-  'unifunc' => 'content_6837e202086b82_92417143',
+  'unifunc' => 'content_68401c4b18c4e5_84472073',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '4c14aaf1702df38ac7108ff4e3ddb872be4831f6' => 
     array (
       0 => '/home/zenexcloud/public_html/billing.zenexcloud.com/templates/orderforms/standard_cart/sidebar-categories-collapsed.tpl',
-      1 => 1746641212,
+      1 => 1749023655,
       2 => 'file',
     ),
   ),
@@ -21,7 +21,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:orderforms/standard_cart/sidebar-categories-selector.tpl' => 1,
   ),
 ),false)) {
-function content_6837e202086b82_92417143 (Smarty_Internal_Template $_smarty_tpl) {
+function content_68401c4b18c4e5_84472073 (Smarty_Internal_Template $_smarty_tpl) {
 ?><div class="sidebar-collapsed">
 
     <?php

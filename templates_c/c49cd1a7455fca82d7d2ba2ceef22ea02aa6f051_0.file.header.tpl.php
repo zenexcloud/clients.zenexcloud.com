@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.48, created on 2025-05-31 06:30:30
+/* Smarty version 3.1.48, created on 2025-06-04 10:13:31
   from '/home/zenexcloud/public_html/billing.zenexcloud.com/templates/cloudx/header.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.48',
-  'unifunc' => 'content_683aa2068336f7_77123033',
+  'unifunc' => 'content_68401c4b094e05_67490114',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'c49cd1a7455fca82d7d2ba2ceef22ea02aa6f051' => 
     array (
       0 => '/home/zenexcloud/public_html/billing.zenexcloud.com/templates/cloudx/header.tpl',
-      1 => 1736361118,
+      1 => 1749023655,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_683aa2068336f7_77123033 (Smarty_Internal_Template $_smarty_tpl) {
+function content_68401c4b094e05_67490114 (Smarty_Internal_Template $_smarty_tpl) {
 ?><!doctype html>
 <html lang="en">
 <head>

@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.48, created on 2025-05-29 04:26:42
+/* Smarty version 3.1.48, created on 2025-06-04 10:13:31
   from '/home/zenexcloud/public_html/billing.zenexcloud.com/templates/orderforms/standard_cart/sidebar-categories.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.48',
-  'unifunc' => 'content_6837e202082554_33129273',
+  'unifunc' => 'content_68401c4b17dc81_38441696',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '835ea4543c1e417f5ca4f1ee2fd4e46bd413b4f3' => 
     array (
       0 => '/home/zenexcloud/public_html/billing.zenexcloud.com/templates/orderforms/standard_cart/sidebar-categories.tpl',
-      1 => 1746641212,
+      1 => 1749023655,
       2 => 'file',
     ),
   ),
@@ -21,7 +21,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:orderforms/standard_cart/sidebar-categories-selector.tpl' => 1,
   ),
 ),false)) {
-function content_6837e202082554_33129273 (Smarty_Internal_Template $_smarty_tpl) {
+function content_68401c4b17dc81_38441696 (Smarty_Internal_Template $_smarty_tpl) {
 $_from = $_smarty_tpl->smarty->ext->_foreach->init($_smarty_tpl, $_smarty_tpl->tpl_vars['secondarySidebar']->value, 'panel');
 $_smarty_tpl->tpl_vars['panel']->do_else = true;
 if ($_from !== null) foreach ($_from as $_smarty_tpl->tpl_vars['panel']->value) {

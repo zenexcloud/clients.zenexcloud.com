@@ -1,11 +1,11 @@
 <?php
-/* Smarty version 3.1.48, created on 2025-05-31 06:30:30
+/* Smarty version 3.1.48, created on 2025-06-04 10:13:30
   from 'd3600ed7e2e7f6658b5087db09a9c973c15b9fe1' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.48',
-  'unifunc' => 'content_683aa20677dff6_39100052',
+  'unifunc' => 'content_68401c4aec0fd3_68530484',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
@@ -14,6 +14,6 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_683aa20677dff6_39100052 (Smarty_Internal_Template $_smarty_tpl) {
+function content_68401c4aec0fd3_68530484 (Smarty_Internal_Template $_smarty_tpl) {
 ?>VPS Server<?php }
 }

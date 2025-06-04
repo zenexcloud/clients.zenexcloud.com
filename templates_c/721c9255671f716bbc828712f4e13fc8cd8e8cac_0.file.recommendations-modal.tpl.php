@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.48, created on 2025-06-01 08:57:51
+/* Smarty version 3.1.48, created on 2025-06-04 10:13:31
   from '/home/zenexcloud/public_html/billing.zenexcloud.com/templates/orderforms/cloudx_cart/recommendations-modal.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.48',
-  'unifunc' => 'content_683c160fc911a6_72829388',
+  'unifunc' => 'content_68401c4b1a3057_45628741',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     '721c9255671f716bbc828712f4e13fc8cd8e8cac' => 
     array (
       0 => '/home/zenexcloud/public_html/billing.zenexcloud.com/templates/orderforms/cloudx_cart/recommendations-modal.tpl',
-      1 => 1726854020,
+      1 => 1749023655,
       2 => 'file',
     ),
   ),
@@ -21,7 +21,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
     'file:orderforms/".((string)$_smarty_tpl->tpl_vars[\'carttpl\']->value)."/includes/product-recommendations.tpl' => 1,
   ),
 ),false)) {
-function content_683c160fc911a6_72829388 (Smarty_Internal_Template $_smarty_tpl) {
+function content_68401c4b1a3057_45628741 (Smarty_Internal_Template $_smarty_tpl) {
 if (in_array($_smarty_tpl->tpl_vars['templatefile']->value,array('configureproductdomain','configureproduct'))) {?>
 <div class="hidden" id="divProductHasRecommendations" data-value="<?php echo $_smarty_tpl->tpl_vars['productinfo']->value['hasRecommendations'];?>
 "></div>
