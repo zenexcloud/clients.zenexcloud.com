@@ -4,6 +4,13 @@
     --white: #fff;
 }
 
+ a:hover{
+    color: var(--primary-colo) !important;
+}
+
+.badge-info{
+    background-color: var(--primary-color) !important;
+}
 
 .btn-default, .btn-warning{
     background-color: var(--primary-color) !important;
@@ -22,20 +29,20 @@
 }
 
 .float-right .btn-default{
-     background-color: transparent !important;
-     color: var(--primary-color) !important;
+    background-color: transparent !important;
+    color: var(--primary-color) !important;
 }
 
 .btn-primary, .btn-danger{
     background-color: var(--secondary-color) !important;
     border-color: var(--secondary-color) !important;
+    color: var(--white) !important;
 }
 
 .btn-primary:hover, .btn-danger:hover{
     background-color: transparent !important;
     color: var(--secondary-color) !important;
 }
-
 
 .btn-success{
     background-color: var(--primary-color) !important;
@@ -105,7 +112,7 @@ a.fgtlinks, .login-frm p a{
 }
 
 .alert-link{
-     background-color: var(--primary-color) !important;
+    background-color: var(--primary-color) !important;
 }
 
 .alert-warning{
