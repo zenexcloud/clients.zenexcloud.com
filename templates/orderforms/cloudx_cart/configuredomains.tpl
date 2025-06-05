@@ -1,4 +1,11 @@
 {include file="orderforms/{$carttpl}/common.tpl"}
+
+<style>
+.redundant {
+    display: none !important;
+}
+</style>
+
 <script>
 var _localLang = {
     'addToCart': '{$LANG.orderForm.addToCart|escape}',
@@ -153,13 +160,13 @@ var _localLang = {
 
                 {if $atleastonenohosting}
 
-                    <div class="sub-heading">
+                    <div class="sub-heading redundant">
                         <span class="primary-bg-color">{$LANG.domainnameservers}</span>
                     </div>
 
-                    <p>{$LANG.cartnameserversdesc}</p>
+                    <p class="redundant">{$LANG.cartnameserversdesc}</p>
 
-                    <div class="row">
+                    <div class="row redundant">
                         <div class="col-sm-4">
                             <div class="form-group">
                                 <label for="inputNs1">{$LANG.domainnameserver1}</label>
