@@ -11,7 +11,7 @@
 <link href="{$__assetPath__}" rel="stylesheet">
 {/assetExists}
 {assetExists file="cloudx_overrides.css"}
-  <link href="{$__assetPath__}" rel="stylesheet">
+  <link href="{$__assetPath__}?v={$smarty.now}" rel="stylesheet">
 {/assetExists}
 {if $LANG.locale == 'ar_AR' || $LANG.locale == 'fa_IR' || $LANG.locale == 'he_IL'}
   {assetExists file="cloudx_rtl.css"}

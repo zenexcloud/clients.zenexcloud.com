@@ -119,7 +119,11 @@ a.fgtlinks, .login-frm p a{
     color: var(--secondary-color) !important;
 }
 
-
+@media (max-width: 991px){
+    #order-standard_cart .panel.card.panel-default{
+        display: none !important;
+    }
+}
 
 
 
