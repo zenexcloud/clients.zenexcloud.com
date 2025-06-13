@@ -37,16 +37,6 @@
                 <p class="text-sm-left overflow-hidden">{lang key='orderForm.enterPersonalDetails'}</p>
             </div>
 
-            {if $errormessage}
-                <div class="alert alert-danger checkout-error-feedback" role="alert">
-                    <p>{$LANG.orderForm.correctErrors}:</p>
-                    <ul>
-                        {$errormessage}
-                    </ul>
-                </div>
-                <div class="clearfix"></div>
-            {/if}
-
             <form method="post" action="{$smarty.server.PHP_SELF}?a=checkout" name="orderfrm" id="frmCheckout">
                  <input type="hidden" name="checkout" value="true" />
                 <input type="hidden" name="custtype" id="inputCustType" value="{$custtype}" />
@@ -170,6 +160,10 @@
                                     <i class="fas fa-user"></i>
                                 </label>
                                 <input type="text" name="firstname" id="inputFirstName" class="field form-control" placeholder="{$LANG.orderForm.firstName}" value="{$clientsdetails.firstname}" autofocus>
+                                
+                                {if strpos($errormessage, 'first name') !== false}
+                                    <div class="text-danger">You did not enter your first name</div>
+                                {/if}
                             </div>
                         </div>
                         <div class="col-sm-6">
@@ -178,6 +172,10 @@
                                     <i class="fas fa-user"></i>
                                 </label>
                                 <input type="text" name="lastname" id="inputLastName" class="field form-control" placeholder="{$LANG.orderForm.lastName}" value="{$clientsdetails.lastname}">
+                                
+                                {if strpos($errormessage, 'last name') !== false}
+                                    <div class="text-danger">You did not enter your last name</div>
+                                {/if}
                             </div>
                         </div>
                         <div class="col-sm-6">
@@ -186,6 +184,10 @@
                                     <i class="fas fa-envelope"></i>
                                 </label>
                                 <input type="email" name="email" id="inputEmail" class="field form-control" placeholder="{$LANG.orderForm.emailAddress}" value="{$clientsdetails.email}">
+                                
+                                {if strpos($errormessage, 'email address') !== false}
+                                    <div class="text-danger">You did not enter your email address</div>
+                                {/if}
                             </div>
                         </div>
                         <div class="col-sm-6">
@@ -194,6 +196,10 @@
                                     <i class="fas fa-phone"></i>
                                 </label>
                                 <input type="tel" name="phonenumber" id="inputPhone" class="field form-control" placeholder="{$LANG.orderForm.phoneNumber}" value="{$clientsdetails.phonenumber}">
+                                
+                                {if strpos($errormessage, 'phone number') !== false}
+                                    <div class="text-danger">You did not enter your phone number</div>
+                                {/if}
                             </div>
                         </div>
                     </div>
@@ -217,6 +223,10 @@
                                     <i class="far fa-building"></i>
                                 </label>
                                 <input type="text" name="address1" id="inputAddress1" class="field form-control" placeholder="{$LANG.orderForm.streetAddress}" value="{$clientsdetails.address1}">
+                                
+                                {if strpos($errormessage, 'line 1') !== false}
+                                    <div class="text-danger">You did not enter your address (line 1)</div>
+                                {/if}
                             </div>
                         </div>
                         <div class="col-sm-12">
@@ -233,10 +243,14 @@
                                     <i class="far fa-building"></i>
                                 </label>
                                 <input type="text" name="city" id="inputCity" class="field form-control" placeholder="{$LANG.orderForm.city}" value="{$clientsdetails.city}">
+                                
+                                {if strpos($errormessage, 'city') !== false}
+                                    <div class="text-danger">You did not enter your city</div>
+                                {/if}
                             </div>
                         </div>
                         <div class="col-sm-5">
-                            <div class="form-group prepend-icon">
+                            <div class="form-group prepend-icon mb-lg-0">
                                 <label for="state" class="field-icon" id="inputStateIcon">
                                     <i class="fas fa-map-signs"></i>
                                 </label>
@@ -245,6 +259,10 @@
                                 </label>
                                 <input type="text" name="state" id="inputState" class="field form-control" placeholder="{$LANG.orderForm.state}" value="{$clientsdetails.state}">
                             </div>
+                            
+                            {if strpos($errormessage, 'state') !== false}
+                                    <div class="text-danger">You did not enter your state</div>
+                            {/if}
                         </div>
                         <div class="col-sm-3">
                             <div class="form-group prepend-icon">
@@ -252,6 +270,10 @@
                                     <i class="fas fa-certificate"></i>
                                 </label>
                                 <input type="text" name="postcode" id="inputPostcode" class="field form-control" placeholder="{$LANG.orderForm.postcode}" value="{$clientsdetails.postcode}">
+                                
+                                {if strpos($errormessage, 'postcode') !== false}
+                                    <div class="text-danger">You did not enter your postcode</div>
+                                {/if}
                             </div>
                         </div>
                         <div class="col-sm-12">
@@ -452,6 +474,14 @@
                                         <i class="fas fa-lock"></i>
                                     </label>
                                     <input type="password" name="password" id="inputNewPassword1" data-error-threshold="{$pwStrengthErrorThreshold}" data-warning-threshold="{$pwStrengthWarningThreshold}" class="field form-control" placeholder="{$LANG.clientareapassword}"{if $remote_auth_prelinked} value="{$password}"{/if}>
+                                    
+                                    {if strpos($errormessage, 'enter a password') !== false}
+                                        <div class="text-danger">You did not enter a password</div>
+                                    {/if}
+                                    
+                                    {if strpos($errormessage, ' complex password') !== false}
+                                        <div class="text-danger">The password you entered is not strong enough - please enter a more complex password</div>
+                                    {/if}
                                 </div>
                             </div>
                             <div class="col-sm-6">
@@ -460,6 +490,10 @@
                                         <i class="fas fa-lock"></i>
                                     </label>
                                     <input type="password" name="password2" id="inputNewPassword2" class="field form-control" placeholder="{$LANG.clientareaconfirmpassword}"{if $remote_auth_prelinked} value="{$password}"{/if}>
+                                    
+                                    {if strpos($errormessage, 'confirm your password') !== false}
+                                        <div class="text-danger">You did not confirm your password</div>
+                                    {/if}
                                 </div>
                             </div>
                             <div class="col-sm-6">
