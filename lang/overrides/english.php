@@ -5,12 +5,12 @@ if (!defined("WHMCS"))
 /* langugae variable for about.us page */
 $_LANG['cloudx_who_aboutUs'] = "Who we are";
 $_LANG['cloudx_platformCloudResources_aboutUS'] = "A platform of cloud resources and one-stop shop marketplace, offering .GM and other Domain Registration, Web Hosting, Cloud & Dedicated Servers to Enterprise Cloud Services for mission critical application ";
-$_LANG['cloudx_primaryButton_aboutUs'] = "Welcome to Zenex Cloud";
-$_LANG['cloudx_cloudGmCreated_aboutUs'] = "Zenex Cloud was created to provide a localized platform to propel digital transformation and the #1 cloud infrastructure in The Gambia.";
+$_LANG['cloudx_primaryButton_aboutUs'] = "Welcome to ZenexCloud";
+$_LANG['cloudx_cloudGmCreated_aboutUs'] = "ZenexCloud was created to provide a localized platform to propel digital transformation and the #1 cloud infrastructure in The Gambia.";
 $_LANG['cloudx_seeOurStory_aboutUs'] = "OUR STORY";
 $_LANG['cloudx_launchingCloudMarketplace_aboutUs'] = "The concept of launching a Cloud Marketplace in The Gambia was born out of the desire to make it easy to acquire and manage cloud resources both hosted locally in the country and outside through localized transactions and support.";
-$_LANG['cloudx_cloudInfrastructure_aboutUs'] = "Zenex Cloud - The Gambia’s #1 Cloud Infrastructure Marketplace";
-$_LANG['cloudx_infrastructureManagement_aboutUs'] = "Zenex Cloud is backed by a management team with over 75 combined years of experience in the Information Technology industry with a focus on Cloud and Infrastructure Management. Our core focus services are:";
+$_LANG['cloudx_cloudInfrastructure_aboutUs'] = "ZenexCloud - The Gambia’s #1 Cloud Infrastructure Marketplace";
+$_LANG['cloudx_infrastructureManagement_aboutUs'] = "ZenexCloud is backed by a management team with over 75 combined years of experience in the Information Technology industry with a focus on Cloud and Infrastructure Management. Our core focus services are:";
 $_LANG['cloudx_infrastructureService_aboutUs'] = "Infrastructure as a Service";
 $_LANG['cloudx_softwareService_aboutUs'] = "Software as a Service";
 $_LANG['cloudx_platformService_aboutUs'] = "Platform as a Service";
@@ -25,10 +25,10 @@ $_LANG['cloudx_daysGuaranteeDes_aboutUs'] = "Begin by purchasing the right SSL c
 $_LANG['cloudx_daysGuarantee_aboutUs'] = "20 Days Guarantee";
 $_LANG['cloudx_daysGuaranteeDes_aboutUs'] = "Begin by purchasing the right SSL certificate for your needs. Choose from the three types host and web listed .";
 $_LANG['cloudx_maintenanceSecurity_aboutUs'] = "Worried about Upgrades, Maintenance and Security?";
-$_LANG['cloudx_secureDataStorage_aboutUs'] = "Zenex Cloud, provides you with several secure data storage options locally and globally, supported by Uptime Institute Tier 3 Tier 4, which are the highest standards in the market, so that your data and information are safe and available.";
+$_LANG['cloudx_secureDataStorage_aboutUs'] = "ZenexCloud, provides you with several secure data storage options locally and globally, supported by Uptime Institute Tier 3 Tier 4, which are the highest standards in the market, so that your data and information are safe and available.";
 $_LANG['cloudx_knowMore_aboutUs'] = "Know More";
 $_LANG['cloudx_unmatchedSupport_aboutUs'] = "Unmatched 24/7 support";
-$_LANG['cloudx_lifebloodServicesBusiness_aboutUs'] = "The lifeblood of any services business comes down to one major factor, Support and Customer Service. Zenex Cloud is no different, which why we focus 100% our energy on customer delight, go out of way to deliver an exceptional experience for our clients";
+$_LANG['cloudx_lifebloodServicesBusiness_aboutUs'] = "The lifeblood of any services business comes down to one major factor, Support and Customer Service. ZenexCloud is no different, which why we focus 100% our energy on customer delight, go out of way to deliver an exceptional experience for our clients";
 $_LANG['cloudx_informationTechnologyServices_aboutUs'] = "Because information technology services need to be always-on, our team is available 24/7 to support clients when needed. Our 24/7 focuses in the following areas but not limited to:";
 $_LANG['cloudx_patchManagement_aboutUs'] = "Patch Management";
 $_LANG['cloudx_backupDisasterRecovery_aboutUs'] = "Backup and Disaster Recovery";
@@ -471,10 +471,10 @@ $_LANG['cloudxsecureStorageSolutions_homepagecustom'] = "Website Security";
 $_LANG['cloudxsecureStorageSolutionsDes_homepagecustom'] = "CloudX, provides you with the required security options to protect your website and its data. Even without sensitive data hosted on your website, it should be protected to safeguard your reputation.";
 $_LANG['cloudxlearnMore_hosting'] = "Learn More";
 $_LANG['cloudxaboutUs_homepagecustom'] = "About us";
-$_LANG['cloudxaboutUsDes_homepagecustom'] = "Zenex Cloud was created to help propel digital transformation and speed up time to market for organizations of sizes. Contact Us today to start your journey to transformation. ";
+$_LANG['cloudxaboutUsDes_homepagecustom'] = "ZenexCloud was created to help propel digital transformation and speed up time to market for organizations of sizes. Contact Us today to start your journey to transformation. ";
 $_LANG['cloudxaboutUsBtn_homepagecustom'] = "admin@bdcalling.com";
 $_LANG['cloudxaboutUsTellBtn_homepagecustom'] = "+44 7353 738623";
-$_LANG['cloudxhelpingSmallBusinesses_homepagecustom'] = "Helping Small Businesses, Enterprises and Governments harness the power of the cloud. Zenex Cloud was created to help propel your transformation and speed up your time to market.";
+$_LANG['cloudxhelpingSmallBusinesses_homepagecustom'] = "Helping Small Businesses, Enterprises and Governments harness the power of the cloud. ZenexCloud was created to help propel your transformation and speed up your time to market.";
 $_LANG['cloudxhighEndServers_homepagecustom'] = "Our Infrastructure";
 $_LANG['cloudxunattainablePromotions_homepagecustom'] = "Our Core Values";
 $_LANG['cloudxsecurity_homepagecustom'] = "Security";
@@ -482,11 +482,11 @@ $_LANG['cloudxsecurityDes_homepagecustom'] = "We take security very seriously an
 $_LANG['cloudxscalable_homepagecustom'] = "Scalable";
 $_LANG['cloudxscalableDes_homepagecustom'] = "With options to start small with only the resources required to help keep your costs low. You can scale up when needed at different stages of your business";
 $_LANG['cloudxrobust_homepagecustom'] = "Robust";
-$_LANG['cloudxrobustDes_homepagecustom'] = "Zenex Cloud was built on solid and robust foundation. Our infrastructure was born in the cloud, leveraging the worlds most robust infrastructure providers to power many of our services";
+$_LANG['cloudxrobustDes_homepagecustom'] = "ZenexCloud was built on solid and robust foundation. Our infrastructure was born in the cloud, leveraging the worlds most robust infrastructure providers to power many of our services";
 $_LANG['cloudxsecurity_homepagecustom_corevalue'] = "Honesty";
-$_LANG['cloudxsecurityDes_homepagecustom_corevalue'] = "Trust is the hardest thing to create in business and easiest to break. That’s why here at Zenex Cloud, it is our priority to always be honest and fair with our clients, staff, and partners";
+$_LANG['cloudxsecurityDes_homepagecustom_corevalue'] = "Trust is the hardest thing to create in business and easiest to break. That’s why here at ZenexCloud, it is our priority to always be honest and fair with our clients, staff, and partners";
 $_LANG['cloudxscalable_homepagecustom_corevalue'] = "Transparency";
-$_LANG['cloudxscalableDes_homepagecustom_corevalue'] = "One of our goals of creating Zenex Cloud was our relentless focus on being transparent with all aspects of our products and services. You will always know how we run our business";
+$_LANG['cloudxscalableDes_homepagecustom_corevalue'] = "One of our goals of creating ZenexCloud was our relentless focus on being transparent with all aspects of our products and services. You will always know how we run our business";
 $_LANG['cloudxrobust_homepagecustom_corevalue'] = "Accountability";
 $_LANG['cloudxrobustDes_homepagecustom_corevalue'] = "Let’s face it, we all make mistakes, however the important lessons in mistakes are owning them, learning from them and holding yourself accountable. Our promise is to do exactly that";
 /* Hosting Server Page*/
@@ -1107,8 +1107,8 @@ $_LANG['cloudxwindow_hosting_section_5_description_1'] = "Get Sarted Now";
 
 /* langugae variable for Wordpress page */
 $_LANG['cloudxwordpress_buyCheapWordpressHosting'] = "MANAGED WORDPRESS HOSTING";
-$_LANG['cloudxwordpress_openSourceCMS'] = "Fast, Secure and Managed by Zenex Cloud";
-$_LANG['cloudxwordpress_cloudGMManagedWordPressHosting'] = "Zenex Cloud Managed WordPress hosting takes away the headache of worrying about plugin, themes and WordPress version updates. Our team of WordPress experts will handle everything for you to make sure you website is always up to date and secure. With the WordPress Toolkit included in all packages,  you can be in the drivers seat and do your own updates when needed with ease.";
+$_LANG['cloudxwordpress_openSourceCMS'] = "Fast, Secure and Managed by ZenexCloud";
+$_LANG['cloudxwordpress_cloudGMManagedWordPressHosting'] = "ZenexCloud Managed WordPress hosting takes away the headache of worrying about plugin, themes and WordPress version updates. Our team of WordPress experts will handle everything for you to make sure you website is always up to date and secure. With the WordPress Toolkit included in all packages,  you can be in the drivers seat and do your own updates when needed with ease.";
 $_LANG['cloudxwordpress_getStartedNow'] = "Get Started Today";
 $_LANG['cloudxwordpress_ourHostingFeature'] = "Our Managed WordPress gives you peace of mind";
 $_LANG['cloudxwordpress_ourHostingFeatureDes'] = "Managing websites can be challenging, that's why we offer FREE control panel access with free tools to help make management easy. You also get FREE email hosting with every domain hosted.";
@@ -1225,16 +1225,16 @@ $_LANG['cloudx_popular_label_layout_3'] = "MOST POPULAR";
 
 /* langugae variable for Register page */
 $_LANG['registerAccount'] = "Register Account";
-$_LANG['createCloudGMaccount'] = "Create a Free Zenex Cloud account.";
+$_LANG['createCloudGMaccount'] = "Create a Free ZenexCloud account.";
 $_LANG['or'] = "or";
 
 /* langugae variable for login page */
-$_LANG['welcomeToCloudGM'] = "Welcome to Zenex Cloud";
-$_LANG['loginCloudGMaccount'] = "Login to your Zenex Cloud account.";
+$_LANG['welcomeToCloudGM'] = "Welcome to ZenexCloud";
+$_LANG['loginCloudGMaccount'] = "Login to your ZenexCloud account.";
 
 
 /* langugae variable for Contact page */
-$_LANG['title_contact'] = "Zenex Cloud";
+$_LANG['title_contact'] = "ZenexCloud";
 $_LANG['titleDes_contact'] = "2 holme road, E6 1LY, London, United Kingdom";
 $_LANG['phoneNumber_contact'] = "Phone number";
 $_LANG['phoneNumberDes_contact'] = "+44 7353 738623";
