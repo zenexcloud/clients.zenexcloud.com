@@ -3,60 +3,6 @@
        <div class="hero-slide-bx">
           <div class="container">
              <div class="row">
-                <div class="col-md-6 col-sm-12" id="one">
-                   <div class="banner-text">
-                      <h1>{$LANG.cloudxcloudHosting_homepagecustom}</h1>
-                      <h6>{$LANG.cloudxstartYourDigital_homepagecustom}</h6>
-                      <ul>
-                         <li>{$LANG.cloudxmicrosoftTeams_homepagecustom}</li>
-                         <li>{$LANG.cloudxexchangeOnline_homepagecustom}</li>
-                         <li>{$LANG.cloudxoneDrive_homepagecustom}</li>
-                         <li>{$LANG.cloudxofficeWebApps_homepagecustom}</li>
-                      </ul>
-                      <div class="btn-group">
-                         <a href="{$WEB_ROOT}/microsoft-365-business.php" class="btn-main">{$LANG.cloudxmicrosoftBtn_homepagecustom}</a>
-                         <a href="{$WEB_ROOT}/microsoft-365-business.php" class="btn-main termbtn">{$LANG.cloudxteamsBtn_homepagecustom}</a>
-                      </div>
-                   </div>
-                </div>
-                <div class="col-md-6 col-sm-12" id="two">
-                   <div class="banner-img">
-                      <img src="{$WEB_ROOT}/templates/{$template}/images/banner-img.svg" alt="">
-                   </div>
-                </div>
-             </div>
-          </div>
-       </div>
-       <div class="hero-slide-bx">
-          <div class="container">
-             <div class="row">
-                <div class="col-md-6 col-sm-6">
-                   <div class="banner-text">
-                      <h1>{$LANG.cloudxcloudHosting_homepagecustom_slide2}</h1>
-                      <h6>{$LANG.cloudxstartYourDigital_homepagecustom_slide2}</h6>
-                      <ul>
-                         <li>{$LANG.cloudxmicrosoftTeams_homepagecustom_slide2}</li>
-                         <li>{$LANG.cloudxexchangeOnline_homepagecustom_slide2}</li>
-                         <li>{$LANG.cloudxoneDrive_homepagecustom_slide2}</li>
-                         <li>{$LANG.cloudxofficeWebApps_homepagecustom_slide2}</li>
-                      </ul>
-                      <div class="btn-group">
-                         <a href="{$WEB_ROOT}/enterprise-server.php" class="btn-main">{$LANG.cloudxmicrosoftBtn_homepagecustom_slide2}</a>
-                         <a href="{$WEB_ROOT}/enterprise-server.php" class="btn-main termbtn">{$LANG.cloudxteamsBtn_homepagecustom_slide2}</a>
-                      </div>
-                   </div>
-                </div>
-                <div class="col-md-6 col-sm-6">
-                   <div class="banner-img">
-                      <img src="{$WEB_ROOT}/templates/{$template}/images/banner-img2.svg" alt="">
-                   </div>
-                </div>
-             </div>
-          </div>
-       </div>
-       <div class="hero-slide-bx">
-          <div class="container">
-             <div class="row">
                 <div class="col-md-6 col-sm-6">
                    <div class="banner-text">
                       <h1>{$LANG.cloudxcloudHosting_homepagecustom_slide3}</h1>
@@ -68,8 +14,7 @@
                          <li>{$LANG.cloudxofficeWebApps_homepagecustom_slide3}</li>
                       </ul>
                       <div class="btn-group">
-                         <a href="{$WEB_ROOT}/hosting-server.php" class="btn-main">{$LANG.cloudxmicrosoftBtn_homepagecustom_slide3}</a>
-                         <a href="{$WEB_ROOT}/hosting-server.php" class="btn-main termbtn">{$LANG.cloudxteamsBtn_homepagecustom_slide3}</a>
+                         <a href="{$WEB_ROOT}/vps-servers.php" class="btn-main">Private Servers</a>
                       </div>
                    </div>
                 </div>
@@ -110,7 +55,9 @@
     </div>
     {/if}
  </section>
+ 
  {include file="$template/custom_file/common_price_file/plan-section-layout-without-billcycle.tpl"}
+ 
  <section class="secure-wrp">
     <div class="container">
        <div class="row">
@@ -123,7 +70,6 @@
              <div class="secure-data">
                 <h2>{$LANG.cloudxsecureStorageSolutions_homepagecustom}</h2>
                 <p>{$LANG.cloudxsecureStorageSolutionsDes_homepagecustom}</p>
-                <a href="{$WEB_ROOT}/index.php?rp=/store/sitelock" class="btn-main">{$LANG.cloudxlearnMore_hosting}</a>
              </div>
           </div>
        </div>
