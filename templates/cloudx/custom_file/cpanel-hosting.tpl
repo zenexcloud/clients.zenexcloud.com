@@ -3,12 +3,9 @@
        <div class="row">
           <div class="col-md-6 col-sm-12">
              <div class="abt-bx host-raitbx">
-                <h1>{$LANG.cpanelHosting}</h1>
+                <h1>cPanel Hosting</h1>
                 <h6>{$LANG.sharedDedicatedPackages_hosting}</h6>
-                <p>{$LANG.whetherStartup_hosting}</p>
-                <div class="btn-group">
-                   <a href="#" class="btn-main tell-btn">{$LANG.orderNow_hosting}</a>
-                </div>
+                <p>Whether you're a startup or an enterprise, ZenexCloud's cPanel Hosting has the flexibility and reliability to support your online presence.</p>
              </div>
           </div>
           <div class="col-md-6 col-sm-12">
@@ -19,232 +16,135 @@
        </div>
     </div>
  </section>
- {include file="$template/custom_file/common_price_file/plan-section-layout-with-billcycle.tpl"}
+ 
+ {include file="$template/custom_file/common_price_file/plan-section-layout-with-cpanel-billcycle.tpl"}
+ 
  <section class="hosting-features-wrp bg-purple">
     <div class="container">
        <div class="titlebar">
-          <h2>{$LANG.ourHostingFeature_hosting}</h2>
-          <p>{$LANG.ourHostingFeatureDes_hosting}</p>
+          <h2>Included with Every Hosting Plan – At No Extra Cost</h2>
+          <p>Running a business website can be challenging — but you’re never alone. </br> At ZenexCloud, we’re always just an email, phone call, or live chat away — 24/7, every day of the year.</p>
        </div>
        <div class="row">
           <div class="col-md-4 col-sm-6">
              <div class="hosting-block">
-                <img src="{$WEB_ROOT}/templates/{$template}/images/host-ic1.svg" alt="">
-                <h3>{$LANG.freeDomainName_hosting}</h3>
-                <p>{$LANG.freeDomainNameDes_hosting}</p>
-             </div>
-          </div>
-          <div class="col-md-4 col-sm-6">
-             <div class="hosting-block">
                 <img src="{$WEB_ROOT}/templates/{$template}/images/host-ic2.svg" alt="">
                 <h3>{$LANG.freePersonalisedEmail_hosting}</h3>
-                <p>{$LANG.freePersonalisedEmailDes_hosting}</p>
+                <p>Create a professional email address that matches your domain (e.g., you@yourdomain.com). Need more mailboxes? Add extras anytime with ease.</p>
              </div>
           </div>
           <div class="col-md-4 col-sm-6">
              <div class="hosting-block">
                 <img src="{$WEB_ROOT}/templates/{$template}/images/host-ic3.svg" alt="">
                 <h3>{$LANG.freeEncryptSSL_hosting}</h3>
-                <p>{$LANG.freeEncryptSSLDes_hosting}</p>
+                <p>Secure your website with a free SSL certificate from Let’s Encrypt. Automatically included with every hosting package for better trust and SEO.</p>
              </div>
           </div>
           <div class="col-md-4 col-sm-6">
              <div class="hosting-block">
                 <img src="{$WEB_ROOT}/templates/{$template}/images/host-ic4.svg" alt="">
                 <h3>{$LANG.freeWeeklyBackup_hosting}</h3>
-                <p>{$LANG.freeWeeklyBackupDes_hosting}</p>
+                <p>Your website is automatically backed up every week, giving you peace of mind in case something goes wrong.</p>
              </div>
           </div>
           <div class="col-md-4 col-sm-6">
              <div class="hosting-block">
                 <img src="{$WEB_ROOT}/templates/{$template}/images/host-ic5.svg" alt="">
                 <h3>{$LANG.freeSiteMigration_hosting}</h3>
-                <p>{$LANG.freeSiteMigrationDes_hosting}</p>
+                <p>Moving from another host? No problem. Our experts will handle the full migration of your shared hosting account quickly and at no extra cost.</p>
              </div>
           </div>
           <div class="col-md-4 col-sm-6">
              <div class="hosting-block">
                 <img src="{$WEB_ROOT}/templates/{$template}/images/host-ic6.svg" alt="">
                 <h3>{$LANG.oneClickWordPressHosting_hosting}</h3>
-                <p>{$LANG.oneClickWordPressHostingDes_hosting}</p>
+                <p>Install WordPress, Joomla, Drupal, and over 200 web applications with just one click. No technical skills required.</p>
              </div>
           </div>
        </div>
     </div>
  </section>
- <section class="why-choose-wrp">
+
+
+<!-- FAQ -->
+<section class="faq-wrapper">
     <div class="container">
-       <div class="titlebar">
-          <h2>{$LANG.whyChooseUs_hosting}</h2>
-          <p>{$LANG.whyChooseUsDes_hosting}</p>
-       </div>
-       <div class="serv-maintabs">
-          <ul class="nav nav-tabs" id="myTab" role="tablist">
-             <li class="nav-item" role="presentation">
-                <button class="nav-link active" id="whytb1-tab" data-bs-toggle="tab" data-bs-target="#whytb1" type="button" role="tab" aria-controls="home" aria-selected="true">{$LANG.infrastructureTechnology_hosting}</button>
-             </li>
-             <li class="nav-item" role="presentation">
-                <button class="nav-link" id="whytb2-tab" data-bs-toggle="tab" data-bs-target="#whytb2" type="button" role="tab" aria-controls="profile" aria-selected="false">{$LANG.freeOneClickInstalls_hosting}</button>
-             </li>
-             <li class="nav-item" role="presentation">
-                <button class="nav-link" id="whytb3-tab" data-bs-toggle="tab" data-bs-target="#whytb3" type="button" role="tab" aria-controls="profile" aria-selected="false">{$LANG.sslCertificate_hosting}</button>
-             </li>
-             <li class="nav-item" role="presentation">
-                <button class="nav-link" id="whytb4-tab" data-bs-toggle="tab" data-bs-target="#whytb4" type="button" role="tab" aria-controls="profile" aria-selected="false">{$LANG.support_hosting}</button>
-             </li>
-          </ul>
-       </div>
-       <div class="tab-content" id="myTabContent">
-          <div class="tab-pane fade show active" id="whytb1" role="tabpanel" aria-labelledby="whytb1-tab">
-             <div class="why-row">
-                <div class="row">
-                   <div class="col-md-6 col-sm-12">
-                      <div class="why-cloud-bx">
-                         <h3>{$LANG.cloudxhosting_ultraFastCloudInfrastructure}</h3>
-                         <p>{$LANG.cloudxhosting_benefitsCloudSimplicitySharedHosting}</p>
-                         <ul>
-                            <li>{$LANG.cloudxhosting_intelXeonProcessors}</li>
-                            <li>{$LANG.cloudxhosting_postgresSQL}</li>
-                            <li>{$LANG.cloudxhosting_GBRAM}</li>
-                            <li>{$LANG.cloudxhosting_antiSpamVirusProtection}</li>
-                            <li>{$LANG.cloudxhosting_24x7Support}</li>
-                            <li>{$LANG.cloudxhosting_secureFTPAccess}</li>
-                            <li>{$LANG.cloudxhosting_protectedOSDrive}</li>
-                            <li>{$LANG.cloudxhosting_hotlinkLeechProtection}</li>
-                            <li>{$LANG.cloudxhosting_apache}</li>
-                            <li>{$LANG.cloudxhosting_phpMyAdminAccess}</li>
-                            <li>{$LANG.cloudxhosting_PHPPerlPython}</li>
-                            <li>{$LANG.cloudxhosting_onlineeMailAddressBook}/li>
-                            <li>{$LANG.cloudxhosting_freeDNSManagement}/</li>
-                            <li>{$LANG.cloudxhosting_mySQL}/</li>
-                         </ul>
-                      </div>
-                   </div>
-                   <div class="col-md-6 col-sm-12">
-                      <div class="why-ul">
-                         <ul>
-                            <li>
-                               <div class="whyimg">
-                                  <img src="{$WEB_ROOT}/templates/{$template}/images/us-ic1.svg" alt="">
-                               </div>
-                               <div class="why-indt">
-                                  <h4>{$LANG.reliablePower_hosting}</h4>
-                                  <p>{$LANG.reliablePowerDes_hosting}</p>
-                               </div>
-                            </li>
-                            <li>
-                               <div class="whyimg">
-                                  <img src="{$WEB_ROOT}/templates/{$template}/images/us-ic2.svg" alt="">
-                               </div>
-                               <div class="why-indt">
-                                  <h4>{$LANG.hvacProtection_hosting}</h4>
-                                  <p>{$LANG.hvacProtectionDes_hosting}</p>
-                               </div>
-                            </li>
-                            <li>
-                               <div class="whyimg">
-                                  <img src="{$WEB_ROOT}/templates/{$template}/images/us-ic3.svg" alt="">
-                               </div>
-                               <div class="why-indt">
-                                  <h4>{$LANG.networkSecurity_hosting}</h4>
-                                  <p>{$LANG.networkSecurityDes_hosting}</p>
-                               </div>
-                            </li>
-                         </ul>
-                      </div>
-                   </div>
+        <h2>Frequently Asked Questions – cPanel Hosting</h2>
+
+        <div class="accordion" id="accordionExample">
+            <div class="accordion-item active">
+                <h3 class="accordion-header" id="headingOne">
+                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">What is cPanel Hosting?</button>
+                </h3>
+                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <p>cPanel Hosting is web hosting that includes the cPanel control panel — a user-friendly interface that allows you to manage your website, files, emails, domains, databases, and more, all from one place. It’s ideal for beginners and advanced users alike.</p>
+                    </div>
                 </div>
-             </div>
-          </div>
-          <div class="tab-pane fade" id="whytb2" role="tabpanel" aria-labelledby="whytb2-tab">
-             <div class="why-row">
-                <div class="row">
-                   <div class="col-md-6 col-sm-12">
-                      <div class="why-cloud-bx free-install">
-                         <h3>{$LANG.installPopularApplications_hosting}</h3>
-                         <p>{$LANG.installPopularApplicationsDes_hosting}</p>
-                         <a href="#" class="btn-main">{$LANG.ourOneClickApps_hosting}</a>
-                      </div>
-                   </div>
-                   <div class="col-md-6 col-sm-12">
-                      <div class="freeimg">
-                         <img src="{$WEB_ROOT}/templates/{$template}/images/free-img.svg" alt="">
-                      </div>
-                   </div>
-                </div>
-             </div>
-          </div>
-          <div class="tab-pane fade" id="whytb3" role="tabpanel" aria-labelledby="whytb3-tab">
-             <div class="why-row">
-                <div class="row">
-                   <div class="col-md-6 col-sm-12">
-                      <div class="why-cloud-bx free-install">
-                         <h3>{$LANG.freeSSLCertificate_hosting}</h3>
-                         <p>{$LANG.freeSSLCertificateDes_hosting}</p>
-                         <a href="#" class="btn-main">{$LANG.cloudxlearnMore_hosting}</a>
-                      </div>
-                   </div>
-                   <div class="col-md-6 col-sm-12">
-                      <div class="freeimg">
-                         <img src="{$WEB_ROOT}/templates/{$template}/images/your-site.svg" alt="">
-                      </div>
-                   </div>
-                </div>
-             </div>
-          </div>
-          <div class="tab-pane fade" id="whytb4" role="tabpanel" aria-labelledby="whytb4-tab">
-             <div class="why-row">
-                <div class="titlebar">
-                   <h2>{$LANG.supportWeKnow_hosting}</h2>
-                   <p>{$LANG.supportWeKnowDes_hosting}</p>
-                </div>
-                <div class="row">
-                   <div class="col-md-4 col-sm-12">
-                      <div class="cnt-infbx">
-                         <div class="cnt-lf-dt">
-                            <h3>{$LANG.phoneNumber_hosting}</h3>
-                            <p>{$LANG.phoneNumberDes_hosting}</p>
-                         </div>
-                         <div class="cnt-icbx">
-                            <i class="fas fa-phone-alt"></i>
-                         </div>
-                      </div>
-                   </div>
-                   <div class="col-md-4 col-sm-12">
-                      <div class="cnt-infbx">
-                         <div class="cnt-lf-dt">
-                            <h3>{$LANG.email_hosting}</h3>
-                            <p>{$LANG.emailDes_hosting}</p>
-                         </div>
-                         <div class="cnt-icbx">
-                            <i class="fas fa-envelope"></i>
-                         </div>
-                      </div>
-                   </div>
-                   <div class="col-md-4 col-sm-12">
-                      <div class="cnt-infbx">
-                         <div class="cnt-lf-dt">
-                            <h3>{$LANG.addressOffice_hosting}</h3>
-                            <p>{$LANG.addressOfficeDes_hosting}</p>
-                         </div>
-                         <div class="cnt-icbx">
-                            <i class="fas fa-location-arrow"></i>
-                         </div>
-                      </div>
-                   </div>
-                </div>
-             </div>
-          </div>
-       </div>
-    </div>
- </section>
- <div class="get-start-bx cpanel-bn">
-   <div class="container">
-      <div class="start-block-below">
-            <div class="get-infobx">
-               <h2>{$LANG.bestManagedCloud_hosting}</h2>
             </div>
-            <a href="#" class="btn-main">{$LANG.getSartedNow_hosting}</a>
-      </div>
-   </div>
-</div>
+            <div class="accordion-item">
+                <h3 class="accordion-header" id="headingTwo">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo"> Is cPanel included with all hosting plans? </button>
+                </h3>
+                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <p>Yes, cPanel is included for free with all ZenexCloud shared and dedicated hosting packages. You’ll have full access to all its features upon setup.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h3 class="accordion-header" id="headingthree">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsethree" aria-expanded="false" aria-controls="collapsethree">Do I need technical knowledge to use cPanel?</button>
+                </h3>
+                <div id="collapsethree" class="accordion-collapse collapse" aria-labelledby="headingthree" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <p>Not at all. cPanel is designed to be intuitive and easy to use. With its graphical interface and helpful tools, you can manage your website and services without any coding or server admin experience.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h3 class="accordion-header" id="headingfour">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsefour" aria-expanded="false" aria-controls="collapsefour">Can I install WordPress and other apps using cPanel?</button>
+                </h3>
+                <div id="collapsefour" class="accordion-collapse collapse" aria-labelledby="headingfour" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <p>Yes! With one-click installers like Softaculous integrated into cPanel, you can install WordPress, Joomla, Drupal, Magento, and over 200 other apps in just a few seconds.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="accordion-item">
+                <h3 class="accordion-header" id="headingfive">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapsefive" aria-expanded="false" aria-controls="collapsefive"> Is email hosting included with cPanel hosting? </button>
+                </h3>
+                <div id="collapsefive" class="accordion-collapse collapse" aria-labelledby="headingfive" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <p>Yes, you can create and manage professional email accounts using your domain name (e.g., info@yourdomain.com) directly within cPanel. You can also access webmail, set up spam filters, and configure autoresponders.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="accordion-item">
+                <h3 class="accordion-header" id="headingSix">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix"> How do I secure my site with SSL in cPanel? </button>
+                </h3>
+                <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <p>All ZenexCloud hosting plans include a free SSL certificate via Let’s Encrypt. You can easily install and manage your SSL certificate directly through the cPanel dashboard.</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="accordion-item">
+                <h3 class="accordion-header" id="headingSeven">
+                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven"> Can I upgrade my hosting plan later? </button>
+                </h3>
+                <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven" data-bs-parent="#accordionExample">
+                    <div class="accordion-body">
+                        <p>Absolutely. As your website grows, you can upgrade your hosting plan anytime to accommodate more resources — and you’ll continue using the same cPanel interface you're familiar with.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- End FAQ -->

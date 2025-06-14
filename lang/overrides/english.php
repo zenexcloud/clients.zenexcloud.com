@@ -1221,7 +1221,7 @@ $_LANG['cloudx_ip_add'] = "IP Addresses";
 $_LANG['cloudx_sl'] = "Server Locations";
 $_LANG['cloudx_pr'] = "Price";
 $_LANG['cloudx_buy_now_button'] = "Buy Now";
-$_LANG['cloudxVPS_simpleTransparentPricingWithCycle'] = "Simple & Affordable Hosting Plans";
+$_LANG['cloudxVPS_simpleTransparentPricingWithCycle'] = "Simple & Affordable VPS Plans";
 $_LANG['cloudx_popular_label_layout_3'] = "MOST POPULAR";
 
 /* langugae variable for Register page */
