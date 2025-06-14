@@ -3,13 +3,9 @@
             <div class="row">                
                 <div class="col-md-6 col-sm-12" id="one">
                     <div class="abt-bx host-raitbx">
-                        <h1>{$LANG.cloudxVPS_vpsSSD}</h1>
+                        <h2>{$LANG.cloudxVPS_vpsSSD}</h2>
                         <h6>{$LANG.cloudxVPS_highPerformanceVPS}</h6>
                         <p>{$LANG.cloudxVPS_highPerformanceServers}</p>
-
-                        <div class="btn-group">
-                            <a href="#" class="btn-main tell-btn">{$LANG.cloudxVPS_getStartedNow}</a>
-                        </div>
                     </div>
                 </div>
                 <div class="col-md-6 col-sm-12" id="two">
@@ -74,15 +70,7 @@
                                         <p>{$LANG.cloudxVPS_fullRootAccessDes}</p>
                                     </div>
                                 </li>
-                                <li>
-                                    <div class="whyimg">
-                                        <img src="{$WEB_ROOT}/templates/{$template}/images/vps-ic2.svg" alt="">
-                                    </div>
-                                    <div class="why-indt">
-                                        <h4>{$LANG.cloudxVPS_integratedCpanel}</h4>
-                                        <p>{$LANG.cloudxVPS_integratedCpanelDes}</p>
-                                    </div>
-                                </li>
+
                                 <li>
                                     <div class="whyimg">
                                         <img src="{$WEB_ROOT}/templates/{$template}/images/vps-ic3.svg" alt="">
@@ -90,6 +78,16 @@
                                     <div class="why-indt">
                                         <h4>{$LANG.cloudxVPS_nearInstantProvisioning}</h4>
                                         <p>{$LANG.cloudxVPS_nearInstantProvisioningDes}</p>
+                                    </div>
+                                </li>
+                                
+                                <li>
+                                    <div class="whyimg">
+                                        <img src="{$WEB_ROOT}/templates/{$template}/images/vps-ic2.svg" alt="">
+                                    </div>
+                                    <div class="why-indt">
+                                        <h4> Scalable Performance </h4>
+                                        <p>Easily upgrade your resources as your traffic grows. Add more CPU, RAM, or storage without needing to migrate your server.</p>
                                     </div>
                                 </li>
                             </ul>
@@ -161,28 +159,8 @@
     </section>
     <!-- End Hosting Features -->
 
-    <!-- Hosting -->
-    <section class="about-wrp risk-factor-section">
-        <div class="container">
-            <div class="row">                
-                <div class="col-md-6 col-sm-12" id="one">
-                    <div class="abt-bx host-raitbx">
-                        <h2>{$LANG.cloudxVPS_riskFreeTrial}</h2>
-                        <p>{$LANG.cloudxVPS_riskFreeTrialDes}</p>
-                    </div>
-                </div>
-                <div class="col-md-6 col-sm-12" id="two">
-                    <div class="web-img">
-                        <img src="{$WEB_ROOT}/templates/{$template}/images/trail-img.svg" alt="">
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- End Hosting -->
-
     <!-- Why Us -->
-    <section class="why-choose-wrp why-us-server">
+    <section class="why-choose-wrp why-us-server mt-4">
         <div class="container">
             <div class="titlebar">
                 <h2>{$LANG.cloudxVPS_technicalSpecifications}</h2>
@@ -298,13 +276,4 @@
         </div>
     </section>
     <!-- End FAQ -->
-<div class="get-start-bx bg-purple">
-   <div class="container">
-      <div class="start-block-below">
-            <div class="get-infobx">
-               <h2>{$LANG.cloudxVPS_chooseBestManagedCloudHosting}</h2>
-            </div>
-            <a href="#" class="btn-main">{$LANG.cloudxVPS_getSartedNow}</a>
-      </div>
-   </div>
-</div>
+    

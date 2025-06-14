@@ -5,7 +5,8 @@
         {if $cloudx_product_data['result_count'] gt 0}
             <div class="titlebar">
                 <h2>{$LANG.cloudxVPS_simpleTransparentPricingWithCycle}</h2>
-                <p>{$LANG.cloudxVPS_simpleTransparentPricingDesWithCycle}</p>
+                <p class="mb-2"><b>{$LANG.cloudxVPS_simpleTransparentPricingDesWithCycle}</b></p>
+                <p>{$LANG.cloudxVPS_simpleTransparentPricingShortDesWithCycle}</p>
             </div>
             {if $cloudx_product_data['product_cycles_count'] gt 0 }
                 <div class="serv-maintabs">
