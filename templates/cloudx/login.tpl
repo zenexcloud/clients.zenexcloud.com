@@ -35,6 +35,16 @@
                         <p>{lang key='userLogin.notRegistered'} <a href="{$WEB_ROOT}/register.php">{lang key='userLogin.createAccount'}</a></p>
                     </form>
                     {include file="$template/includes/linkedaccounts.tpl" linkContext="login" customFeedback=true}
+                    
+                    
+                    <div class="text-center mt-2">
+                       <a href="{$systemurl}modules/addons/google_login_integration/oauth2redirect.php">
+                           <button style="background:#4285F4; color:white; padding:8px 16px; border:none; border-radius:4px;" type="button">
+                              <i class="fab fa-google"></i> Login with Google
+                           </button>
+                       </a>
+                    </div>
+
                 </div>
             </div>
         </div>
