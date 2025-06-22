@@ -131,5 +131,7 @@ a.fgtlinks, .login-frm p a{
     }
 }
 
-
+.domain-checker-available {
+    color: var(--primary-color) !important;
+}
 
