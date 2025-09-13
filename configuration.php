@@ -14,3 +14,6 @@ $db_tls_verify_cert = '';
 $cc_encryption_hash = 'clqtryXM2ThBjylaOFHAUo7ORkMKiD4oFzN2QTx8gk79KQfkn7dFQKjNHLuFomnk';
 $templates_compiledir = 'templates_c';
 $mysql_charset = 'utf8';
+
+
+$customadminpath = "lumen-bridge07";
