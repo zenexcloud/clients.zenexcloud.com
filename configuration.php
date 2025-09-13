@@ -17,3 +17,5 @@ $mysql_charset = 'utf8';
 
 
 $customadminpath = "lumen-bridge07";
+$crons_dir = '/home/zenexcloud/whmcs_crons/';
+$templates_compiledir = '/home/zenexcloud/templates_c/';
