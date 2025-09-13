@@ -1,0 +1,29 @@
+{
+  "schema": "1.0",
+  "type": "whmcs-addons",
+  "name": "ticket_bot",
+  "license": "proprietary",
+  "category": "utilities",
+  "version": "1.0.0",
+  "description": {
+    "name": "Ticket BOT",
+    "tagline": "AI-Powered Ticket Replies for Faster, Smarter Support",
+    "short": "Seamlessly integrate OpenAI into WHMCS to auto-suggest or draft professional ticket responses, helping your support team reply faster and more efficiently.",
+    "long": "Ticket BOT is a powerful WHMCS addon that leverages the intelligence of OpenAI to streamline your support workflow. With this addon, your support agents can instantly generate AI-powered reply suggestions inside WHMCS tickets—saving time, improving accuracy, and ensuring consistent communication. Whether it's drafting complete responses or assisting with tone and formatting, Ticket BOT enhances productivity while maintaining a human touch. Reduce response times, cut repetitive typing, and deliver better customer support effortlessly."
+  },
+  "logo": {
+    "filename": "logo.png"
+  },
+  "support": {
+    "homepage": "https:\/\/www.sherazdev.com.bd\/",
+    "learn_more": "https:\/\/www.sherazdev.com.bd\/",
+    "support_url": "https:\/\/www.sherazdev.com.bd\/",
+    "docs_url": "https:\/\/www.sherazdev.com.bd\/"
+  },
+  "authors": [
+    {
+      "name": "Sheraz Howlader",
+      "homepage": "https:\/\/sherazdev.com.bd\/"
+    }
+  ]
+}
