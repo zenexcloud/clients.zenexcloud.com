@@ -6,11 +6,9 @@
                    <h1>{$LANG.cloudx_aboutus_heading}</h1>
                    <h6>{$LANG.cloudx_aboutus_heading_1}</h6>
                    <p>{$LANG.cloudx_aboutus_description_1}</p>
-
-                   <div class="btn-group">
-                       <a href="#" class="btn-main tell-btn">{$LANG.cloudx_aboutus_getSartedNow_aboutUs}</a>
-                   </div>
+                   <p>{$LANG.cloudx_aboutus_description_2}</p>
                </div>
+               
            </div>
            <div class="col-md-6 col-sm-12" id="two">
                <div class="web-img">
@@ -24,7 +22,8 @@
    <div class="container">
       <div class="titlebar">
          <h2>{$LANG.cloudx_seeOurStory_aboutUs}</h2>
-         <p>{$LANG.cloudx_launchingCloudMarketplace_aboutUs}</p>
+         <p>ZenexCloud began with a big dream to make cloud services easy for everyone. We saw that many people needed a simple way to buy and manage servers, domains, and hosting. Our team wanted to remove hard steps, high costs, and slow support.
+         That dream grew into a platform where anyone can start a website, run apps, or launch a business online.We built a system that is fast, safe, and open to all, with data centers in the USA and Singapore and a helpful team in London. </p>
       </div>
       <div class="row">
          <div class="col-md-6 col-sm-12">
@@ -63,7 +62,6 @@
                <div class="abt-info">
                   <p>{$LANG.cloudx_cloudGmCreated_aboutUs}</p>
                </div>
-               <div class="btn-group"><a href="#" class="btn-main">{$LANG.cloudx_primaryButton_aboutUs}</a></div>
             </div>
          </div>
          <div class="col-md-5 col-sm-12">
@@ -85,7 +83,7 @@
                <div class="choose-box">
                   <img src="{$WEB_ROOT}/templates/{$template}/images/whyus-ic1.svg" alt="">
                   <h3>{$LANG.cloudx_qualityReliablity_aboutUs}</h3>
-                  <p>{$LANG.cloudx_qualityReliablityDes_aboutUs}.</p>
+                  <p>{$LANG.cloudx_qualityReliablityDes_aboutUs}</p>
                </div>
             </div>
             <div class="col-md-4 col-sm-12">
@@ -98,8 +96,8 @@
             <div class="col-md-4 col-sm-12">
                <div class="choose-box">
                   <img src="{$WEB_ROOT}/templates/{$template}/images/whyus-ic3.svg" alt="">
-                  <h3>{$LANG.cloudx_daysGuarantee_aboutUs}</h3>
-                  <p>{$LANG.cloudx_daysGuaranteeDes_aboutUs}</p>
+                  <h3>20 Days Money Back Guarantee</h3>
+                  <p>We want you to feel safe and confident with your purchase. If you are not satisfied, you can get a full refund within 20 days of your purchase.</p>
                </div>
             </div>
          </div>
@@ -119,100 +117,17 @@
                <div class="col-md-6 col-sm-12">
                   <div class="mission-dt">
                      <h3>{$LANG.cloudx_maintenanceSecurity_aboutUs}</h3>
-                     <p>{$LANG.cloudx_secureDataStorage_aboutUs}</p>
-                     <a href="#" class="btn-main">{$LANG.cloudx_knowMore_aboutUs}</a>
+                     <p>At ZenexCloud, we take care of upgrades, maintenance, and security for you. We offer secure data storage options both locally and globally. Our data centers follow Uptime Institute Tier 3 and Tier 4 standards, the highest in the industry.
+This ensures your data and applications are always safe, secure, and available whenever you need them.</p>
                   </div>
                </div>
             </div>
          </div>
-         <div class="mission-row">
-            <div class="row">
-               <div class="col-md-6 col-sm-12" id="one">
-                  <div class="mission-dt vission-dt">
-                     <h3>{$LANG.cloudx_unmatchedSupport_aboutUs}</h3>
-                     <p>{$LANG.cloudx_lifebloodServicesBusiness_aboutUs}</p>
-                     <p>{$LANG.cloudx_informationTechnologyServices_aboutUs}</p>
-                     <ul>
-                        <li>{$LANG.cloudx_patchManagement_aboutUs}</li>
-                        <li>{$LANG.cloudx_backupDisasterRecovery_aboutUs}</li>
-                        <li>{$LANG.cloudx_upgradesMaintenance_aboutUs}</li>
-                        <li>{$LANG.cloudx_monitoringManagement_aboutUs}</li>
-                     </ul>
-                  </div>
-               </div>
-               <div class="col-md-6 col-sm-12" id="two">
-                  <div class="mission-img">
-                     <img src="{$WEB_ROOT}/templates/{$template}/images/mission-img2.svg" alt="">
-                  </div>
-               </div>
-            </div>
-         </div>
+
       </div>
    </section>
    <!-- End Missions -->
-   <!-- Our Team -->
-   <section class="our-team-wrp">
-      <div class="container">
-         <h2>{$LANG.cloudx_ourGreatTeam_aboutUs}</h2>
-         <div class="team-slider">
-            <div class="team-box">
-               <div class="team-img">
-                  <img src="{$WEB_ROOT}/templates/{$template}/images/team1.png" alt="">
-               </div>
-               <div class="team-dt">
-                  <h3>{$LANG.cloudx_teamName_aboutUs}</h3>
-                  <p>{$LANG.cloudx_teamNameDes_aboutUs}</p>
-               </div>
-            </div>
-            <div class="team-box">
-               <div class="team-img">
-                  <img src="{$WEB_ROOT}/templates/{$template}/images/team2.png" alt="">
-               </div>
-               <div class="team-dt">
-                  <h3>{$LANG.cloudx_teamName1_aboutUs}</h3>
-                  <p>{$LANG.cloudx_teamNameDes1_aboutUs}</p>
-               </div>
-            </div>
-            <div class="team-box">
-               <div class="team-img">
-                  <img src="{$WEB_ROOT}/templates/{$template}/images/team3.png" alt="">
-               </div>
-               <div class="team-dt">
-                  <h3>{$LANG.cloudx_teamName2_aboutUs}</h3>
-                  <p>{$LANG.cloudx_teamNameDes2_aboutUs}</p>
-               </div>
-            </div>
-            <div class="team-box">
-               <div class="team-img">
-                  <img src="{$WEB_ROOT}/templates/{$template}/images/team1.png" alt="">
-               </div>
-               <div class="team-dt">
-                  <h3>{$LANG.cloudx_teamName_aboutUs}</h3>
-                  <p>{$LANG.cloudx_teamNameDes_aboutUs}</p>
-               </div>
-            </div>
-            <div class="team-box">
-               <div class="team-img">
-                  <img src="{$WEB_ROOT}/templates/{$template}/images/team2.png" alt="">
-               </div>
-               <div class="team-dt">
-                  <h3>{$LANG.cloudx_teamName1_aboutUs}</h3>
-                  <p>{$LANG.cloudx_teamNameDes1_aboutUs}</p>
-               </div>
-            </div>
-            <div class="team-box">
-               <div class="team-img">
-                  <img src="{$WEB_ROOT}/templates/{$template}/images/team3.png" alt="">
-               </div>
-               <div class="team-dt">
-                  <h3>{$LANG.cloudx_teamName2_aboutUs}</h3>
-                  <p>{$LANG.cloudx_teamNameDes2_aboutUs}</p>
-               </div>
-            </div>
-         </div>
-      </div>
-   </section>
-   <!-- End Our Team -->
+
    <!-- FAQ -->
    <section class="faq-wrapper">
       <div class="container">
@@ -266,18 +181,6 @@
                   </div>
                </div>
             </div>
-            <div class="accordion-item">
-               <h3 class="accordion-header" id="headingfive">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                     data-bs-target="#collapsefive" aria-expanded="false" aria-controls="collapsefive">{$LANG.cloudx_certificateSigningRequest_aboutUs}</button>
-               </h3>
-               <div id="collapsefive" class="accordion-collapse collapse" aria-labelledby="headingfive"
-                  data-bs-parent="#accordionExample">
-                  <div class="accordion-body">
-                     <p>{$LANG.cloudx_certificateSigningRequestDes_aboutUs}</p>
-                  </div>
-               </div>
-            </div>
          </div>
       </div>
    </section>
@@ -288,7 +191,10 @@
                 <div class="get-infobx">
                     <h2>{$LANG.cloudx_chooseBestManagedCloudHosting_aboutUs}</h2>
                 </div>
-                <a href="#" class="btn-main">{$LANG.cloudx_getSartedNow_aboutUs}</a>
+                
+                <p> Experience fast, secure, and reliable cloud hosting designed to help your business grow. With ZenexCloud, managing your servers, websites, and applications has never been easier. </p>
+                
+                <a href="https://clients.zenexcloud.com/cpanel-hosting.php" class="btn-main">{$LANG.cloudx_getSartedNow_aboutUs}</a>
             </div>
         </div>
     </div>
