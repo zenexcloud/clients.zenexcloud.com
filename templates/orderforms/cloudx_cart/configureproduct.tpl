@@ -33,6 +33,12 @@ var _localLang = {
     'addedToCartRemove': '{$LANG.orderForm.addedToCartRemove|escape}'
 }
 </script>
+
+
+{* যদি billingcycle variable empty থাকে তাহলে biennially default ধরা হবে *}
+{assign var="billingcycle" value="biennially"}
+
+
 <div id="order-standard_cart" class="cloudx_cart_body">
     <div class="row">
         <div class="cart-sidebar">
@@ -141,7 +147,7 @@ var _localLang = {
                         {/if}
 
                         {if $productinfo.type eq "server"}
-                            <div class="sub-heading">
+                            <div class="sub-heading server-info">
                                 <span class="primary-bg-color">{$LANG.cartconfigserver}</span>
                             </div>
 
