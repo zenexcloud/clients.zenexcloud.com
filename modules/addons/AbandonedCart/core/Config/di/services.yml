@@ -1,0 +1,5 @@
+- \ModulesGarden\AbandonedCart\Core\Lang\Lang
+- \ModulesGarden\AbandonedCart\Core\App\Controllers\Instances\Addon\Config
+- \ModulesGarden\AbandonedCart\Core\UI\Widget\Sidebar\SidebarService
+- \ModulesGarden\AbandonedCart\Core\Helper\WhmcsParams
+- \ModulesGarden\AbandonedCart\Core\App\AppParamsContainer

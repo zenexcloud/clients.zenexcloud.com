@@ -1,0 +1,20 @@
+Dashboard:
+  icon: 'lu-nav__link-icon lu-zmdi lu-zmdi-home'
+ShoppingCarts:
+  icon: 'lu-nav__link-icon lu-zmdi lu-zmdi-shopping-cart'
+Reminders:
+    icon: 'lu-nav__link-icon lu-zmdi lu-zmdi-email'
+GeneralSettings:
+    icon: 'lu-nav__link-icon lu-zmdi lu-zmdi-settings'
+Logs:
+    icon: 'lu-nav__link-icon lu-zmdi lu-zmdi lu-zmdi-assignment'
+Documentation:
+  icon: 'lu-nav__link-icon lu-zmdi lu-zmdi-file-text'
+  externalUrl: "https://www.docs.modulesgarden.com/Abandoned_Cart_For_WHMCS"
+
+#  submenu:
+#    general: [ ]
+#    globalSettings: [ ]
+#    packages: [ ]
+#    server: [ ]
+#    recordSets: [ ]

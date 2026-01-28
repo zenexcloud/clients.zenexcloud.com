@@ -1,0 +1,32 @@
+{
+    "schema": "1.0",
+    "type": "whmcs-addons",
+    "name": "AbandonedCart",
+    "license": "proprietary",
+    "category": "utilities",
+    "description": {
+        "name": "Abandoned Cart",
+        "tagline": "Deliver adjustable email reminders to clients who abandoned their cart and view their history of ordering with statistics.",
+        "long": "Abandoned Cart For WHMCS is a module that allows your business to recover lost sales by automatically sending email reminders to customers who have left items in their online shopping cart without completing the purchase.\n\nThe module can be vastly customized to send various types of notifications at different intervals. You will be able to select a specific template for logged in and guest clients and specify what kind of item you wish to remind them about, whether it's a product, an addon or a domain. For higher effectiveness, the module provides the option of sending out multiple messages, which can be modified in a way that adds to the sense of urgency. What is more, you can freely decide when exactly such content should be emailed to your customers.",
+        "features": []
+    },
+    "logo": {
+        "filename": "logo.png"
+    },
+    "marketplace": {
+        "url": ""
+    },
+    "support": {
+        "docs_url": "https:\/\/www.docs.modulesgarden.com\/Abandoned_Cart_For_WHMCS",
+        "homepage": "https:\/\/www.modulesgarden.com\/products\/whmcs\/abandoned-cart",
+        "learn_more": "https:\/\/www.modulesgarden.com\/products\/whmcs\/abandoned-cart#features",
+        "support_url": "https:\/\/www.modulesgarden.com\/support"
+    },
+    "authors": [
+        {
+            "name": "ModulesGarden",
+            "homepage": "https:\/\/www.modulesgarden.com\/"
+        }
+    ],
+    "hash": "dbbb3fc20f1dd86546c0b3c7919d84c33dd8059d"
+}

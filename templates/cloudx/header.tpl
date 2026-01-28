@@ -101,11 +101,6 @@
                             {include file="$template/includes/navbar.tpl" navbar=$primaryNavbar}
                             {if $languagechangeenabled && count($locales) > 1 || $currencies}
                                 <ul class="view-currency-top-mobile-menu">
-                                    <li class="currency-li-top-mobile">
-                                        <button type="button" class="btn" data-toggle="modal" data-target="#modalChooseLanguage">
-                                            {$activeCurrency.prefix} {$activeCurrency.code}
-                                        </button>
-                                    </li>
                                     <li class="lang-li-top-mobile">
                                         <button type="button" class="btn" data-toggle="modal" data-target="#modalChooseLanguage">
                                             <div class="d-inline-block align-middle">
@@ -123,11 +118,6 @@
                             <li class="single-side-rght">                                   
                                 {if $languagechangeenabled && count($locales) > 1 || $currencies}
                                     <ul class="view-currency-top">
-                                        <li class="currency-li-top">
-                                            <button type="button" class="btn" data-toggle="modal" data-target="#modalChooseLanguage">
-                                                {$activeCurrency.prefix} {$activeCurrency.code}
-                                            </button>
-                                        </li>
                                         <li class="lang-li-top">
                                             <button type="button" class="btn" data-toggle="modal" data-target="#modalChooseLanguage">
                                                 <div class="d-inline-block align-middle">

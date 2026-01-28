@@ -1,0 +1,7 @@
+version: '1.2.0'
+systemName: 'AbandonedCart'
+name: 'Abandoned Cart'
+friendlyName: 'AbandonedCart'
+description: 'A smart tool designed to let you keep track of all activities in your marketplace, collect statistics and remind clients of incomplete orders.<br>For more info please visit our <a href="https://www.docs.modulesgarden.com/Abandoned_Cart_For_WHMCS" target="_blank" style="color: #4169E1;">Wiki</a>.'
+author: '<a href="http://www.modulesgarden.com" target="_blank">ModulesGarden</a>'
+moduleIcon: 'abandoned_cart'
