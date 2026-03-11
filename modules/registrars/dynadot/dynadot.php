@@ -1,4 +1,5 @@
 <?php
+use WHMCS\Database\Capsule;
 
 /**
  * Dynadot Registrar Module
@@ -450,42 +451,70 @@ function dynadot_GetContactDetails($params)
 function dynadot_SaveContactDetails($params)
 {
     $apiKey = $params['ApiKey'];
-    // domain parameters
+
     $domainName = Domains::getDomainName($params);
-    // whois information
+
     $contactDetails = $params['contactdetails'];
     try {
         $registrant = $contactDetails['Registrant'];
         $admin = $contactDetails['Admin'];
         $technical = $contactDetails['Technical'];
         $billing = $contactDetails['Billing'];
-        // get domain info
-        $response = Domains::getDomainInfo($apiKey, $domainName);
-        $domainInfoResponse = $response->DomainInfoResponse;
-        if ($domainInfoResponse->Status === 'success') {
-            $whois = $domainInfoResponse->DomainInfo->Whois;
 
-            $registrantContactId = $whois->Registrant->ContactId;
-            $adminContactId = $whois->Admin->ContactId;
-            $technicalContactId = $whois->Technical->ContactId;
-            $billingContactId = $whois->Billing->ContactId;
+        $contactDetails = array(
+            'Registrant' => $registrant ,
+            'Admin' => $admin,
+            'Technical' => $technical,
+            'Billing' => $billing
+        );
 
-            $contactArray = array();
-            $contactArray[$registrantContactId] = $registrant;
-            $contactArray[$adminContactId] = $admin;
-            $contactArray[$technicalContactId] = $technical;
-            $contactArray[$billingContactId] = $billing;
+        $contactIds = array(
+            'Registrant' => null,
+            'Admin' => null,
+            'Technical' => null,
+            'Billing' => null
+        );
 
-            foreach ($contactArray as $contactId => $contactData) {
-                $result = Domains::editContact($apiKey, $contactId, $contactData);
-                if (!$result['success']) {
-                    return array('error' => $result['error']);
-                }
+        foreach ($contactDetails as $contactType => $contact) {
+            if (empty($contact)) {
+                continue;
             }
-            return array('success' => true);
-        } else {
-            return array('error' => $domainInfoResponse->Error);
+
+            $contact = array(
+                'organization' => $contact['Company Name'],
+                'name' => $contact['First Name'] . ' ' . $contact['Last Name'],
+                'email' => $contact['Email Address'],
+                'phonenum' => str_replace('+' . $contact['Phone Country Code'] . '.', '', $contact['Phone Number']),
+                'phonecc' => $contact['Phone Country Code'],
+                'faxnum' => str_replace('+' . $contact['Phone Country Code'] . '.', '', $contact['Phone Number']),
+                'faxcc' => $contact['Phone Country Code'],
+                'address1' => $contact['Address 1'],
+                'address2' => $contact['Address 2'],
+                'city' => $contact['City'],
+                'state' => $contact['State'],
+                'country' => $contact['Country'],
+                'zip' => $contact['Postcode'],
+            );
+
+            $result = Domains::creatContactId($apiKey, $contact);
+            if ($result['success']) {
+                $contactId = $result['contactId'];
+                $contactIds[$contactType] = $contactId;
+            } else {
+                logModuleCall('dynadot', 'domain contact settings error' , $result['error'], "", "");
+                return array(
+                    'error' => $result['error'],
+                );
+            }
         }
+
+        $response = Domains::setContact($apiKey, $domainName, $contactIds['Registrant'], $contactIds['Admin'], $contactIds['Technical'], $contactIds['Billing']);
+        if ($response['success']) {
+            return array('success' => true);
+        }
+
+        logModuleCall('dynadot', 'domain contact settings error' , $response['error'], "", "");
+        return array('error' => $response['error']);
     } catch (Exception $e) {
         return array(
             'error' => $e->getMessage(),
@@ -551,14 +580,19 @@ function dynadot_CheckAvailability($params)
                     // append to the search results list
                     $results->append($searchResult);
                 }
+            } else {
+                if(isset($response['error'])){
+                    logModuleCall('dynadot', 'domain check error' , $response['error'], "", "");
+                }
             }
         }
+
+        return $results;
     } catch (Exception $e) {
         return array(
             'error' => $e->getMessage(),
         );
     }
-    return $results;
 }
 
 /**
@@ -955,10 +989,11 @@ function dynadot_Sync($params)
         if ($domainInfoResponse->Status === 'success') {
             $domainInfo = $domainInfoResponse->DomainInfo;
             $domainStatus = $domainInfo->Status;
+
             if ($domainStatus === 'active') {
                 return array(
                     'active' => true,
-                    'expirydate' => date('Y-m-d H:i:s', substr($domainInfo->Expiration, 0, 10))
+                    'expirydate' => date('Y-m-d', substr($domainInfo->Expiration, 0, 10))
                 );
             } else if ($domainStatus === 'cancelled') {
                 return array(
@@ -971,7 +1006,7 @@ function dynadot_Sync($params)
             } else if ($domainStatus === 'expired') {
                 return array(
                     'expired' => true,
-                    'expirydate' => date('Y-m-d H:i:s', substr($domainInfo->Expiration, 0, 10))
+                    'expirydate' => date('Y-m-d', substr($domainInfo->Expiration, 0, 10))
                 );
             } else {
                 return array();
@@ -1017,7 +1052,7 @@ function dynadot_TransferSync($params)
             if ($transferStatus === 'Transferred') {
                 return array(
                     'completed' => true,
-                    'expirydate' => date('Y-m-d H:i:s', substr($transfer->ExpirationDate, 0, 10))
+                    'expirydate' => date('Y-m-d', substr($transfer->ExpirationDate, 0, 10))
                 );
             } elseif ($transferStatus === 'Failed') {
                 return array(
@@ -1215,4 +1250,33 @@ function dynadot_EmailForwarding($params)
             'records' => $info['records']
         )
     );
+}
+
+/**
+ * If the domain registrar is Dynadot, add custom buttons to the sidebar of the customer's domain detail page
+ * that point to Dynadot's dedicated DNS management page and email forwarding page
+ */
+function dynadot_ClientAreaCustomButtonArray() {
+    $domainId = $_REQUEST['id'] ?? $_REQUEST['domainid'] ?? null;
+    if (!$domainId) {
+        return [];
+    }
+
+    $domain = Capsule::table('tbldomains')
+        ->where('id', $domainId)
+        ->first();
+
+    if (!$domain || $domain->registrar !== 'dynadot') {
+        return [];
+    }
+
+    $buttons = [];
+    if ($domain->dnsmanagement) {
+        $buttons["Dns Management"] = "DnsManagement";
+    }
+    if ($domain->emailforwarding) {
+        $buttons["Email Forwarding"] = "EmailForwarding";
+    }
+
+    return $buttons;
 }

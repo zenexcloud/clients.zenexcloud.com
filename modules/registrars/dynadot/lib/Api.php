@@ -10,7 +10,7 @@ class Api
     const API_URL = 'https://api.dynadot.com';
 
     // test url :
-    // const API_URL = 'http://166.88.62.190:8889';
+    // const API_URL = 'http://166.88.19.190:8889';
 
     // command
     const COMMAND_ACCOUNT_INFO = 'account_info';
