@@ -1,0 +1,1 @@
+<a target={$rawObject->getTarget()}" href="{$rawObject->getUrl()}">{$rawObject->getLinkName()}</a>

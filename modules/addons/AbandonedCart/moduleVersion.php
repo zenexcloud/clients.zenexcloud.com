@@ -8,4 +8,4 @@
 $moduleVersion = '1.2.10';
 $moduleRevision = 'ee4abed97f7fff6b51417ec2a3aafad9ab6c367e';
 $moduleWikiUrl = 'https://www.docs.modulesgarden.com/Abandoned_Cart_For_WHMCS';
-$moduleHash='dbbb3fc20f1dd86546c0b3c7919d84c33dd8059d';
+$moduleHash='c749f997090ebe4efae17e8901502a21ee6b31ca';

@@ -1,0 +1,1 @@
+<span>Register your account and get a <b>25% discount</b> for <b>3 months!</b></span>

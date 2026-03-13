@@ -1,0 +1,36 @@
+{
+  "schema": "1.0",
+  "type": "whmcs-addons",
+  "name": "MetricsCube",
+  "license": "proprietary",
+  "category": "marketing",
+  "description": {
+    "name": "MetricsCube Connector",
+    "tagline": "Synchronize your WHMCS with MetricsCube to access over 90 reports, statistics related to billing, clients, domains, services and more.",
+    "long": "MetricsCube is the world’s only reporting software integrated with WHMCS on such an extensive scale, and therefore able to drill down directly into never-before-tapped sources of information on your business. It will allow you to perform detailed evaluation of various operational aspects through flexible reports not accessible in the admin area. Additionally, MetricsCube has been equipped with advanced filtering and comparison mechanisms to let you trace the evolution of every crucial factor within a customized time frame. Another major advantage lies in the multi-branding support, focusing the analysis of several WHMCS businesses on just one MetricsCube dashboard. Using MetricsCube Connector For WHMCS, you will be allowed to connect any number of WHMCS instances with a single MetricsCube account, and choose between three available synchronization methods. After the integration has been established, information will be collected in a secure, GDPR-compliant manner, and later on updated on a dynamic basis to reflect any changes in your WHMCS database.",
+    "features": [
+    ]
+  },
+  "logo": {
+    "filename": "logo.png"
+  },
+  "marketplace": {
+    "url": "https:\/\/marketplace.whmcs.com\/product\/4706-metricscube-connector-for-whmcs"
+  },
+  "support": {
+    "docs_url": "https:\/\/www.metricscube.io\/documentation\/faq\/",
+    "homepage": "https:\/\/www.metricscube.io\/",
+    "learn_more": "https:\/\/www.metricscube.io\/features",
+    "support_url": "https:\/\/www.metricscube.io\/help-center"
+  },
+  "authors": [
+    {
+      "name": "MetricsCube",
+      "homepage": "https:\/\/www.metricscube.io\/"
+    },
+    {
+      "name": "ModulesGarden",
+      "homepage": "https:\/\/www.modulesgarden.com\/"
+    }
+  ]
+}
