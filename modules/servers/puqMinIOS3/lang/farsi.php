@@ -1,0 +1,34 @@
+<?php
+$_LANG_PUQ['Information'] = "اطلاعات";
+$_LANG_PUQ['Used space statistics'] = "آمار فضای استفاده شده";
+$_LANG_PUQ['Web interface address'] = "آدرس رابط وب";
+$_LANG_PUQ['User manual'] = "راهنمای کاربر";
+$_LANG_PUQ['info_1'] = "برای مجوز در انبار داده، از داده استفاده کنید.";
+$_LANG_PUQ['Username'] = "نام کاربری";
+$_LANG_PUQ['Password'] = "رمز عبور";
+$_LANG_PUQ['The service is limited.'] = "خدمات محدود است.";
+$_LANG_PUQ['Contact technical support.'] = "با پشتیبانی فنی تماس بگیرید.";
+$_LANG_PUQ['Buckets name'] = "نام سطل‌ها";
+$_LANG_PUQ['Creation date'] = "تاریخ ایجاد";
+$_LANG_PUQ['Objects'] = "اشیاء";
+$_LANG_PUQ['Size'] = "اندازه";
+$_LANG_PUQ['Disk limit'] = "محدودیت دیسک";
+$_LANG_PUQ['Disk used'] = "دیسک استفاده شده";
+$_LANG_PUQ['Disk free'] = "دیسک آزاد";
+$_LANG_PUQ['Disk used percentage'] = "درصد دیسک استفاده شده";
+$_LANG_PUQ['Disk free percentage'] = "درصد دیسک آزاد";
+$_LANG_PUQ['Used'] = "استفاده شده";
+$_LANG_PUQ['Free'] = "آزاد";
+$_LANG_PUQ['Used space'] = "فضای استفاده شده";
+$_LANG_PUQ['Unlimited'] = "نامحدود";
+$_LANG_PUQ['Last 30 days'] = "آخرین 30 روز";
+$_LANG_PUQ['Avg per month'] = "میانگین در ماه";
+$_LANG_PUQ['User'] = "کاربر";
+$_LANG_PUQ['API Connection status'] = "وضعیت اتصال API";
+$_LANG_PUQ['User used info'] = "اطلاعات استفاده شده توسط کاربر";
+$_LANG_PUQ['Info about used space'] = "اطلاعات در مورد فضای استفاده شده";
+$_LANG_PUQ['Buckets'] = "سطل‌ها";
+$_LANG_PUQ['Something went wrong'] = "مشکلی پیش آمده است";
+$_LANG_PUQ['Please try again after some time'] = "لطفاً بعداً دوباره امتحان کنید";
+$_LANG_PUQ['Recalculate Disk Space'] = 'محاسبه مجدد فضای دیسک';
+

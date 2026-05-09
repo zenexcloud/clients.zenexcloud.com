@@ -1,0 +1,34 @@
+<?php
+$_LANG_PUQ['Information'] = "Informació";
+$_LANG_PUQ['Used space statistics'] = "Estadístiques d'espai utilitzat";
+$_LANG_PUQ['Web interface address'] = "Adreça de la interfície web";
+$_LANG_PUQ['User manual'] = "Manual d'usuari";
+$_LANG_PUQ['info_1'] = "Per autoritzar-se a la botiga de dades, utilitzeu les dades.";
+$_LANG_PUQ['Username'] = "Nom d'usuari";
+$_LANG_PUQ['Password'] = "Contrasenya";
+$_LANG_PUQ['The service is limited.'] = "El servei és limitat.";
+$_LANG_PUQ['Contact technical support.'] = "Contacteu amb el suport tècnic.";
+$_LANG_PUQ['Buckets name'] = "Nom dels cubells";
+$_LANG_PUQ['Creation date'] = "Data de creació";
+$_LANG_PUQ['Objects'] = "Objectes";
+$_LANG_PUQ['Size'] = "Mida";
+$_LANG_PUQ['Disk limit'] = "Límit de disc";
+$_LANG_PUQ['Disk used'] = "Disc utilitzat";
+$_LANG_PUQ['Disk free'] = "Disc lliure";
+$_LANG_PUQ['Disk used percentage'] = "Percentatge de disc utilitzat";
+$_LANG_PUQ['Disk free percentage'] = "Percentatge de disc lliure";
+$_LANG_PUQ['Used'] = "Utilitzat";
+$_LANG_PUQ['Free'] = "Lliure";
+$_LANG_PUQ['Used space'] = "Espai utilitzat";
+$_LANG_PUQ['Unlimited'] = "Sense límits";
+$_LANG_PUQ['Last 30 days'] = "Últims 30 dies";
+$_LANG_PUQ['Avg per month'] = "Mitjana per mes";
+$_LANG_PUQ['User'] = "Usuari";
+$_LANG_PUQ['API Connection status'] = "Estat de connexió de l'API";
+$_LANG_PUQ['User used info'] = "Informació utilitzada per l'usuari";
+$_LANG_PUQ['Info about used space'] = "Informació sobre l'espai utilitzat";
+$_LANG_PUQ['Buckets'] = "Cubells";
+$_LANG_PUQ['Something went wrong'] = "Alguna cosa ha anat malament";
+$_LANG_PUQ['Please try again after some time'] = "Si us plau, torneu a provar més endavant";
+$_LANG_PUQ['Recalculate Disk Space'] = 'Recalcular espai de disc';
+

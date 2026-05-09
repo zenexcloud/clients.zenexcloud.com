@@ -1,0 +1,34 @@
+<?php
+$_LANG_PUQ['Information'] = "Információ";
+$_LANG_PUQ['Used space statistics'] = "Használt terület statisztika";
+$_LANG_PUQ['Web interface address'] = "Webfelület címe";
+$_LANG_PUQ['User manual'] = "Felhasználói kézikönyv";
+$_LANG_PUQ['info_1'] = "Az adattárházba való hitelesítéshez használja az adatokat.";
+$_LANG_PUQ['Username'] = "Felhasználónév";
+$_LANG_PUQ['Password'] = "Jelszó";
+$_LANG_PUQ['The service is limited.'] = "A szolgáltatás korlátozott.";
+$_LANG_PUQ['Contact technical support.'] = "Keressen technikai támogatást.";
+$_LANG_PUQ['Buckets name'] = "Vödör neve";
+$_LANG_PUQ['Creation date'] = "Létrehozás dátuma";
+$_LANG_PUQ['Objects'] = "Objektumok";
+$_LANG_PUQ['Size'] = "Méret";
+$_LANG_PUQ['Disk limit'] = "Lemez korlát";
+$_LANG_PUQ['Disk used'] = "Használt lemez";
+$_LANG_PUQ['Disk free'] = "Szabad lemez";
+$_LANG_PUQ['Disk used percentage'] = "Használt lemez százalékban";
+$_LANG_PUQ['Disk free percentage'] = "Szabad lemez százalékban";
+$_LANG_PUQ['Used'] = "Használt";
+$_LANG_PUQ['Free'] = "Szabad";
+$_LANG_PUQ['Used space'] = "Használt terület";
+$_LANG_PUQ['Unlimited'] = "Korlátlan";
+$_LANG_PUQ['Last 30 days'] = "Az utolsó 30 nap";
+$_LANG_PUQ['Avg per month'] = "Átlagos havonta";
+$_LANG_PUQ['User'] = "Felhasználó";
+$_LANG_PUQ['API Connection status'] = "API kapcsolat állapota";
+$_LANG_PUQ['User used info'] = "Felhasználó által használt információ";
+$_LANG_PUQ['Info about used space'] = "Információ a használt területről";
+$_LANG_PUQ['Buckets'] = "Vödrök";
+$_LANG_PUQ['Something went wrong'] = "Valami hiba történt";
+$_LANG_PUQ['Please try again after some time'] = "Kérjük, próbálja újra később";
+$_LANG_PUQ['Recalculate Disk Space'] = 'Lemezterület újraszámítása';
+

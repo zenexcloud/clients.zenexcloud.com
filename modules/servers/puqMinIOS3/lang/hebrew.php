@@ -1,0 +1,34 @@
+<?php
+$_LANG_PUQ['Information'] = "מידע";
+$_LANG_PUQ['Used space statistics'] = "סטטיסטיקות שטח בשימוש";
+$_LANG_PUQ['Web interface address'] = "כתובת ממשק האינטרנט";
+$_LANG_PUQ['User manual'] = "מדריך המשתמש";
+$_LANG_PUQ['info_1'] = "כדי להתיחס לאחסון המידע, השתמש בנתונים.";
+$_LANG_PUQ['Username'] = "שם משתמש";
+$_LANG_PUQ['Password'] = "סיסמה";
+$_LANG_PUQ['The service is limited.'] = "השירות מוגבל.";
+$_LANG_PUQ['Contact technical support.'] = "צור קשר עם התמיכה הטכנית.";
+$_LANG_PUQ['Buckets name'] = "שם הדליים";
+$_LANG_PUQ['Creation date'] = "תאריך יצירה";
+$_LANG_PUQ['Objects'] = "אובייקטים";
+$_LANG_PUQ['Size'] = "גודל";
+$_LANG_PUQ['Disk limit'] = "הגבלת הדיסק";
+$_LANG_PUQ['Disk used'] = "הדיסק בשימוש";
+$_LANG_PUQ['Disk free'] = "הדיסק פנוי";
+$_LANG_PUQ['Disk used percentage'] = "אחוז הדיסק בשימוש";
+$_LANG_PUQ['Disk free percentage'] = "אחוז הדיסק פנוי";
+$_LANG_PUQ['Used'] = "בשימוש";
+$_LANG_PUQ['Free'] = "פנוי";
+$_LANG_PUQ['Used space'] = "שטח בשימוש";
+$_LANG_PUQ['Unlimited'] = "ללא הגבלה";
+$_LANG_PUQ['Last 30 days'] = "30 הימים האחרונים";
+$_LANG_PUQ['Avg per month'] = "ממוצע לחודש";
+$_LANG_PUQ['User'] = "משתמש";
+$_LANG_PUQ['API Connection status'] = "מצב חיבור ל- API";
+$_LANG_PUQ['User used info'] = "מידע שנמצא בשימוש על ידי המשתמש";
+$_LANG_PUQ['Info about used space'] = "מידע אודות שטח בשימוש";
+$_LANG_PUQ['Buckets'] = "דליים";
+$_LANG_PUQ['Something went wrong'] = "משהו השתבש";
+$_LANG_PUQ['Please try again after some time'] = "נסה שוב מאוחר יותר";
+$_LANG_PUQ['Recalculate Disk Space'] = 'חישוב מחדש של שטח דיסק';
+

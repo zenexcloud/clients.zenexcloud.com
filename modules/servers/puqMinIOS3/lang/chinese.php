@@ -1,0 +1,34 @@
+<?php
+$_LANG_PUQ['Information'] = "信息";
+$_LANG_PUQ['Used space statistics'] = "已使用空间统计";
+$_LANG_PUQ['Web interface address'] = "Web界面地址";
+$_LANG_PUQ['User manual'] = "用户手册";
+$_LANG_PUQ['info_1'] = "要在数据存储上进行授权，请使用数据。";
+$_LANG_PUQ['Username'] = "用户名";
+$_LANG_PUQ['Password'] = "密码";
+$_LANG_PUQ['The service is limited.'] = "服务有限。";
+$_LANG_PUQ['Contact technical support.'] = "联系技术支持。";
+$_LANG_PUQ['Buckets name'] = "存储桶名称";
+$_LANG_PUQ['Creation date'] = "创建日期";
+$_LANG_PUQ['Objects'] = "对象";
+$_LANG_PUQ['Size'] = "大小";
+$_LANG_PUQ['Disk limit'] = "磁盘限制";
+$_LANG_PUQ['Disk used'] = "已使用磁盘";
+$_LANG_PUQ['Disk free'] = "空闲磁盘";
+$_LANG_PUQ['Disk used percentage'] = "已使用磁盘百分比";
+$_LANG_PUQ['Disk free percentage'] = "空闲磁盘百分比";
+$_LANG_PUQ['Used'] = "已使用";
+$_LANG_PUQ['Free'] = "空闲";
+$_LANG_PUQ['Used space'] = "已使用空间";
+$_LANG_PUQ['Unlimited'] = "无限制";
+$_LANG_PUQ['Last 30 days'] = "过去30天";
+$_LANG_PUQ['Avg per month'] = "平均每月";
+$_LANG_PUQ['User'] = "用户";
+$_LANG_PUQ['API Connection status'] = "API连接状态";
+$_LANG_PUQ['User used info'] = "用户使用信息";
+$_LANG_PUQ['Info about used space'] = "关于已使用空间的信息";
+$_LANG_PUQ['Buckets'] = "存储桶";
+$_LANG_PUQ['Something went wrong'] = "出了些问题";
+$_LANG_PUQ['Please try again after some time'] = "请稍后再试";
+$_LANG_PUQ['Recalculate Disk Space'] = '重新计算磁盘空间';
+

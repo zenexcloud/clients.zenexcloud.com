@@ -1,0 +1,34 @@
+<?php
+$_LANG_PUQ['Information'] = "Information";
+$_LANG_PUQ['Used space statistics'] = "Använd statistik över utrymme";
+$_LANG_PUQ['Web interface address'] = "Webbgränssnittsadress";
+$_LANG_PUQ['User manual'] = "Användarhandbok";
+$_LANG_PUQ['info_1'] = "För att auktorisera på datalagret, använd data.";
+$_LANG_PUQ['Username'] = "Användarnamn";
+$_LANG_PUQ['Password'] = "Lösenord";
+$_LANG_PUQ['The service is limited.'] = "Tjänsten är begränsad.";
+$_LANG_PUQ['Contact technical support.'] = "Kontakta teknisk support.";
+$_LANG_PUQ['Buckets name'] = "Namn på hinkar";
+$_LANG_PUQ['Creation date'] = "Skapelsedatum";
+$_LANG_PUQ['Objects'] = "Objekt";
+$_LANG_PUQ['Size'] = "Storlek";
+$_LANG_PUQ['Disk limit'] = "Diskbegränsning";
+$_LANG_PUQ['Disk used'] = "Använd disk";
+$_LANG_PUQ['Disk free'] = "Ledig disk";
+$_LANG_PUQ['Disk used percentage'] = "Procentandel använd disk";
+$_LANG_PUQ['Disk free percentage'] = "Procentandel ledig disk";
+$_LANG_PUQ['Used'] = "Använd";
+$_LANG_PUQ['Free'] = "Ledig";
+$_LANG_PUQ['Used space'] = "Använt utrymme";
+$_LANG_PUQ['Unlimited'] = "Obegränsad";
+$_LANG_PUQ['Last 30 days'] = "Senaste 30 dagarna";
+$_LANG_PUQ['Avg per month'] = "Genomsnitt per månad";
+$_LANG_PUQ['User'] = "Användare";
+$_LANG_PUQ['API Connection status'] = "API-anslutningsstatus";
+$_LANG_PUQ['User used info'] = "Använd använd information";
+$_LANG_PUQ['Info about used space'] = "Information om använd utrymme";
+$_LANG_PUQ['Buckets'] = "Hinkar";
+$_LANG_PUQ['Something went wrong'] = "Något gick fel";
+$_LANG_PUQ['Please try again after some time'] = "Försök igen senare";
+$_LANG_PUQ['Recalculate Disk Space'] = 'Beräkna diskutrymme på nytt';
+

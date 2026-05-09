@@ -1,0 +1,34 @@
+<?php
+$_LANG_PUQ['Information'] = "Bilgi";
+$_LANG_PUQ['Used space statistics'] = "Kullanılan alan istatistikleri";
+$_LANG_PUQ['Web interface address'] = "Web arayüz adresi";
+$_LANG_PUQ['User manual'] = "Kullanıcı kılavuzu";
+$_LANG_PUQ['info_1'] = "Veri deposuna yetkilendirmek için verileri kullanın.";
+$_LANG_PUQ['Username'] = "Kullanıcı adı";
+$_LANG_PUQ['Password'] = "Parola";
+$_LANG_PUQ['The service is limited.'] = "Hizmet sınırlıdır.";
+$_LANG_PUQ['Contact technical support.'] = "Teknik destek ile iletişime geçin.";
+$_LANG_PUQ['Buckets name'] = "Kova adları";
+$_LANG_PUQ['Creation date'] = "Oluşturma tarihi";
+$_LANG_PUQ['Objects'] = "Nesneler";
+$_LANG_PUQ['Size'] = "Boyut";
+$_LANG_PUQ['Disk limit'] = "Disk sınırlaması";
+$_LANG_PUQ['Disk used'] = "Kullanılan disk";
+$_LANG_PUQ['Disk free'] = "Boş disk";
+$_LANG_PUQ['Disk used percentage'] = "Kullanılan disk yüzdesi";
+$_LANG_PUQ['Disk free percentage'] = "Boş disk yüzdesi";
+$_LANG_PUQ['Used'] = "Kullanılan";
+$_LANG_PUQ['Free'] = "Boş";
+$_LANG_PUQ['Used space'] = "Kullanılan alan";
+$_LANG_PUQ['Unlimited'] = "Sınırsız";
+$_LANG_PUQ['Last 30 days'] = "Son 30 gün";
+$_LANG_PUQ['Avg per month'] = "Aylık ortalama";
+$_LANG_PUQ['User'] = "Kullanıcı";
+$_LANG_PUQ['API Connection status'] = "API Bağlantı durumu";
+$_LANG_PUQ['User used info'] = "Kullanıcı tarafından kullanılan bilgi";
+$_LANG_PUQ['Info about used space'] = "Kullanılan alan hakkında bilgi";
+$_LANG_PUQ['Buckets'] = "Kovalar";
+$_LANG_PUQ['Something went wrong'] = "Bir şeyler ters gitti";
+$_LANG_PUQ['Please try again after some time'] = "Lütfen bir süre sonra tekrar deneyin";
+$_LANG_PUQ['Recalculate Disk Space'] = 'Disk alanını yeniden hesapla';
+

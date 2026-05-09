@@ -1,0 +1,34 @@
+<?php
+$_LANG_PUQ['Information'] = "Informations";
+$_LANG_PUQ['Used space statistics'] = "Statistiques de l'espace utilisé";
+$_LANG_PUQ['Web interface address'] = "Adresse de l'interface Web";
+$_LANG_PUQ['User manual'] = "Manuel de l'utilisateur";
+$_LANG_PUQ['info_1'] = "Pour vous authentifier sur le stockage de données, utilisez les données.";
+$_LANG_PUQ['Username'] = "Nom d'utilisateur";
+$_LANG_PUQ['Password'] = "Mot de passe";
+$_LANG_PUQ['The service is limited.'] = "Le service est limité.";
+$_LANG_PUQ['Contact technical support.'] = "Contactez le support technique.";
+$_LANG_PUQ['Buckets name'] = "Nom des seaux";
+$_LANG_PUQ['Creation date'] = "Date de création";
+$_LANG_PUQ['Objects'] = "Objets";
+$_LANG_PUQ['Size'] = "Taille";
+$_LANG_PUQ['Disk limit'] = "Limite du disque";
+$_LANG_PUQ['Disk used'] = "Espace disque utilisé";
+$_LANG_PUQ['Disk free'] = "Espace disque libre";
+$_LANG_PUQ['Disk used percentage'] = "Pourcentage d'espace disque utilisé";
+$_LANG_PUQ['Disk free percentage'] = "Pourcentage d'espace disque libre";
+$_LANG_PUQ['Used'] = "Utilisé";
+$_LANG_PUQ['Free'] = "Libre";
+$_LANG_PUQ['Used space'] = "Espace utilisé";
+$_LANG_PUQ['Unlimited'] = "Illimité";
+$_LANG_PUQ['Last 30 days'] = "Derniers 30 jours";
+$_LANG_PUQ['Avg per month'] = "Moyenne par mois";
+$_LANG_PUQ['User'] = "Utilisateur";
+$_LANG_PUQ['API Connection status'] = "État de la connexion API";
+$_LANG_PUQ['User used info'] = "Informations utilisées par l'utilisateur";
+$_LANG_PUQ['Info about used space'] = "Informations sur l'espace utilisé";
+$_LANG_PUQ['Buckets'] = "Sea(x)";
+$_LANG_PUQ['Something went wrong'] = "Quelque chose s'est mal passé";
+$_LANG_PUQ['Please try again after some time'] = "Veuillez réessayer ultérieurement";
+$_LANG_PUQ['Recalculate Disk Space'] = 'Recalculer l’espace disque';
+

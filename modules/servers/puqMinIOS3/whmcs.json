@@ -1,0 +1,33 @@
+{
+  "schema": "1.0",
+  "type": "whmcs-servers",
+  "name": "puqMinIOS3",
+  "license": "proprietary",
+  "category": "provisioning",
+  "version": "3.1",
+  "description": {
+    "name": "PUQ MinIO",
+    "tagline": "Automated provisioning of MinIO storage for clients.",
+    "long": "The PUQ MinIO module for WHMCS provides automated provisioning and management of MinIO S3-compatible object storage for clients. It integrates with the WHMCS billing and automation system, allowing customers to create, manage, and access their object storage buckets and credentials directly from the WHMCS client area.\n\n[Read the documentation](https://doc.puq.info/books/minio-s3-whmcs-module)",
+    "features": [
+      "Automatic creation of MinIO users and buckets",
+      "Start, suspend, and terminate storage access automatically",
+      "Support for multiple MinIO servers",
+      "Integration with WHMCS billing and automation"
+    ]
+  },
+  "logo": {
+    "filename": "logo.png"
+  },
+  "support": {
+    "homepage": "https://puqcloud.com/",
+    "docs_url": "https://doc.puq.info/books/minio-s3-whmcs-module",
+    "support_url": "https://puqcloud.com/submitticket.php?step=2&deptid=1"
+  },
+  "authors": [
+    {
+      "name": "PUQcloud",
+      "homepage": "https://puqcloud.com/"
+    }
+  ]
+}

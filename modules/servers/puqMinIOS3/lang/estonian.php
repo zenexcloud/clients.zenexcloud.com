@@ -1,0 +1,34 @@
+<?php
+$_LANG_PUQ['Information'] = "Informatsioon";
+$_LANG_PUQ['Used space statistics'] = "Kasutatud ruumi statistika";
+$_LANG_PUQ['Web interface address'] = "Veebisaidi liidese aadress";
+$_LANG_PUQ['User manual'] = "Kasutusjuhend";
+$_LANG_PUQ['info_1'] = "Andmete autentimiseks kasutage andmeid.";
+$_LANG_PUQ['Username'] = "Kasutajanimi";
+$_LANG_PUQ['Password'] = "Parool";
+$_LANG_PUQ['The service is limited.'] = "Teenust on piiratud.";
+$_LANG_PUQ['Contact technical support.'] = "Võtke ühendust tehnilise toe";
+$_LANG_PUQ['Buckets name'] = "Ämbrite nimed";
+$_LANG_PUQ['Creation date'] = "Loomise kuupäev";
+$_LANG_PUQ['Objects'] = "Objektid";
+$_LANG_PUQ['Size'] = "Suurus";
+$_LANG_PUQ['Disk limit'] = "Ketta limiit";
+$_LANG_PUQ['Disk used'] = "Kasutatud kettamaht";
+$_LANG_PUQ['Disk free'] = "Vaba kettamaht";
+$_LANG_PUQ['Disk used percentage'] = "Kasutatud ketta protsent";
+$_LANG_PUQ['Disk free percentage'] = "Vaba ketta protsent";
+$_LANG_PUQ['Used'] = "Kasutatud";
+$_LANG_PUQ['Free'] = "Vaba";
+$_LANG_PUQ['Used space'] = "Kasutatud ruum";
+$_LANG_PUQ['Unlimited'] = "Piiramatult";
+$_LANG_PUQ['Last 30 days'] = "Viimased 30 päeva";
+$_LANG_PUQ['Avg per month'] = "Keskmine kuus";
+$_LANG_PUQ['User'] = "Kasutaja";
+$_LANG_PUQ['API Connection status'] = "API ühenduse staatus";
+$_LANG_PUQ['User used info'] = "Kasutaja kasutatud info";
+$_LANG_PUQ['Info about used space'] = "Info kasutatud ruumi kohta";
+$_LANG_PUQ['Buckets'] = "Ämbrid";
+$_LANG_PUQ['Something went wrong'] = "Midagi läks valesti";
+$_LANG_PUQ['Please try again after some time'] = "Palun proovige uuesti mõne aja pärast";
+$_LANG_PUQ['Recalculate Disk Space'] = 'Arvuta kettaruum uuesti';
+

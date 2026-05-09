@@ -1,0 +1,34 @@
+<?php
+$_LANG_PUQ['Information'] = "معلومات";
+$_LANG_PUQ['Used space statistics'] = "إحصائيات المساحة المستخدمة";
+$_LANG_PUQ['Web interface address'] = "عنوان واجهة الويب";
+$_LANG_PUQ['User manual'] = "دليل المستخدم";
+$_LANG_PUQ['info_1'] = "للتسجيل في مخزن البيانات ، استخدم البيانات.";
+$_LANG_PUQ['Username'] = "اسم المستخدم";
+$_LANG_PUQ['Password'] = "كلمة المرور";
+$_LANG_PUQ['The service is limited.'] = "الخدمة محدودة.";
+$_LANG_PUQ['Contact technical support.'] = "الاتصال بالدعم الفني.";
+$_LANG_PUQ['Buckets name'] = "اسم الحاويات";
+$_LANG_PUQ['Creation date'] = "تاريخ الإنشاء";
+$_LANG_PUQ['Objects'] = "الكائنات";
+$_LANG_PUQ['Size'] = "الحجم";
+$_LANG_PUQ['Disk limit'] = "حد القرص";
+$_LANG_PUQ['Disk used'] = "القرص المستخدم";
+$_LANG_PUQ['Disk free'] = "القرص الفارغ";
+$_LANG_PUQ['Disk used percentage'] = "نسبة القرص المستخدمة";
+$_LANG_PUQ['Disk free percentage'] = "نسبة القرص الفارغ";
+$_LANG_PUQ['Used'] = "تم استخدامه";
+$_LANG_PUQ['Free'] = "مجاني";
+$_LANG_PUQ['Used space'] = "المساحة المستخدمة";
+$_LANG_PUQ['Unlimited'] = "غير محدود";
+$_LANG_PUQ['Last 30 days'] = "آخر 30 يومًا";
+$_LANG_PUQ['Avg per month'] = "متوسط ​​شهريًا";
+$_LANG_PUQ['User'] = "المستخدم";
+$_LANG_PUQ['API Connection status'] = "حالة اتصال الواجهة البرمجية";
+$_LANG_PUQ['User used info'] = "معلومات المستخدم المستخدمة";
+$_LANG_PUQ['Info about used space'] = "معلومات عن المساحة المستخدمة";
+$_LANG_PUQ['Buckets'] = "الحاويات";
+$_LANG_PUQ['Something went wrong'] = "حدث خطأ ما";
+$_LANG_PUQ['Please try again after some time'] = "يرجى المحاولة مرة أخرى بعد فترة من الزمن";
+$_LANG_PUQ['Recalculate Disk Space'] = 'إعادة حساب مساحة القرص';
+

@@ -1,0 +1,34 @@
+<?php
+$_LANG_PUQ['Information'] = "Informatie";
+$_LANG_PUQ['Used space statistics'] = "Gebruikte ruimte statistieken";
+$_LANG_PUQ['Web interface address'] = "Webinterface adres";
+$_LANG_PUQ['User manual'] = "Gebruikershandleiding";
+$_LANG_PUQ['info_1'] = "Om in te loggen op de dataopslag, gebruik de gegevens.";
+$_LANG_PUQ['Username'] = "Gebruikersnaam";
+$_LANG_PUQ['Password'] = "Wachtwoord";
+$_LANG_PUQ['The service is limited.'] = "De service is beperkt.";
+$_LANG_PUQ['Contact technical support.'] = "Neem contact op met de technische ondersteuning.";
+$_LANG_PUQ['Buckets name'] = "Emmernaam";
+$_LANG_PUQ['Creation date'] = "Aanmaakdatum";
+$_LANG_PUQ['Objects'] = "Objecten";
+$_LANG_PUQ['Size'] = "Grootte";
+$_LANG_PUQ['Disk limit'] = "Schijflimiet";
+$_LANG_PUQ['Disk used'] = "Gebruikte schijf";
+$_LANG_PUQ['Disk free'] = "Vrije schijf";
+$_LANG_PUQ['Disk used percentage'] = "Percentage gebruikte schijf";
+$_LANG_PUQ['Disk free percentage'] = "Percentage vrije schijf";
+$_LANG_PUQ['Used'] = "Gebruikt";
+$_LANG_PUQ['Free'] = "Vrij";
+$_LANG_PUQ['Used space'] = "Gebruikte ruimte";
+$_LANG_PUQ['Unlimited'] = "Onbeperkt";
+$_LANG_PUQ['Last 30 days'] = "Laatste 30 dagen";
+$_LANG_PUQ['Avg per month'] = "Gemiddeld per maand";
+$_LANG_PUQ['User'] = "Gebruiker";
+$_LANG_PUQ['API Connection status'] = "API-verbinding status";
+$_LANG_PUQ['User used info'] = "Gebruikte informatie door gebruiker";
+$_LANG_PUQ['Info about used space'] = "Informatie over gebruikte ruimte";
+$_LANG_PUQ['Buckets'] = "Emmers";
+$_LANG_PUQ['Something went wrong'] = "Er is iets misgegaan";
+$_LANG_PUQ['Please try again after some time'] = "Probeer het later opnieuw";
+$_LANG_PUQ['Recalculate Disk Space'] = 'Schijfruimte opnieuw berekenen';
+

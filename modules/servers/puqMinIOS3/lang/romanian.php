@@ -1,0 +1,34 @@
+<?php
+$_LANG_PUQ['Information'] = "Informații";
+$_LANG_PUQ['Used space statistics'] = "Statistici spațiu utilizat";
+$_LANG_PUQ['Web interface address'] = "Adresa interfeței web";
+$_LANG_PUQ['User manual'] = "Manualul utilizatorului";
+$_LANG_PUQ['info_1'] = "Pentru a vă autoriza pe depozitul de date, utilizați datele.";
+$_LANG_PUQ['Username'] = "Nume de utilizator";
+$_LANG_PUQ['Password'] = "Parolă";
+$_LANG_PUQ['The service is limited.'] = "Serviciul este limitat.";
+$_LANG_PUQ['Contact technical support.'] = "Contactați suportul tehnic.";
+$_LANG_PUQ['Buckets name'] = "Numele găleților";
+$_LANG_PUQ['Creation date'] = "Data de creare";
+$_LANG_PUQ['Objects'] = "Obiecte";
+$_LANG_PUQ['Size'] = "Dimensiune";
+$_LANG_PUQ['Disk limit'] = "Limită de disc";
+$_LANG_PUQ['Disk used'] = "Disc utilizat";
+$_LANG_PUQ['Disk free'] = "Disc liber";
+$_LANG_PUQ['Disk used percentage'] = "Procentaj disc utilizat";
+$_LANG_PUQ['Disk free percentage'] = "Procentaj disc liber";
+$_LANG_PUQ['Used'] = "Utilizat";
+$_LANG_PUQ['Free'] = "Liber";
+$_LANG_PUQ['Used space'] = "Spațiu utilizat";
+$_LANG_PUQ['Unlimited'] = "Nelimitat";
+$_LANG_PUQ['Last 30 days'] = "Ultimele 30 de zile";
+$_LANG_PUQ['Avg per month'] = "Medie pe lună";
+$_LANG_PUQ['User'] = "Utilizator";
+$_LANG_PUQ['API Connection status'] = "Stare conexiune API";
+$_LANG_PUQ['User used info'] = "Informații utilizate de utilizator";
+$_LANG_PUQ['Info about used space'] = "Informații despre spațiul utilizat";
+$_LANG_PUQ['Buckets'] = "Găleți";
+$_LANG_PUQ['Something went wrong'] = "Ceva nu a mers bine";
+$_LANG_PUQ['Please try again after some time'] = "Vă rugăm să încercați din nou mai târziu";
+$_LANG_PUQ['Recalculate Disk Space'] = 'Recalculează spațiul pe disc';
+

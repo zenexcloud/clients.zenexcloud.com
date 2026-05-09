@@ -1,0 +1,34 @@
+<?php
+$_LANG_PUQ['Information'] = "Information";
+$_LANG_PUQ['Used space statistics'] = "Brugt plads statistik";
+$_LANG_PUQ['Web interface address'] = "Webinterface adresse";
+$_LANG_PUQ['User manual'] = "Brugermanual";
+$_LANG_PUQ['info_1'] = "For at godkende på datalageret, brug data.";
+$_LANG_PUQ['Username'] = "Brugernavn";
+$_LANG_PUQ['Password'] = "Adgangskode";
+$_LANG_PUQ['The service is limited.'] = "Tjenesten er begrænset.";
+$_LANG_PUQ['Contact technical support.'] = "Kontakt teknisk support.";
+$_LANG_PUQ['Buckets name'] = "Spand navn";
+$_LANG_PUQ['Creation date'] = "Oprettelsesdato";
+$_LANG_PUQ['Objects'] = "Objekter";
+$_LANG_PUQ['Size'] = "Størrelse";
+$_LANG_PUQ['Disk limit'] = "Diskgrænse";
+$_LANG_PUQ['Disk used'] = "Disk brugt";
+$_LANG_PUQ['Disk free'] = "Disk ledig";
+$_LANG_PUQ['Disk used percentage'] = "Disk brugt procent";
+$_LANG_PUQ['Disk free percentage'] = "Disk ledig procent";
+$_LANG_PUQ['Used'] = "Brugt";
+$_LANG_PUQ['Free'] = "Ledig";
+$_LANG_PUQ['Used space'] = "Brugt plads";
+$_LANG_PUQ['Unlimited'] = "Ubegrænset";
+$_LANG_PUQ['Last 30 days'] = "Sidste 30 dage";
+$_LANG_PUQ['Avg per month'] = "Gennemsnit pr. måned";
+$_LANG_PUQ['User'] = "Bruger";
+$_LANG_PUQ['API Connection status'] = "API-forbindelsesstatus";
+$_LANG_PUQ['User used info'] = "Bruger brugt info";
+$_LANG_PUQ['Info about used space'] = "Info om brugt plads";
+$_LANG_PUQ['Buckets'] = "Spande";
+$_LANG_PUQ['Something went wrong'] = "Noget gik galt";
+$_LANG_PUQ['Please try again after some time'] = "Prøv igen senere";
+$_LANG_PUQ['Recalculate Disk Space'] = 'Genberegn diskplads';
+

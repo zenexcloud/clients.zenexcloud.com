@@ -1,0 +1,34 @@
+<?php
+$_LANG_PUQ['Information'] = "Informacije";
+$_LANG_PUQ['Used space statistics'] = "Statistika iskorištenog prostora";
+$_LANG_PUQ['Web interface address'] = "Adresa web sučelja";
+$_LANG_PUQ['User manual'] = "Korisnički priručnik";
+$_LANG_PUQ['info_1'] = "Za autorizaciju na skladištu podataka koristite podatke.";
+$_LANG_PUQ['Username'] = "Korisničko ime";
+$_LANG_PUQ['Password'] = "Lozinka";
+$_LANG_PUQ['The service is limited.'] = "Usluga je ograničena.";
+$_LANG_PUQ['Contact technical support.'] = "Kontaktirajte tehničku podršku.";
+$_LANG_PUQ['Buckets name'] = "Ime spremnika";
+$_LANG_PUQ['Creation date'] = "Datum stvaranja";
+$_LANG_PUQ['Objects'] = "Objekti";
+$_LANG_PUQ['Size'] = "Veličina";
+$_LANG_PUQ['Disk limit'] = "Ograničenje diska";
+$_LANG_PUQ['Disk used'] = "Iskorišteni disk";
+$_LANG_PUQ['Disk free'] = "Slobodan disk";
+$_LANG_PUQ['Disk used percentage'] = "Postotak iskorištenog diska";
+$_LANG_PUQ['Disk free percentage'] = "Postotak slobodnog diska";
+$_LANG_PUQ['Used'] = "Iskorišteno";
+$_LANG_PUQ['Free'] = "Slobodno";
+$_LANG_PUQ['Used space'] = "Iskorišteni prostor";
+$_LANG_PUQ['Unlimited'] = "Neograničeno";
+$_LANG_PUQ['Last 30 days'] = "Posljednjih 30 dana";
+$_LANG_PUQ['Avg per month'] = "Prosjek po mjesecima";
+$_LANG_PUQ['User'] = "Korisnik";
+$_LANG_PUQ['API Connection status'] = "Status API veze";
+$_LANG_PUQ['User used info'] = "Informacije o korištenju korisnika";
+$_LANG_PUQ['Info about used space'] = "Informacije o iskorištenom prostoru";
+$_LANG_PUQ['Buckets'] = "Spremnici";
+$_LANG_PUQ['Something went wrong'] = "Nešto je pošlo po zlu";
+$_LANG_PUQ['Please try again after some time'] = "Molimo pokušajte ponovno kasnije";
+$_LANG_PUQ['Recalculate Disk Space'] = 'Ponovno izračunaj prostor na disku';
+

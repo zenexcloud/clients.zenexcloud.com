@@ -1,0 +1,34 @@
+<?php
+$_LANG_PUQ['Information'] = "Информация";
+$_LANG_PUQ['Used space statistics'] = "Статистика использования";
+$_LANG_PUQ['Web interface address'] = "Адрес веб-интерфейса";
+$_LANG_PUQ['User manual'] = "Руководство пользователя";
+$_LANG_PUQ['info_1'] = "Для авторизации на хранилище данных используйте данные.";
+$_LANG_PUQ['Username'] = "Имя пользователя";
+$_LANG_PUQ['Password'] = "Пароль";
+$_LANG_PUQ['The service is limited.'] = "Услуга ограничена.";
+$_LANG_PUQ['Contact technical support.'] = "Обратитесь в техподдержку.";
+$_LANG_PUQ['Buckets name'] = "Имя ведра";
+$_LANG_PUQ['Creation date'] = "Дата создания";
+$_LANG_PUQ['Objects'] = "Объекты";
+$_LANG_PUQ['Size'] = "Размер";
+$_LANG_PUQ['Disk limit'] = "Лимит диска";
+$_LANG_PUQ['Disk used'] = "Используется диска";
+$_LANG_PUQ['Disk free'] = "Свободено диска";
+$_LANG_PUQ['Disk used percentage'] = "Процент использования";
+$_LANG_PUQ['Disk free percentage'] = "Процент свободного места";
+$_LANG_PUQ['Used'] = "Используется";
+$_LANG_PUQ['Free'] = "Свободно";
+$_LANG_PUQ['Used space'] = "Используемое пространство";
+$_LANG_PUQ['Unlimited'] = "Неограниченно";
+$_LANG_PUQ['Last 30 days'] = "Последние 30 дней";
+$_LANG_PUQ['Avg per month'] = "Среднее по месяцам";
+$_LANG_PUQ['User'] = "Пользователь";
+$_LANG_PUQ['API Connection status'] = "Статус API-подключения";
+$_LANG_PUQ['User used info'] = "Информация о пользователе";
+$_LANG_PUQ['Info about used space'] = "Информация об используемом пространстве";
+$_LANG_PUQ['Buckets'] = "Ведра";
+$_LANG_PUQ['Something went wrong'] = 'Что-то пошло не так';
+$_LANG_PUQ['Please try again after some time'] = 'Пожалуйста, повторите попытку через некоторое время';
+$_LANG_PUQ['Recalculate Disk Space'] = 'Пересчитать дисковое пространство';
+

@@ -1,0 +1,34 @@
+<?php
+$_LANG_PUQ['Information'] = "Informace";
+$_LANG_PUQ['Used space statistics'] = "Statistiky využitého prostoru";
+$_LANG_PUQ['Web interface address'] = "Adresa webového rozhraní";
+$_LANG_PUQ['User manual'] = "Uživatelský manuál";
+$_LANG_PUQ['info_1'] = "Pro autorizaci na datovém úložišti použijte data.";
+$_LANG_PUQ['Username'] = "Uživatelské jméno";
+$_LANG_PUQ['Password'] = "Heslo";
+$_LANG_PUQ['The service is limited.'] = "Služba je omezena.";
+$_LANG_PUQ['Contact technical support.'] = "Kontaktujte technickou podporu.";
+$_LANG_PUQ['Buckets name'] = "Název kýblů";
+$_LANG_PUQ['Creation date'] = "Datum vytvoření";
+$_LANG_PUQ['Objects'] = "Objekty";
+$_LANG_PUQ['Size'] = "Velikost";
+$_LANG_PUQ['Disk limit'] = "Limit disku";
+$_LANG_PUQ['Disk used'] = "Využitý disk";
+$_LANG_PUQ['Disk free'] = "Volný disk";
+$_LANG_PUQ['Disk used percentage'] = "Procento využitého disku";
+$_LANG_PUQ['Disk free percentage'] = "Procento volného disku";
+$_LANG_PUQ['Used'] = "Využité";
+$_LANG_PUQ['Free'] = "Volné";
+$_LANG_PUQ['Used space'] = "Využitý prostor";
+$_LANG_PUQ['Unlimited'] = "Neomezený";
+$_LANG_PUQ['Last 30 days'] = "Posledních 30 dní";
+$_LANG_PUQ['Avg per month'] = "Průměr měsíčně";
+$_LANG_PUQ['User'] = "Uživatel";
+$_LANG_PUQ['API Connection status'] = "Stav připojení k API";
+$_LANG_PUQ['User used info'] = "Informace o využití uživatelem";
+$_LANG_PUQ['Info about used space'] = "Informace o využitém prostoru";
+$_LANG_PUQ['Buckets'] = "Kýble";
+$_LANG_PUQ['Something went wrong'] = "Něco se pokazilo";
+$_LANG_PUQ['Please try again after some time'] = "Prosím zkuste to znovu za chvíli";
+$_LANG_PUQ['Recalculate Disk Space'] = 'Přepočítat místo na disku';
+

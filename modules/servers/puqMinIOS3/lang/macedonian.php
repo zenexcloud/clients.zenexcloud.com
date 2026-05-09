@@ -1,0 +1,34 @@
+<?php
+$_LANG_PUQ['Information'] = "Информации";
+$_LANG_PUQ['Used space statistics'] = "Статистика на искористен простор";
+$_LANG_PUQ['Web interface address'] = "Адреса на веб интерфејсот";
+$_LANG_PUQ['User manual'] = "Кориснички упатство";
+$_LANG_PUQ['info_1'] = "За да се авторизирате на резервоарот на податоци, користете ги податоците.";
+$_LANG_PUQ['Username'] = "Корисничко име";
+$_LANG_PUQ['Password'] = "Лозинка";
+$_LANG_PUQ['The service is limited.'] = "Услугата е ограничена.";
+$_LANG_PUQ['Contact technical support.'] = "Контактирајте со техничка поддршка.";
+$_LANG_PUQ['Buckets name'] = "Име на кофите";
+$_LANG_PUQ['Creation date'] = "Датум на креирање";
+$_LANG_PUQ['Objects'] = "Објекти";
+$_LANG_PUQ['Size'] = "Големина";
+$_LANG_PUQ['Disk limit'] = "Лимит на дискот";
+$_LANG_PUQ['Disk used'] = "Искористен диск";
+$_LANG_PUQ['Disk free'] = "Слободен диск";
+$_LANG_PUQ['Disk used percentage'] = "Процент на искористен диск";
+$_LANG_PUQ['Disk free percentage'] = "Процент на слободен диск";
+$_LANG_PUQ['Used'] = "Искористен";
+$_LANG_PUQ['Free'] = "Слободен";
+$_LANG_PUQ['Used space'] = "Искористен простор";
+$_LANG_PUQ['Unlimited'] = "Неограничено";
+$_LANG_PUQ['Last 30 days'] = "Последните 30 дена";
+$_LANG_PUQ['Avg per month'] = "Просек месечно";
+$_LANG_PUQ['User'] = "Корисник";
+$_LANG_PUQ['API Connection status'] = "Статус на API конекцијата";
+$_LANG_PUQ['User used info'] = "Информации за искористените од корисникот";
+$_LANG_PUQ['Info about used space'] = "Информации за искористениот простор";
+$_LANG_PUQ['Buckets'] = "Кофи";
+$_LANG_PUQ['Something went wrong'] = "Нешто пошло наопаку";
+$_LANG_PUQ['Please try again after some time'] = "Ве молиме обидете се повторно подоцна";
+$_LANG_PUQ['Recalculate Disk Space'] = 'Повторно пресметај простор на диск';
+

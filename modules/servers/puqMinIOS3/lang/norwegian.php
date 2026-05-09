@@ -1,0 +1,34 @@
+<?php
+$_LANG_PUQ['Information'] = "Informasjon";
+$_LANG_PUQ['Used space statistics'] = "Statistikk over brukt lagringsplass";
+$_LANG_PUQ['Web interface address'] = "Nettgrensesnittadresse";
+$_LANG_PUQ['User manual'] = "Brukerveiledning";
+$_LANG_PUQ['info_1'] = "For å autorisere på datalageret, bruk dataene.";
+$_LANG_PUQ['Username'] = "Brukernavn";
+$_LANG_PUQ['Password'] = "Passord";
+$_LANG_PUQ['The service is limited.'] = "Tjenesten er begrenset.";
+$_LANG_PUQ['Contact technical support.'] = "Kontakt teknisk support.";
+$_LANG_PUQ['Buckets name'] = "Navn på bøttene";
+$_LANG_PUQ['Creation date'] = "Opprettelsesdato";
+$_LANG_PUQ['Objects'] = "Objekter";
+$_LANG_PUQ['Size'] = "Størrelse";
+$_LANG_PUQ['Disk limit'] = "Diskgrense";
+$_LANG_PUQ['Disk used'] = "Brukt disk";
+$_LANG_PUQ['Disk free'] = "Ledig disk";
+$_LANG_PUQ['Disk used percentage'] = "Prosentandel brukt disk";
+$_LANG_PUQ['Disk free percentage'] = "Prosentandel ledig disk";
+$_LANG_PUQ['Used'] = "Brukt";
+$_LANG_PUQ['Free'] = "Ledig";
+$_LANG_PUQ['Used space'] = "Brukt lagringsplass";
+$_LANG_PUQ['Unlimited'] = "Ubegrenset";
+$_LANG_PUQ['Last 30 days'] = "Siste 30 dager";
+$_LANG_PUQ['Avg per month'] = "Gjennomsnitt per måned";
+$_LANG_PUQ['User'] = "Bruker";
+$_LANG_PUQ['API Connection status'] = "Tilkoblingsstatus for API";
+$_LANG_PUQ['User used info'] = "Brukerbrukt informasjon";
+$_LANG_PUQ['Info about used space'] = "Informasjon om brukt lagringsplass";
+$_LANG_PUQ['Buckets'] = "Bøtter";
+$_LANG_PUQ['Something went wrong'] = "Noe gikk galt";
+$_LANG_PUQ['Please try again after some time'] = "Vennligst prøv igjen senere";
+$_LANG_PUQ['Recalculate Disk Space'] = 'Beregn diskplass på nytt';
+
