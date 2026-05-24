@@ -81,14 +81,15 @@ add_hook('AcceptOrder', 1, function ($vars) {
     $payload = [
         'order_id'          => $order->id,  // r&d purpose
         
-        'invoice_number'    => (float) $order->invoiceid,
+        'invoice_number'    => (string) $order->invoiceid,
         'customer_name'     => $client_name,
         'coupon_code'       => $order->promocode,
         'incoming_date'     => date('Y-m-d', strtotime($order->date)),
         'total_amount'      => (float) $tblaccount->amountin,
         'stripe_fee'        => (float) $tblaccount->fees,
     
-        "description"       => "this is for testing purpose",
+        "description"       => "Automatic sales entry posted from WHMCS",
+        'campaign_order_id' => (string) $order->id,
     ];
     
     
@@ -125,6 +126,8 @@ function AcceptOrderSendToExternalApp(array $payload)
         ],
         CURLOPT_POSTFIELDS     => json_encode($payload),
         CURLOPT_TIMEOUT        => 30,
+        CURLOPT_SSL_VERIFYHOST => false,
+        CURLOPT_SSL_VERIFYPEER => false,
     ]);
 
     $response = curl_exec($ch);
